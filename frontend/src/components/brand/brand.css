@@ -6,7 +6,7 @@
 .brand-logo[data-brand-theme=dark]>.brand-logo__light,.root.dark .brand-logo[data-brand-theme=auto]>.brand-logo__light{display:none}
 .brand-logo[data-brand-theme=dark]>.brand-logo__dark,.root.dark .brand-logo[data-brand-theme=auto]>.brand-logo__dark{display:block}
 .brand .brand-logo--icon,.workspace-header-context{display:none}
-.workspace-header-context{min-block-size:44px;align-items:center;inline-size:208px;font-size:13px;font-weight:500;flex:none}
+.workspace-header-context{min-block-size:44px;align-items:center;inline-size:208px;font-size:0.8125rem;font-weight:500;flex:none}
 header.workspace-header .workspace-header-context{display:inline-flex}
 header.workspace-header>.workspace-header-brand{display:none}
 header .brand{min-block-size:44px;min-inline-size:44px}

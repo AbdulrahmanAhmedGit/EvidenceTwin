@@ -1,0 +1,27 @@
+EvidenceTwin interface asset credits
+
+EvidenceTwin official wordmark and symbol:
+Provided by the project owner. Original supplied SVG artwork is preserved.
+
+Solar interface icons by 480 Design:
+https://www.figma.com/community/file/1166831539721848736
+Distributed through Iconify: https://github.com/iconify/icon-sets/blob/master/collections.md#solar
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Icon paths are supplied unchanged; display size and currentColor follow the application theme.
+Only individually imported icons are bundled. No remote icon API is used.
+
+Typography:
+Manrope, Newsreader, IBM Plex Mono and Alan Sans (including Arabic) are self-hosted through Fontsource.
+Their license texts are retained in the project's docs/font-licenses directory.
+
+Scientific graphics:
+Educational cases A1/A2/A3 use the values explicitly supplied in the project brief.
+These authored data graphics are labeled examples, not executed scientific findings.
+Original charts returned by the backend retain their source artwork and provenance.
+
+No stock photography, customer portraits, testimonials, partner logos or award claims
+have been introduced as part of this refinement.
+
+Landing optical study: evidence-optics.webp. Generated with the built-in OpenAI image generation tool for EvidenceTwin, November 2026. Conceptual illustration, not a scientific observation or product screenshot.
+Prompt: Photorealistic studio still life of two optical glass rectangular prisms, one clear and one forest green, refracting the same thin green line differently. Pale grey matte surface, soft directional daylight, restrained scientific material study. No text, logos, UI, labels or glow.

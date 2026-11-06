@@ -1,0 +1,2186 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/features\" data-discover=\"true\">Features</a>",
+            "w": 45,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/how-it-works\" data-discover=\"true\">How It Works</a>",
+            "w": 65,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/methodology\" data-discover=\"true\">Methodology</a>",
+            "w": 70,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/integrations\" data-discover=\"true\">Integrations</a>",
+            "w": 64,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/about\" data-discover=\"true\">About</a>",
+            "w": 32,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/docs\" data-discover=\"true\">Documentation</a>",
+            "w": 80,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/privacy\" data-discover=\"true\">Privacy</a>",
+            "w": 38,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/terms\" data-discover=\"true\">Terms</a>",
+            "w": 31,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/asset-credits.txt\">Asset credits</a>",
+            "w": 67,
+            "h": 18.140625
+          },
+          {
+            "html": "<button style=\"background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: oklch(0.14 0.018 95 / 0.7); fo",
+            "w": 16.609375,
+            "h": 40
+          },
+          {
+            "html": "<button style=\"background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: oklch(0.14 0.018 95 / 0.7); fo",
+            "w": 12.609375,
+            "h": 40
+          },
+          {
+            "html": "<button style=\"background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: oklch(0.14 0.018 95 / 0.7); fo",
+            "w": 16.609375,
+            "h": 40
+          },
+          {
+            "html": "<button style=\"background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: oklch(0.14 0.018 95 / 0.7); fo",
+            "w": 12.609375,
+            "h": 40
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 795,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/features\" data-discover=\"true\">Features</a>",
+            "w": 45,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/how-it-works\" data-discover=\"true\">How It Works</a>",
+            "w": 65,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/methodology\" data-discover=\"true\">Methodology</a>",
+            "w": 70,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/integrations\" data-discover=\"true\">Integrations</a>",
+            "w": 64,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/about\" data-discover=\"true\">About</a>",
+            "w": 32,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/docs\" data-discover=\"true\">Documentation</a>",
+            "w": 80,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/privacy\" data-discover=\"true\">Privacy</a>",
+            "w": 38,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/terms\" data-discover=\"true\">Terms</a>",
+            "w": 31,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/asset-credits.txt\">Asset credits</a>",
+            "w": 67,
+            "h": 18.140625
+          },
+          {
+            "html": "<button style=\"background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: oklch(0.14 0.018 95 / 0.7); fo",
+            "w": 16.609375,
+            "h": 40
+          },
+          {
+            "html": "<button style=\"background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: oklch(0.14 0.018 95 / 0.7); fo",
+            "w": 12.609375,
+            "h": 40
+          },
+          {
+            "html": "<button style=\"background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: oklch(0.14 0.018 95 / 0.7); fo",
+            "w": 16.609375,
+            "h": 40
+          },
+          {
+            "html": "<button style=\"background: none; border-width: medium; border-style: none; border-color: currentcolor; border-image: none; color: oklch(0.14 0.018 95 / 0.7); fo",
+            "w": 12.609375,
+            "h": 40
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"#connection\">Connection</a>",
+            "w": 280,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#submission\">Analysis acceptance</a>",
+            "w": 280,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#inspection\">Inspection endpoints</a>",
+            "w": 280,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#failures\">Errors and credentials</a>",
+            "w": 280,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs/getting-started\" data-discover=\"true\">Getting started →</a>",
+            "w": 316,
+            "h": 20.796875
+          },
+          {
+            "html": "<a href=\"/docs/mcp\" data-discover=\"true\">MCP integration →</a>",
+            "w": 316,
+            "h": 20.796875
+          },
+          {
+            "html": "<a href=\"/docs/skills\" data-discover=\"true\">Assistant skills →</a>",
+            "w": 316,
+            "h": 20.796875
+          },
+          {
+            "html": "<a href=\"/features\" data-discover=\"true\">Features</a>",
+            "w": 55,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/how-it-works\" data-discover=\"true\">How It Works</a>",
+            "w": 78,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/methodology\" data-discover=\"true\">Methodology</a>",
+            "w": 82,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/integrations\" data-discover=\"true\">Integrations</a>",
+            "w": 75,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/about\" data-discover=\"true\">About</a>",
+            "w": 37,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs\" data-discover=\"true\">Documentation</a>",
+            "w": 95,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/privacy\" data-discover=\"true\">Privacy</a>",
+            "w": 44,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/terms\" data-discover=\"true\">Terms</a>",
+            "w": 38,
+            "h": 21.4375
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"#connection\">Connection</a>",
+            "w": 434,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#submission\">Analysis acceptance</a>",
+            "w": 434,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#inspection\">Inspection endpoints</a>",
+            "w": 434,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#failures\">Errors and credentials</a>",
+            "w": 434,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs/getting-started\" data-discover=\"true\">Getting started →</a>",
+            "w": 474,
+            "h": 20.796875
+          },
+          {
+            "html": "<a href=\"/docs/mcp\" data-discover=\"true\">MCP integration →</a>",
+            "w": 474,
+            "h": 20.796875
+          },
+          {
+            "html": "<a href=\"/docs/skills\" data-discover=\"true\">Assistant skills →</a>",
+            "w": 474,
+            "h": 20.796875
+          },
+          {
+            "html": "<a href=\"/features\" data-discover=\"true\">Features</a>",
+            "w": 55,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/how-it-works\" data-discover=\"true\">How It Works</a>",
+            "w": 78,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/methodology\" data-discover=\"true\">Methodology</a>",
+            "w": 82,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/integrations\" data-discover=\"true\">Integrations</a>",
+            "w": 75,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/about\" data-discover=\"true\">About</a>",
+            "w": 37,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs\" data-discover=\"true\">Documentation</a>",
+            "w": 95,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/privacy\" data-discover=\"true\">Privacy</a>",
+            "w": 44,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/terms\" data-discover=\"true\">Terms</a>",
+            "w": 38,
+            "h": 21.4375
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">View all analyses →</a>",
+            "w": 118,
+            "h": 20.796875
+          },
+          {
+            "html": "<a href=\"/app/library\" data-discover=\"true\">Case Library →</a>",
+            "w": 93,
+            "h": 20.796875
+          },
+          {
+            "html": "<a href=\"/app/library/a1\" data-discover=\"true\">Truncated axis</a>",
+            "w": 101.8125,
+            "h": 21
+          },
+          {
+            "html": "<a href=\"/app/library/a2\" data-discover=\"true\">Causal framing</a>",
+            "w": 104.8125,
+            "h": 21
+          },
+          {
+            "html": "<a href=\"/app/library/a3\" data-discover=\"true\">Uncertainty presentation</a>",
+            "w": 174.8125,
+            "h": 21
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">View all analyses →</a>",
+            "w": 118,
+            "h": 20.796875
+          },
+          {
+            "html": "<a href=\"/app/library\" data-discover=\"true\">Case Library →</a>",
+            "w": 93,
+            "h": 20.796875
+          },
+          {
+            "html": "<a href=\"/app/library/a1\" data-discover=\"true\">Truncated axis</a>",
+            "w": 101.8125,
+            "h": 21
+          },
+          {
+            "html": "<a href=\"/app/library/a2\" data-discover=\"true\">Causal framing</a>",
+            "w": 104.8125,
+            "h": 21
+          },
+          {
+            "html": "<a href=\"/app/library/a3\" data-discover=\"true\">Uncertainty presentation</a>",
+            "w": 174.8125,
+            "h": 21
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [
+          {
+            "tag": "LI",
+            "cls": "",
+            "text": "3Claim",
+            "width": 130
+          },
+          {
+            "tag": "LI",
+            "cls": "",
+            "text": "4Verification Setup",
+            "width": 148
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "4",
+            "width": 7
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "Verification Setup",
+            "width": 98
+          },
+          {
+            "tag": "LI",
+            "cls": "",
+            "text": "5Review & Submit",
+            "width": 140
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "5",
+            "width": 7
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "Review & Submit",
+            "width": 91
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          },
+          {
+            "html": "<input type=\"checkbox\" style=\"\">",
+            "w": 13,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">Open analysis history <span aria-hidden=\"true\">→</span></a>",
+            "w": 131,
+            "h": 17
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [
+          {
+            "tag": "LI",
+            "cls": "",
+            "text": "5Review & Submit",
+            "width": 150
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "5",
+            "width": 7
+          },
+          {
+            "tag": "SPAN",
+            "cls": "",
+            "text": "Review & Submit",
+            "width": 91
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          },
+          {
+            "html": "<input type=\"checkbox\" style=\"\">",
+            "w": 13,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">Open analysis history <span aria-hidden=\"true\">→</span></a>",
+            "w": 131,
+            "h": 17
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a1\" data-discover=\"true\">Analyze case →</a>",
+            "w": 316,
+            "h": 21
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a2\" data-discover=\"true\">Analyze case →</a>",
+            "w": 316,
+            "h": 21
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a3\" data-discover=\"true\">Analyze case →</a>",
+            "w": 316,
+            "h": 21
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a1\" data-discover=\"true\">Analyze case →</a>",
+            "w": 490,
+            "h": 21
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a2\" data-discover=\"true\">Analyze case →</a>",
+            "w": 490,
+            "h": 21
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a3\" data-discover=\"true\">Analyze case →</a>",
+            "w": 490,
+            "h": 21
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Audit Trail",
+            "width": 68
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 511,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Audit Trail",
+            "width": 68
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          },
+          {
+            "html": "<input type=\"checkbox\" checked=\"\" style=\"\">",
+            "w": 13,
+            "h": 18
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          },
+          {
+            "html": "<input type=\"checkbox\" checked=\"\" style=\"\">",
+            "w": 13,
+            "h": 18
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Audit Trail",
+            "width": 68
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"Inspect reference brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bd",
+            "w": 69.625,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"Inspect reference brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bd",
+            "w": 69.625,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"Inspect reference brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bd",
+            "w": 69.625,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"Inspect reference brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bd",
+            "w": 69.625,
+            "h": 20.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"Inspect reference brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bd",
+            "w": 70,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"Inspect reference brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bd",
+            "w": 70,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"Inspect reference brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bd",
+            "w": 70,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"Inspect reference brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bd",
+            "w": 70,
+            "h": 20.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Audit Trail",
+            "width": 68
+          },
+          {
+            "tag": "A",
+            "cls": "active",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "active",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/docs/api",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/analyses/new",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/library",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/settings",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/features\" data-discover=\"true\">المزايا</a>",
+            "w": 26,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/how-it-works\" data-discover=\"true\">كيف يعمل</a>",
+            "w": 51,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/methodology\" data-discover=\"true\">المنهجية</a>",
+            "w": 40,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/integrations\" data-discover=\"true\">التكاملات</a>",
+            "w": 49,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/about\" data-discover=\"true\">حول</a>",
+            "w": 20,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/docs\" data-discover=\"true\">التوثيق</a>",
+            "w": 31,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/privacy\" data-discover=\"true\">الخصوصية</a>",
+            "w": 47,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/terms\" data-discover=\"true\">الشروط</a>",
+            "w": 34,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/asset-credits.txt\">مصادر العناصر البصرية</a>",
+            "w": 100,
+            "h": 18.140625
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/features\" data-discover=\"true\">المزايا</a>",
+            "w": 26,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/how-it-works\" data-discover=\"true\">كيف يعمل</a>",
+            "w": 51,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/methodology\" data-discover=\"true\">المنهجية</a>",
+            "w": 40,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/integrations\" data-discover=\"true\">التكاملات</a>",
+            "w": 49,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/about\" data-discover=\"true\">حول</a>",
+            "w": 20,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/docs\" data-discover=\"true\">التوثيق</a>",
+            "w": 31,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/privacy\" data-discover=\"true\">الخصوصية</a>",
+            "w": 47,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/terms\" data-discover=\"true\">الشروط</a>",
+            "w": 34,
+            "h": 18.140625
+          },
+          {
+            "html": "<a href=\"/asset-credits.txt\">مصادر العناصر البصرية</a>",
+            "w": 100,
+            "h": 18.140625
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"#connection\">الاتصال</a>",
+            "w": 280,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#submission\">قبول التحليل</a>",
+            "w": 280,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#inspection\">نقاط الفحص</a>",
+            "w": 280,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#failures\">الأخطاء وبيانات الاعتماد</a>",
+            "w": 280,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs/getting-started\" data-discover=\"true\">البدء →</a>",
+            "w": 316,
+            "h": 22.75
+          },
+          {
+            "html": "<a href=\"/docs/mcp\" data-discover=\"true\">تكامل MCP →</a>",
+            "w": 316,
+            "h": 22.75
+          },
+          {
+            "html": "<a href=\"/docs/skills\" data-discover=\"true\">مهارات المساعد →</a>",
+            "w": 316,
+            "h": 22.75
+          },
+          {
+            "html": "<a href=\"/features\" data-discover=\"true\">المزايا</a>",
+            "w": 32,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/how-it-works\" data-discover=\"true\">كيف يعمل</a>",
+            "w": 59,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/methodology\" data-discover=\"true\">المنهجية</a>",
+            "w": 49,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/integrations\" data-discover=\"true\">التكاملات</a>",
+            "w": 57,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/about\" data-discover=\"true\">حول</a>",
+            "w": 24,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs\" data-discover=\"true\">التوثيق</a>",
+            "w": 36,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/privacy\" data-discover=\"true\">الخصوصية</a>",
+            "w": 58,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/terms\" data-discover=\"true\">الشروط</a>",
+            "w": 40,
+            "h": 21.4375
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"#connection\">الاتصال</a>",
+            "w": 434,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#submission\">قبول التحليل</a>",
+            "w": 434,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#inspection\">نقاط الفحص</a>",
+            "w": 434,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"#failures\">الأخطاء وبيانات الاعتماد</a>",
+            "w": 434,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs/getting-started\" data-discover=\"true\">البدء →</a>",
+            "w": 474,
+            "h": 22.75
+          },
+          {
+            "html": "<a href=\"/docs/mcp\" data-discover=\"true\">تكامل MCP →</a>",
+            "w": 474,
+            "h": 22.75
+          },
+          {
+            "html": "<a href=\"/docs/skills\" data-discover=\"true\">مهارات المساعد →</a>",
+            "w": 474,
+            "h": 22.75
+          },
+          {
+            "html": "<a href=\"/features\" data-discover=\"true\">المزايا</a>",
+            "w": 32,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/how-it-works\" data-discover=\"true\">كيف يعمل</a>",
+            "w": 59,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/methodology\" data-discover=\"true\">المنهجية</a>",
+            "w": 49,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/integrations\" data-discover=\"true\">التكاملات</a>",
+            "w": 57,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/about\" data-discover=\"true\">حول</a>",
+            "w": 24,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs\" data-discover=\"true\">التوثيق</a>",
+            "w": 36,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/privacy\" data-discover=\"true\">الخصوصية</a>",
+            "w": 58,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/terms\" data-discover=\"true\">الشروط</a>",
+            "w": 40,
+            "h": 21.4375
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">عرض كل التحليلات →</a>",
+            "w": 122,
+            "h": 22.75
+          },
+          {
+            "html": "<a href=\"/app/library\" data-discover=\"true\">مكتبة الحالات →</a>",
+            "w": 97,
+            "h": 22.75
+          },
+          {
+            "html": "<a href=\"/app/library/a1\" data-discover=\"true\">المحور المقتطع</a>",
+            "w": 96,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/library/a2\" data-discover=\"true\">الصياغة السببية</a>",
+            "w": 99,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/library/a3\" data-discover=\"true\">عرض عدم اليقين</a>",
+            "w": 105,
+            "h": 20
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">عرض كل التحليلات →</a>",
+            "w": 122,
+            "h": 22.75
+          },
+          {
+            "html": "<a href=\"/app/library\" data-discover=\"true\">مكتبة الحالات →</a>",
+            "w": 97,
+            "h": 22.75
+          },
+          {
+            "html": "<a href=\"/app/library/a1\" data-discover=\"true\">المحور المقتطع</a>",
+            "w": 96,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/library/a2\" data-discover=\"true\">الصياغة السببية</a>",
+            "w": 99,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/library/a3\" data-discover=\"true\">عرض عدم اليقين</a>",
+            "w": 105,
+            "h": 20
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          },
+          {
+            "html": "<input type=\"checkbox\">",
+            "w": 13,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">افتح سجل التحليلات <span aria-hidden=\"true\">→</span></a>",
+            "w": 114,
+            "h": 16
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          },
+          {
+            "html": "<input type=\"checkbox\" style=\"\">",
+            "w": 13,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">افتح سجل التحليلات <span aria-hidden=\"true\">→</span></a>",
+            "w": 114,
+            "h": 16
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a1\" data-discover=\"true\">حلل الحالة →</a>",
+            "w": 316,
+            "h": 21
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a2\" data-discover=\"true\">حلل الحالة →</a>",
+            "w": 316,
+            "h": 21
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a3\" data-discover=\"true\">حلل الحالة →</a>",
+            "w": 316,
+            "h": 21
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a1\" data-discover=\"true\">حلل الحالة →</a>",
+            "w": 490,
+            "h": 21
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a2\" data-discover=\"true\">حلل الحالة →</a>",
+            "w": 490,
+            "h": 21
+          },
+          {
+            "html": "<a class=\"text-link\" href=\"/app/analyses/new?case=a3\" data-discover=\"true\">حلل الحالة →</a>",
+            "w": 490,
+            "h": 21
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          },
+          {
+            "html": "<input type=\"checkbox\" checked=\"\">",
+            "w": 13,
+            "h": 18
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          },
+          {
+            "html": "<input type=\"checkbox\" checked=\"\" style=\"\">",
+            "w": 13,
+            "h": 18
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"افحص المرجع brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bdi> ↗</",
+            "w": 69.625,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"افحص المرجع brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bdi> ↗</",
+            "w": 69.625,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"افحص المرجع brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bdi> ↗</",
+            "w": 69.625,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"افحص المرجع brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bdi> ↗</",
+            "w": 69.625,
+            "h": 20.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"افحص المرجع brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bdi> ↗</",
+            "w": 72,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"افحص المرجع brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bdi> ↗</",
+            "w": 72,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"افحص المرجع brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bdi> ↗</",
+            "w": 72,
+            "h": 20.796875
+          },
+          {
+            "html": "<a class=\"citation\" aria-label=\"افحص المرجع brief-a1\" href=\"/app/analyses/inspection-1/evidence?reference=brief-a1\" data-discover=\"true\"><bdi>brief-a1</bdi> ↗</",
+            "w": 72,
+            "h": 20.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": 360,
+      "dimensions": {
+        "width": 360,
+        "scroll": 360,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 19.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/docs/api",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/analyses/new",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/library",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/settings",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    }
+  ],
+  "logs": [
+    {
+      "locale": "en",
+      "theme": "light",
+      "type": "startGroup",
+      "text": "%c[impeccable] 6 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold"
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "type": "startGroup",
+      "text": "%c[impeccable] 3 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold"
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "type": "startGroup",
+      "text": "%c[impeccable] 4 anti-patterns found color: oklch(84% 0.19 80.46); font-weight: bold"
+    }
+  ]
+}

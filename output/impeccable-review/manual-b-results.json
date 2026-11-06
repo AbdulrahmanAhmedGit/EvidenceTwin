@@ -1,0 +1,113 @@
+{
+  "skip": {
+    "tag": "A",
+    "text": "Skip to content",
+    "outline": "rgb(40, 107, 89) solid 3px"
+  },
+  "skipActivated": "main",
+  "touch": [
+    {
+      "text": "Connection",
+      "x": 40,
+      "y": 759.09375,
+      "w": 280,
+      "h": 21.4375
+    },
+    {
+      "text": "Analysis acceptance",
+      "x": 40,
+      "y": 798.53125,
+      "w": 280,
+      "h": 21.4375
+    },
+    {
+      "text": "Inspection endpoints",
+      "x": 40,
+      "y": 837.96875,
+      "w": 280,
+      "h": 21.4375
+    },
+    {
+      "text": "Errors and credentials",
+      "x": 40,
+      "y": 877.40625,
+      "w": 280,
+      "h": 21.4375
+    }
+  ],
+  "controls": [
+    {
+      "tag": "BUTTON",
+      "text": "ع",
+      "border": "rgba(0, 0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 53, 47)",
+      "parent": "rgba(0, 0, 0, 0)",
+      "w": 40,
+      "h": 42
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "border": "rgba(0, 0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 53, 47)",
+      "parent": "rgba(0, 0, 0, 0)",
+      "w": 40,
+      "h": 42
+    },
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "border": "rgba(0, 0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(34, 53, 47)",
+      "parent": "rgba(0, 0, 0, 0)",
+      "w": 40,
+      "h": 42
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Discard draft",
+      "border": "rgb(215, 221, 211)",
+      "bg": "rgb(255, 254, 250)",
+      "color": "rgb(34, 53, 47)",
+      "parent": "rgba(0, 0, 0, 0)",
+      "w": 126,
+      "h": 45
+    },
+    {
+      "tag": "SELECT",
+      "text": "No sample caseTruncated axisCa",
+      "border": "rgb(88, 102, 93)",
+      "bg": "rgb(255, 254, 250)",
+      "color": "rgb(34, 53, 47)",
+      "parent": "rgba(0, 0, 0, 0)",
+      "w": 268,
+      "h": 50
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Back",
+      "border": "rgb(215, 221, 211)",
+      "bg": "rgb(255, 254, 250)",
+      "color": "rgb(34, 53, 47)",
+      "parent": "rgba(0, 0, 0, 0)",
+      "w": 70,
+      "h": 45
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Continue →",
+      "border": "rgb(40, 107, 89)",
+      "bg": "rgb(40, 107, 89)",
+      "color": "rgb(255, 254, 250)",
+      "parent": "rgba(0, 0, 0, 0)",
+      "w": 125,
+      "h": 45
+    }
+  ],
+  "menuFirst": "Overview",
+  "menuClosed": "false",
+  "menuFocus": true
+}

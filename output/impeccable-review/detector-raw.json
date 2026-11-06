@@ -1,0 +1,100 @@
+[
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/abdulrahman/Desktop/Evidence Twin/frontend/src/App.css",
+    "line": 4,
+    "snippet": "border-inline-start:3px solid"
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/abdulrahman/Desktop/Evidence Twin/frontend/src/App.css",
+    "line": 31,
+    "snippet": "border-inline-start:3px solid"
+  },
+  {
+    "antipattern": "broken-image",
+    "name": "Broken or placeholder image",
+    "description": "<img> tags with empty src, missing src, or placeholder values ship as broken-image boxes. Use real images, generated assets, or remove the tag.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/home/abdulrahman/Desktop/Evidence Twin/frontend/src/features/analyses/FilePreview.tsx",
+    "line": 2,
+    "snippet": "<img ref={image} className=\"upload-preview\" alt={(ar?                           :                 )+",
+    "importedBy": [
+      "AnalysisBuilder.tsx"
+    ]
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/abdulrahman/Desktop/Evidence Twin/frontend/src/features/inspection/inspection.css",
+    "line": 2,
+    "snippet": "border-inline-start:3px solid",
+    "importedBy": [
+      "AnalysisWorkspace.tsx"
+    ]
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/abdulrahman/Desktop/Evidence Twin/frontend/src/styles/observatory.css",
+    "line": 86,
+    "snippet": "border-inline-start:3px solid",
+    "importedBy": [
+      "main.tsx"
+    ]
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/abdulrahman/Desktop/Evidence Twin/frontend/src/styles/observatory.css",
+    "line": 149,
+    "snippet": "border-inline-start:3px solid",
+    "importedBy": [
+      "main.tsx"
+    ]
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/abdulrahman/Desktop/Evidence Twin/frontend/src/styles/workspace.css",
+    "line": 72,
+    "snippet": "border-inline-start:3px solid",
+    "importedBy": [
+      "main.tsx"
+    ]
+  },
+  {
+    "antipattern": "side-tab",
+    "name": "Side-tab accent border",
+    "description": "Thick colored border on one side of a card — the most recognizable tell of AI-generated UIs. Use a subtler accent or remove it entirely.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "/home/abdulrahman/Desktop/Evidence Twin/frontend/src/styles/workspace.css",
+    "line": 75,
+    "snippet": "border-inline-start:3px solid",
+    "importedBy": [
+      "main.tsx"
+    ]
+  }
+]

@@ -6,11 +6,28 @@
     <link id="app-favicon-png" rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png" />
     <link id="app-favicon" rel="icon" type="image/svg+xml" sizes="any" href="/brand/evidencetwin-icon.svg" />
     <link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon.png" />
+    <link rel="preload" as="image" href="/evidence-optics.webp" imagesrcset="/evidence-optics-600.webp 600w, /evidence-optics.webp 1200w" imagesizes="(max-width: 767px) calc(100vw - 40px), 46vw" fetchpriority="high" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f7f7f1" />
+    <meta name="description" content="Inspect scientific claims, compare visualizations, and trace interpretations to their evidence with EvidenceTwin Council." />
+    <meta name="theme-color" content="#f6f5f0" />
     <title>EvidenceTwin Council</title>
   </head>
   <body>
+    <noscript>
+      <link rel="stylesheet" href="/reading-fallback.css" />
+      <main class="static-reading">
+        <img src="/brand/evidencetwin-logo.svg" alt="EvidenceTwin" width="1277" height="298" />
+        <h1>Same data.<br />Different story.</h1>
+        <p>Examine what the evidence actually supports — beyond misleading charts and confident AI explanations.</p>
+        <aside>JavaScript is disabled. This reading view explains the project; the interactive workspace, uploads, analysis results and account controls require JavaScript.</aside>
+        <h2>A chart can change the story without changing the data.</h2>
+        <table><caption>Illustrative input values from educational case A1</caption><thead><tr><th scope="col">Year</th><th scope="col">Reported percentage</th></tr></thead><tbody><tr><th scope="row">2021</th><td>42%</td></tr><tr><th scope="row">2023</th><td>40%</td></tr></tbody></table>
+        <p>The supplied values differ by two percentage points. A truncated baseline can emphasize that difference. These values alone do not establish statistical significance.</p>
+        <h2>Agreement is not scientific proof.</h2>
+        <p>EvidenceTwin separates reproducible calculations, source provenance, model interpretations, missing information and unresolved disagreements. Verification depends on traceable evidence and defined checks.</p>
+        <small>This is a static introduction, not an analysis result. Scientific execution requires a compatible backend and enabled capabilities.</small>
+      </main>
+    </noscript>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

@@ -1,0 +1,752 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": []
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": []
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/docs/getting-started\" data-discover=\"true\">Getting started →</a>",
+            "w": 280,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs/mcp\" data-discover=\"true\">MCP integration →</a>",
+            "w": 280,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs/skills\" data-discover=\"true\">Assistant skills →</a>",
+            "w": 280,
+            "h": 21.4375
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/docs/getting-started\" data-discover=\"true\">Getting started →</a>",
+            "w": 476,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs/mcp\" data-discover=\"true\">MCP integration →</a>",
+            "w": 476,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/docs/skills\" data-discover=\"true\">Assistant skills →</a>",
+            "w": 476,
+            "h": 21.4375
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">View all analyses →</a>",
+            "w": 118,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/app/library\" data-discover=\"true\">Case Library →</a>",
+            "w": 93,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/app/library/a1\" data-discover=\"true\">Truncated axis</a>",
+            "w": 100.75,
+            "h": 21
+          },
+          {
+            "html": "<a href=\"/app/library/a2\" data-discover=\"true\">Causal framing</a>",
+            "w": 103.75,
+            "h": 21
+          },
+          {
+            "html": "<a href=\"/app/library/a3\" data-discover=\"true\">Uncertainty presentation</a>",
+            "w": 173,
+            "h": 21
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">View all analyses →</a>",
+            "w": 118,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/app/library\" data-discover=\"true\">Case Library →</a>",
+            "w": 93,
+            "h": 21.4375
+          },
+          {
+            "html": "<a href=\"/app/library/a1\" data-discover=\"true\">Truncated axis</a>",
+            "w": 100.75,
+            "h": 21
+          },
+          {
+            "html": "<a href=\"/app/library/a2\" data-discover=\"true\">Causal framing</a>",
+            "w": 103.75,
+            "h": 21
+          },
+          {
+            "html": "<a href=\"/app/library/a3\" data-discover=\"true\">Uncertainty presentation</a>",
+            "w": 173,
+            "h": 21
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          },
+          {
+            "html": "<input type=\"checkbox\" style=\"\">",
+            "w": 13,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">Open analysis history <span class=\"directional-arrow\" aria-hidden=\"true\">→</span></a>",
+            "w": 147,
+            "h": 18
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          },
+          {
+            "html": "<input type=\"checkbox\" style=\"\">",
+            "w": 13,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/analyses\" data-discover=\"true\">Open analysis history <span class=\"directional-arrow\" aria-hidden=\"true\">→</span></a>",
+            "w": 147,
+            "h": 18
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Council",
+            "width": 47
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Audit Trail",
+            "width": 62
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 43
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Council",
+            "width": 47
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Audit Trail",
+            "width": 62
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 43
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          },
+          {
+            "html": "<input type=\"checkbox\" checked=\"\" style=\"\">",
+            "w": 13,
+            "h": 18
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          },
+          {
+            "html": "<input type=\"checkbox\" checked=\"\" style=\"\">",
+            "w": 13,
+            "h": 18
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "active",
+            "text": "Council",
+            "width": 47
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Audit Trail",
+            "width": 62
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 43
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Council",
+            "width": 47
+          },
+          {
+            "tag": "A",
+            "cls": "",
+            "text": "Audit Trail",
+            "width": 62
+          },
+          {
+            "tag": "A",
+            "cls": "active",
+            "text": "Report",
+            "width": 43
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [
+          {
+            "tag": "A",
+            "cls": "active",
+            "text": "Report",
+            "width": 46
+          }
+        ],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
+            "w": 61,
+            "h": 19.796875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/docs/api",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/analyses/new",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/library",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    }
+  ],
+  "logs": []
+}

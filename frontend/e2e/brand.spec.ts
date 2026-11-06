@@ -100,6 +100,7 @@ test('report masthead uses the dark artwork on screen and the light artwork for 
  await page.emulateMedia({media:'print'})
  await visibleArtwork(logo,'light')
  await expect(page.locator('.report-document')).toBeVisible()
+ await expect(page.locator('.report-document')).toHaveCSS('background-color','rgb(255, 255, 255)')
 })
 test('all official assets and derived icons load with correct dimensions',async({page})=>{
  await page.goto('/')

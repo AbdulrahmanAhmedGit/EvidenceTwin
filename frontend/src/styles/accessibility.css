@@ -1,0 +1,42 @@
+/* Functional accessibility, shared by public and research views. */
+html{scroll-padding-block-start:110px;scroll-padding-block-end:24px}
+.root :is(a,button,input,select,textarea,summary,[tabindex]):focus-visible{scroll-margin-block-start:110px;scroll-margin-block-end:32px}
+.root .file-input-label:has(input:focus-visible),.root .replace-file:has(input:focus-visible){outline:3px solid var(--accent);outline-offset:4px}
+.root [aria-disabled=true]{opacity:.6;cursor:wait}
+.root .action-explanation{display:block;flex-basis:100%;font-size:.8125rem;color:var(--muted);line-height:1.6}
+.root .comparison-position-controls{margin-block:12px 24px}
+.root .comparison-position-controls p{font-size:.875rem;color:var(--muted)}
+.root .comparison-position-controls .actions{flex-wrap:wrap;gap:12px}
+.root .comparison-position-controls output{font-variant-numeric:tabular-nums;min-width:4ch;text-align:center}
+.root .skip{z-index:1000}
+@media(max-width:760px){html{scroll-padding-block-start:92px;scroll-padding-block-end:110px}.root :is(a,button,input,select,textarea,summary,[tabindex]):focus-visible{scroll-margin-block-start:92px;scroll-margin-block-end:110px}}
+@media(forced-colors:active){
+ .root :focus-visible,.root .file-input-label:focus-within,.root .replace-file:focus-within{outline:3px solid Highlight;outline-offset:4px}
+ .root :is(button,.button,input,select,textarea){border:1px solid ButtonText}
+ .root :is(button:disabled,[aria-disabled=true]){color:GrayText;opacity:1;border-color:GrayText}
+ .root :is([aria-current=page],[aria-pressed=true]){outline:2px solid Highlight;outline-offset:2px}
+ .root .status-label{border-color:CanvasText}
+}
+.root .workspace-header-context{min-inline-size:0;overflow-wrap:anywhere;line-height:1.35}
+.root .dashboard-case-list h3{overflow-wrap:anywhere}
+@media(max-width:48rem){
+ .root .workspace-help{display:none}
+ .root .dashboard-record-list article{display:block}
+ .root .dashboard-record-state{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-block-start:12px;gap:12px}
+ .root .dashboard-case-list{grid-template-columns:1fr}
+ .root .dashboard-case-list article,.root .dashboard-case-list article+article{padding:20px 0;border-inline-start:0}
+ .root .dashboard-case-list article+article{border-block-start:1px solid var(--line)}
+ .root .workspace-stats{grid-template-columns:1fr;padding:0}
+ .root .workspace-stat{padding:16px 20px}
+ .root .workspace-stat+.workspace-stat{border-inline-start:0;border-block-start:1px solid var(--line)}
+}
+@media(min-width:761px){
+ .root .app-layout>aside>*{flex-shrink:0}
+ .root .sidebar-bottom>a{min-inline-size:0;align-items:flex-start}
+ .root .sidebar-bottom>a>span,.root .app-layout .nav-label{min-inline-size:0;overflow-wrap:anywhere}
+ .root .sidebar-bottom>a>svg{flex-shrink:0;margin-block-start:.3em}
+}
+@media(max-width:48rem){
+ .root .workspace-page-header{flex-wrap:wrap}
+ .root .workspace-page-header>div:first-child{flex-basis:100%}
+}

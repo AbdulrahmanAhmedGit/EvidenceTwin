@@ -1,0 +1,12 @@
+/* A useful document when scripting is unavailable; no unimplemented app controls. */
+body{margin:0;background:#f6f5f0;color:#22352f;font:1.0625rem/1.8 system-ui,sans-serif}
+.static-reading{max-width:760px;padding:48px 24px;margin:auto}
+.static-reading img{width:190px;height:auto}
+.static-reading h1{font:normal clamp(2.8125rem,8vw,4.75rem)/1.1 Georgia,serif;letter-spacing:-.03em;margin:50px 0 25px}
+.static-reading h2{font-size:1.5625rem;line-height:1.4;margin-top:40px}
+.static-reading table{width:100%;border-collapse:collapse;margin:24px 0}
+.static-reading :is(td,th){text-align:left;border-bottom:1px solid #d7ddd3;padding:12px}
+.static-reading small{display:block;font-size:.875rem}
+.static-reading aside{border-left:3px solid #286b59;padding:12px 22px;background:#eeeee6}
+
+.static-reading p{max-inline-size:68ch;text-wrap:pretty}

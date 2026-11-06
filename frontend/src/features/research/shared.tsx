@@ -1,5 +1,5 @@
 import {useState} from 'react'
 import './research.css'
-export function Pager({page,total,pageSize,onChange,ar}:{page:number;total:number;pageSize:number;onChange:(v:number)=>void;ar:boolean}){return <nav className="pagination" aria-label={ar?'صفحات السجلات':'Record pages'}><button disabled={page<=1} onClick={()=>onChange(page-1)}>{ar?'السابق':'Previous'}</button><span role="status">{ar?'الصفحة':'Page'} {page} / {Math.max(1,Math.ceil(total/pageSize))}</span><button disabled={page*pageSize>=total} onClick={()=>onChange(page+1)}>{ar?'التالي':'Next'}</button></nav>}
+export {default as Pager} from '../../components/ui/Pagination'
 export function CapabilityNote({ar}:{ar:boolean}){return <p className="notice">{ar?'لم يؤكد الخادم دعم هذا الإجراء. تبقى المدخلات متاحة دون تشغيل وهمي.':'The backend has not confirmed support for this action. Your inputs remain available; no execution is simulated.'}</p>}
 export function CopyButton({value,ar,label}:{value:string;ar:boolean;label?:string}){const [message,setMessage]=useState('');return <><button onClick={async()=>{try{await navigator.clipboard.writeText(value);setMessage(ar?'تم النسخ':'Copied')}catch{setMessage(ar?'تعذر النسخ':'Copy unavailable')}}}>{label||(ar?'نسخ':'Copy')}</button><span className="caption" role="status">{message}</span></>}
