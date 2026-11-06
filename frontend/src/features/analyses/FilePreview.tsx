@@ -1,0 +1,2 @@
+import {useRef,useEffect} from 'react'
+export default function FilePreview({file,ar}:{file:File;ar:boolean}){const image=useRef<HTMLImageElement>(null);const supported=/^image\/(png|jpeg|webp)$/.test(file.type);useEffect(()=>{if(!supported||!image.current)return;const object=URL.createObjectURL(file);image.current.src=object;return()=>URL.revokeObjectURL(object)},[file,supported]);return supported?<img ref={image} className="upload-preview" alt={(ar?'معاينة محلية: ':'Local preview: ')+file.name}/>:null}

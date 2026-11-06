@@ -1,0 +1,32 @@
+{
+  "mode": "BRAINSTORM",
+  "input": "/home/abdulrahman/Desktop/Evidence Twin/docs/designs/backend-completion/2026-11-05-goldfish/review_input.md",
+  "sha256": "dc3df93d3a74cf99f8c91951145f7d023c3a903409010f7c1a7193a2bc367245",
+  "reviewers": [
+    "egm-design",
+    "egm-codebase-details",
+    "egm-zoom-out",
+    "egm-comprehension",
+    "egm-implementation-readiness",
+    "egm-structural"
+  ],
+  "status": "completed",
+  "isolation": "Fresh parent-turn context requested with fork_turns=none; host instruction-file exclusion is not independently verified.",
+  "reviewer_status": {
+    "egm-design": "completed",
+    "egm-codebase-details": "completed",
+    "egm-zoom-out": "completed",
+    "egm-comprehension": "completed",
+    "egm-implementation-readiness": "completed",
+    "egm-structural": "completed"
+  },
+  "findings": {
+    "Blocker": 0,
+    "Major": 14,
+    "Nit": 1
+  },
+  "report": "goldfish_review_report.md",
+  "source_files_changed": [],
+  "reviewer_read_receipts": "Attested in the six raw reports; host-instruction exclusion not independently verified.",
+  "concurrency": "Three successive batches of two reviewers; four total live-agent slots include primary and synthesizer."
+}

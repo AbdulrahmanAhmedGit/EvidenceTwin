@@ -1,0 +1,66 @@
+- generic [ref=e3]:
+  - link "Skip to content" [ref=e4] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e5]:
+    - link "Research Workspace" [ref=e6] [cursor=pointer]:
+      - /url: /app
+    - navigation "Main navigation" [ref=e7]:
+      - link "Features" [ref=e8] [cursor=pointer]:
+        - /url: /features
+      - link "How It Works" [ref=e9] [cursor=pointer]:
+        - /url: /how-it-works
+      - link "Methodology" [ref=e10] [cursor=pointer]:
+        - /url: /methodology
+      - link "Integrations" [ref=e11] [cursor=pointer]:
+        - /url: /integrations
+      - link "Documentation" [ref=e12] [cursor=pointer]:
+        - /url: /docs
+    - generic [ref=e13]:
+      - button "Change language" [ref=e14] [cursor=pointer]: ع
+      - button "Toggle theme" [ref=e15] [cursor=pointer]
+      - link "Open Workspace" [ref=e18] [cursor=pointer]:
+        - /url: /app
+  - generic [ref=e22]:
+    - complementary "Workspace navigation" [ref=e23]:
+      - link "EvidenceTwin home" [ref=e24] [cursor=pointer]:
+        - /url: /
+      - button "Collapse navigation" [expanded] [ref=e27] [cursor=pointer]
+      - link "Overview" [ref=e28] [cursor=pointer]:
+        - /url: /app
+        - generic [aria-hidden] [ref=e29]: "01"
+      - link "New Analysis" [ref=e31] [cursor=pointer]:
+        - /url: /app/analyses/new
+        - generic [aria-hidden] [ref=e32]: "02"
+      - link "Analyses" [ref=e34] [cursor=pointer]:
+        - /url: /app/analyses
+        - generic [aria-hidden] [ref=e35]: "03"
+      - link "Case Library" [ref=e37] [cursor=pointer]:
+        - /url: /app/library
+        - generic [aria-hidden] [ref=e38]: "04"
+      - link "Compare" [ref=e40] [cursor=pointer]:
+        - /url: /app/compare
+        - generic [aria-hidden] [ref=e41]: "05"
+      - link "Benchmarks" [ref=e43] [cursor=pointer]:
+        - /url: /app/benchmarks
+        - generic [aria-hidden] [ref=e44]: "06"
+      - link "Reports" [ref=e46] [cursor=pointer]:
+        - /url: /app/reports
+        - generic [aria-hidden] [ref=e47]: "07"
+      - link "Integrations" [ref=e49] [cursor=pointer]:
+        - /url: /app/integrations
+        - generic [aria-hidden] [ref=e50]: "08"
+      - generic [ref=e52]:
+        - link "Settings" [ref=e53] [cursor=pointer]:
+          - /url: /app/settings
+        - link "Documentation" [ref=e54] [cursor=pointer]:
+          - /url: /docs
+        - generic [ref=e55]: ○ Connecting
+    - main "Settings" [ref=e56]:
+      - status [ref=e57]: Settings
+      - navigation "Breadcrumb" [ref=e58]:
+        - link "Workspace" [ref=e59] [cursor=pointer]:
+          - /url: /app
+        - generic [aria-hidden] [ref=e60]: /
+        - generic [ref=e61]: Settings
+        - generic [ref=e62]: ○ Connecting
+      - status [ref=e64]: Loading…

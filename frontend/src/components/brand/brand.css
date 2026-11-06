@@ -1,0 +1,21 @@
+.brand-logo{display:inline-grid;inline-size:var(--brand-width);max-inline-size:100%;vertical-align:middle;flex:none;direction:ltr;unicode-bidi:isolate;line-height:0}
+.brand-logo--full.brand-logo--sm{--brand-width:144px}.brand-logo--full.brand-logo--md{--brand-width:176px}.brand-logo--full.brand-logo--lg{--brand-width:208px}
+.brand-logo--icon.brand-logo--sm{--brand-width:28px}.brand-logo--icon.brand-logo--md{--brand-width:32px}.brand-logo--icon.brand-logo--lg{--brand-width:40px}
+.brand-logo>img{display:block;inline-size:100%;block-size:auto;object-fit:contain;grid-area:1/1;max-inline-size:100%}
+.brand-logo>.brand-logo__dark{display:none}
+.brand-logo[data-brand-theme=dark]>.brand-logo__light,.root.dark .brand-logo[data-brand-theme=auto]>.brand-logo__light{display:none}
+.brand-logo[data-brand-theme=dark]>.brand-logo__dark,.root.dark .brand-logo[data-brand-theme=auto]>.brand-logo__dark{display:block}
+.brand .brand-logo--icon,.workspace-header-context{display:none}
+.workspace-header-context{min-block-size:44px;align-items:center;inline-size:208px;font-size:13px;font-weight:500;flex:none}
+header.workspace-header .workspace-header-context{display:inline-flex}
+header.workspace-header>.workspace-header-brand{display:none}
+header .brand{min-block-size:44px;min-inline-size:44px}
+.app-layout aside>.sidebar-brand{padding:0;min-block-size:44px;margin-block-end:20px;justify-content:center;inline-size:100%}
+.sidebar-brand>.brand-logo--icon{display:none}
+.sidebar-collapsed .sidebar-brand>.brand-logo--full{display:none}
+.sidebar-collapsed .sidebar-brand>.brand-logo--icon{display:inline-grid}
+footer>.brand{min-block-size:44px}
+@media(max-width:1100px){.workspace-header-context{inline-size:180px}}
+@media(max-width:760px){header.workspace-header>.workspace-header-brand{display:inline-flex}header.workspace-header .workspace-header-context{display:none}header .brand-logo--full{--brand-width:176px}.app-layout aside>.sidebar-brand{display:none}}
+@media(max-width:380px){header .brand>.brand-logo--full{display:none}header .brand>.brand-logo--icon{display:inline-grid}}
+@media print{.brand-logo[data-brand-theme=auto]>.brand-logo__light,.root.dark .brand-logo[data-brand-theme=auto]>.brand-logo__light{display:block}.brand-logo[data-brand-theme=auto]>.brand-logo__dark,.root.dark .brand-logo[data-brand-theme=auto]>.brand-logo__dark{display:none}}

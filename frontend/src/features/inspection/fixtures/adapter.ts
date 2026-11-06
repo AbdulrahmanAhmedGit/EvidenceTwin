@@ -1,0 +1,5 @@
+import original from './original.svg?url'
+import neutral from './neutral.svg?url'
+import {analysisFixture,evidenceFixture,visualizationFixture,councilFixture,auditFixture,reportFixture} from './data'
+export function analysis(id:string){if(id==='sample-running')return {...analysisFixture,id,status:'running',assessment:undefined,stage:'Static preview / review stage',findings:[],stages:[{id:'inputs',label:'Educational inputs selected',status:'completed'},{id:'review',label:'Static reviewer-stage preview',status:'running'}]};if(id==='sample-failed')return {...analysisFixture,id,status:'failed',assessment:undefined,findings:[],error:'Authored failure example: original source could not be accessed.'};return {...analysisFixture,id}}
+export function section(part:string){const sections:Record<string,unknown>={evidence:evidenceFixture,visualizations:visualizationFixture(original,neutral),council:councilFixture,audit:auditFixture,report:reportFixture};if(!(part in sections))throw new Error('Unknown static fixture section');return structuredClone(sections[part])}

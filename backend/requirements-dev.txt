@@ -1,0 +1,3 @@
+# Exact tested environment, including structural-test tooling.
+-r requirements.lock
+-e .

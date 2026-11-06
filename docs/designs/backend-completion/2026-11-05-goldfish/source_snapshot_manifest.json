@@ -1,0 +1,12 @@
+{
+  "BACKEND_IMPLEMENTATION_GUIDE.md": "eca0045a5bcc83c0fdb9f673b440ebff863273b41e4f824292be906881b59c48",
+  "docs/FRONTEND_API_CONTRACT.md": "dd1a7f57b4b7219273c090190f648a5ebe6340820cb4420acdcb181f90c646f3",
+  "backend/evidencetwin_backend/__init__.py": "34ef0043558ad46fb9450dec805315b6cb46e808623bf59cf8fae7b53a6299e2",
+  "backend/evidencetwin_backend/services/runtime.py": "c70efa627770b574b532df53bf6da8f249eff3ac6a5535629f9ec6b2a8179e84",
+  "backend/evidencetwin_backend/services/workflow.py": "c5675c3f3c54b8dc2e1d993deee18aad9a41be508ddc690c4a09db8080b887b3",
+  "backend/evidencetwin_backend/services/store.py": "59e9a012a21a74e45d4d3fb1aa423f66fd8221761f4db3a1dd9311e1c52f6ad2",
+  "backend/evidencetwin_backend/contracts/analyses.py": "e034d5d3a11bd4158fea7b4d08c167919a4fa0abc89d2165ef4cf3fd5675c6fc",
+  "backend/evidencetwin_backend/contracts/inspection.py": "8f6d62cf74aa35f348f89b11b76965d1a78dbc961b89cb4429c888670a8c43c7",
+  "backend/evidencetwin_backend/contracts/common.py": "32bf2100e1509501dca56af598b14c971a9d4b147aa2567b7de06dc27d15cd22",
+  "frontend/src/features/settings/AIProviderSettings.tsx": "038ad50e55f67ac62acc3946fc4a95202d602cfe8e797afe36bdb33cc889ca4e"
+}

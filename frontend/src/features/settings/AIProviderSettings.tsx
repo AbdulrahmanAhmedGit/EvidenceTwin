@@ -1,0 +1,48 @@
+import {useState,useRef} from 'react'
+import type {FormEvent} from 'react'
+import {Link} from 'react-router-dom'
+import {useQuery,useQueryClient} from '@tanstack/react-query'
+import {readAISettings,saveAISettings,testAISettings} from './ai-api'
+import type {AISettings,ProviderID} from './ai-api'
+import {LoadError} from '../inspection/shared'
+import './ai-settings.css'
+
+function ProviderEditor({data,ar}:{data:AISettings;ar:boolean}){
+ const cache=useQueryClient()
+ const modelInput=useRef<HTMLInputElement>(null)
+ const hostInput=useRef<HTMLInputElement>(null)
+ const [selected,setSelected]=useState<ProviderID>(data.activeProvider)
+ const item=data.providers.find(p=>p.id===selected)!
+ const [model,setModel]=useState(item.model)
+ const [host,setHost]=useState(item.ollamaHost||'https://ollama.com')
+ const [key,setKey]=useState('')
+ const [removeKey,setRemoveKey]=useState(false)
+ const [showKey,setShowKey]=useState(false)
+ const [busy,setBusy]=useState<'save'|'test'|null>(null)
+ const [message,setMessage]=useState<'saved'|'failed'|'found'|'unconfirmed'|''>('')
+ const [validation,setValidation]=useState<'model'|'host'|''>('')
+ const t=(en:string,arabic:string)=>ar?arabic:en
+ const dirty=model!==item.model||Boolean(key)||removeKey||(selected==='ollama'&&host!==item.ollamaHost)
+ function select(id:ProviderID){const value=data.providers.find(p=>p.id===id)!;setSelected(id);setModel(value.model);setHost(value.ollamaHost||'https://ollama.com');setKey('');setRemoveKey(false);setShowKey(false);setMessage('');setValidation('')}
+ async function save(event:FormEvent<HTMLFormElement>){event.preventDefault();if(busy)return;setMessage('');if(!model.trim()){setValidation('model');modelInput.current?.focus();return}if(selected==='ollama'){try{const url=new URL(host);if(!['http:','https:'].includes(url.protocol)||url.username||url.password||url.search||url.hash||url.pathname!=='/'||url.protocol==='http:'&&!['localhost','127.0.0.1','[::1]'].includes(url.hostname))throw Error()}catch{setValidation('host');hostInput.current?.focus();return}}setValidation('');setBusy('save');try{const result=await saveAISettings({provider:selected,model:model.trim(),...(key.trim()?{apiKey:key.trim()}:{}),...(removeKey?{removeKey:true}:{}),...(selected==='ollama'?{ollamaHost:host.trim()}: {})});setKey('');setShowKey(false);setRemoveKey(false);setModel(result.providers.find(p=>p.id===selected)!.model);setHost(result.providers.find(p=>p.id===selected)!.ollamaHost||'https://ollama.com');cache.setQueryData(['ai-settings'],result);await Promise.all([cache.invalidateQueries({queryKey:['capabilities']}),cache.invalidateQueries({queryKey:['research-capabilities']}),cache.invalidateQueries({queryKey:['integrations']})]);setMessage('saved')}catch{setMessage('failed')}finally{setBusy(null)}}
+ async function test(){if(busy)return;setBusy('test');setMessage('');try{const result=await testAISettings();setMessage(result.status==='reachable'?'found':'unconfirmed')}catch{setMessage('unconfirmed')}finally{setBusy(null)}}
+ const notices={saved:t('Provider saved and selected for new analyses.','حُفظ المزود واختير للتحليلات الجديدة.'),failed:t('The provider could not be saved. Check the fields and backend connection, then retry.','تعذر حفظ المزود. تحقق من الحقول واتصال الخادم ثم أعد المحاولة.'),found:t('The model was found in the provider catalog. This does not confirm generation access or scientific accuracy.','عُثر على النموذج في دليل المزود. لا يؤكد ذلك إمكانية توليد الردود أو الدقة العلمية.'),unconfirmed:t('The model could not be confirmed. Check its ID, endpoint and API key. No generation request was made.','تعذر تأكيد النموذج. تحقق من معرّفه وعنوان الاتصال ومفتاح API. لم يُرسل طلب لتوليد رد.')}
+ return <div className="ai-settings-layout"><fieldset className="ai-provider-list" disabled={busy!==null}><legend>{t('AI providers','مزودو الذكاء الاصطناعي')}</legend>{data.providers.map(p=><label key={p.id} className={selected===p.id?'selected':''}><input type="radio" name="ai-provider" value={p.id} checked={selected===p.id} onChange={()=>select(p.id)}/><span><bdi>{p.name}</bdi><small>{p.id===data.activeProvider?t('Active provider','المزود النشط'):p.configured?t('Configured','مهيأ'):t('Not configured','غير مهيأ')}</small></span></label>)}</fieldset><form className="settings-section ai-provider-editor" onSubmit={save} aria-busy={busy!==null}>
+ <div className="ai-editor-heading"><h2><bdi>{item.name}</bdi></h2><span className="status-label">{item.configured?t('Configured','مهيأ'):t('Not configured','غير مهيأ')}</span></div>
+ <p>{t('Save this provider to use it for new exploratory analyses. Running analyses keep their original configuration.','احفظ هذا المزود لاستخدامه في التحليلات الاستكشافية الجديدة. تحتفظ التحليلات الجارية بإعداداتها الأصلية.')}</p>
+ <label htmlFor="ai-model">{t('Model ID','معرّف النموذج')}</label><input ref={modelInput} id="ai-model" value={model} onChange={e=>{setModel(e.target.value);setMessage('')}} disabled={busy!==null} maxLength={200} dir="ltr" autoComplete="off" spellCheck={false} aria-invalid={validation==='model'} aria-describedby="ai-model-help"/><p className="caption" id="ai-model-help">{validation==='model'?t('Enter a model ID.','أدخل معرّف النموذج.'):t('Enter a vision-capable model available to your account. No model is selected automatically.','أدخل معرّف نموذج يدعم الصور ومتاح لحسابك. لا يُختار نموذج تلقائياً.')}</p>
+ {selected==='ollama'&&<><label htmlFor="ai-host">{t('Ollama endpoint','عنوان Ollama')}</label><input ref={hostInput} id="ai-host" value={host} onChange={e=>{setHost(e.target.value);setMessage('')}} disabled={busy!==null} dir="ltr" autoComplete="off" spellCheck={false} aria-invalid={validation==='host'} aria-describedby="ai-host-help"/><p className="caption" id="ai-host-help">{validation==='host'?t('Use an HTTPS origin, or HTTP for localhost, without paths or credentials.','استخدم عنوان HTTPS، أو HTTP للمضيف المحلي، دون مسارات أو بيانات اعتماد.'):t('Cloud: https://ollama.com · Local: http://127.0.0.1:11434','السحابة: https://ollama.com · محلياً: http://127.0.0.1:11434')}</p></>}
+ <label htmlFor="ai-key">{item.keyConfigured?t('Replace API key (optional)','استبدال مفتاح API (اختياري)'):t('API key','مفتاح API')}</label><input id="ai-key" type={showKey?'text':'password'} value={key} onChange={e=>{setKey(e.target.value);setRemoveKey(false);setMessage('')}} disabled={busy!==null||removeKey} maxLength={4096} autoComplete="new-password" spellCheck={false} dir="ltr" aria-describedby="ai-key-help"/>
+ <p className="caption" id="ai-key-help">{item.keySource==='server'?t('A key is saved on the server. Leave this field blank to keep it. Saved keys are never displayed.','يوجد مفتاح محفوظ على الخادم. اترك الحقل فارغاً للاحتفاظ به. لا تُعرض المفاتيح المحفوظة.'):item.keySource==='environment'?t('A server environment key is configured. Leave blank to keep it, or enter a replacement.','يوجد مفتاح مهيأ في بيئة الخادم. اترك الحقل فارغاً للاحتفاظ به أو أدخل بديلاً.'):!item.requiresKey?t('A key is optional for your configured Ollama endpoint.','المفتاح اختياري لعنوان Ollama المهيأ.'):t('Enter the provider API key. It is sent only when you save.','أدخل مفتاح API للمزود. يُرسل فقط عند الحفظ.')}</p>
+ <label className="ai-check"><input type="checkbox" checked={showKey} onChange={e=>setShowKey(e.target.checked)} disabled={busy!==null||!key}/>{t('Show the key I am entering','إظهار المفتاح الذي أدخله')}</label>
+ {item.keySource==='server'&&<label className="ai-check"><input type="checkbox" checked={removeKey} onChange={e=>{setRemoveKey(e.target.checked);setKey('');setMessage('')}} disabled={busy!==null}/>{t('Remove the saved key on save (an environment key may still apply)','حذف المفتاح المحفوظ عند الحفظ (قد يظل مفتاح البيئة مستخدماً)')}</label>}
+ <div className="notice"><p>{t('Keys are stored in a private configuration file on the Flask server, without application-level encryption. They are never returned to this page or saved in browser storage.','تُحفظ المفاتيح في ملف إعدادات خاص على خادم Flask دون تشفير على مستوى التطبيق. لا تُعاد لهذه الصفحة ولا تُحفظ في تخزين المتصفح.')}</p></div>
+ <div className="actions"><button className="primary" type="submit" disabled={busy!==null}>{busy==='save'?t('Saving…','جارٍ الحفظ…'):t('Save and use provider','حفظ المزود واستخدامه')}</button><button type="button" disabled={busy!==null||dirty||selected!==data.activeProvider||!item.configured} onClick={test}>{busy==='test'?t('Checking…','جارٍ الفحص…'):t('Check model catalog','فحص دليل النماذج')}</button></div>
+ <p className="caption">{t('Save changes before checking. The catalog check does not generate a response or run an analysis.','احفظ التغييرات قبل الفحص. لا يولد فحص الدليل رداً ولا يشغل تحليلاً.')}</p>
+ <div role={message==='failed'?'alert':'status'} aria-live="polite">{message&&<p className="notice">{notices[message]}</p>}</div>
+ </form></div>
+}
+export default function AIProviderSettings({ar}:{ar:boolean}){
+ const data=useQuery({queryKey:['ai-settings'],queryFn:({signal})=>readAISettings(signal),retry:false,staleTime:30000})
+ return <section className="page ai-settings-page"><Link to="/app/settings">{ar?'الإعدادات':'Settings'} →</Link><div className="eyebrow">{ar?'إعداد المزودين':'PROVIDER CONFIGURATION'}</div><h1>{ar?'واجهات الذكاء الاصطناعي':'AI APIs'}</h1><p className="lede">{ar?'اختر المزود والنموذج ومفتاح API للمراجعات الاستكشافية. لا حاجة لإعادة تشغيل الخادم.':'Choose the provider, model and API key for exploratory reviews. Changes apply without restarting Flask.'}</p>{data.isPending?<p role="status">{ar?'جارٍ تحميل إعدادات المزودين…':'Loading provider settings…'}</p>:data.isError?<LoadError ar={ar} error={data.error} retry={()=>data.refetch()}/>:<ProviderEditor data={data.data} ar={ar}/>}</section>
+}

@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evidencetwin-backend-skeleton"
+version = "0.1.0"
+description = "Local exploratory evidence review workspace with configurable AI providers"
+requires-python = ">=3.12"
+dependencies = ["Flask>=3.1,<4", "Flask-Cors>=6,<7", "pydantic>=2.12,<3", "Pillow>=12,<14", "SQLAlchemy>=2.1.8,<2.2", "psycopg[binary]>=3.3.8,<3.4", "alembic>=1.20.1,<1.21"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+evidencetwin-worker = "evidencetwin_backend.execution.worker:main"
+
+[tool.setuptools.packages.find]
+include = ["evidencetwin_backend*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["execution_postgres: requires explicitly provisioned disposable PostgreSQL"]
+
+[tool.setuptools.package-data]
+evidencetwin_backend = ["prompts/*.md"]
