@@ -1,6 +1,6 @@
 # Evidence processing and descriptive findings
 
-Implemented 2026-11-08. This guide describes `descriptive-evidence/1` in the local HTTP runtime. The approved baseline and all scientific enablement gates retain their authority. These operations do not close the gates or enable a scientifically validated verification service.
+Implemented 2026-11-08. This guide describes the current `descriptive-evidence/2` processing pipeline in the local HTTP runtime. The bounded dataset-query adapter retains its independent `descriptive-evidence/1` version. The approved baseline and all scientific enablement gates retain their authority. These operations do not close the gates or enable a scientifically validated verification service.
 
 ## The observed failure
 
@@ -54,7 +54,7 @@ Optional structured `limitation_records` distinguish processing failures, eviden
 
 Execution status remains separate from the scoped descriptive result and scientific coverage. The existing full scientific assessment stays `not_evaluated`. A visible comparison can still establish the ordering of reported submitted values without implying source verification or an approved scientific verdict. Council agreement cannot promote it into proof.
 
-Results lead with actual descriptive findings, calculations and coverage. The visualization laboratory also exposes the same recorded descriptive plots separately from original-image controls. Original prompts and the detailed AI record disclose separately. Council views use structured finding titles and claim positions with explanations on demand, while retaining legacy output support. Reports include a concise executive finding, real calculation/chart, source outcome, coverage, observations, limitations and reproducibility. Original inputs and technical records remain accessible in document disclosures and JSON. Browser printing is the supported PDF route.
+Results lead with recorded AI visual observations and the original plot. Potential concerns retain their AI interpretation boundary. Supporting descriptive findings, calculations and coverage remain inspectable. The visualization laboratory also exposes the same recorded descriptive plots separately from original-image controls. Original prompts and the detailed AI record disclose separately. Council views use structured finding titles and claim positions with explanations on demand, while retaining legacy output support. Reports include a concise executive finding, real calculation/chart, source outcome, coverage, observations, limitations and reproducibility. Original inputs and technical records remain accessible in document disclosures and JSON. Browser printing is the supported PDF route.
 
 Blind Optics remains unavailable. Exact blinding disclosures, chart/data binding, rendering templates, paired ordering and scientific acceptance are unresolved. The descriptive plot is not substituted for the intended blinded reconstruction.
 

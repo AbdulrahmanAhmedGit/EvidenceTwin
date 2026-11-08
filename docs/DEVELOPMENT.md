@@ -33,7 +33,7 @@ To enable invitations, export `EVIDENCETWIN_ACCOUNTS=1` consistently for the ser
 
 The standalone account CLI reuses account operations without starting Flask or acquiring the worker lock, so it can provision/revoke accounts while the service runs. Compatible `flask --app evidencetwin_backend:create_app` account commands require the workspace server to be stopped.
 
-Invitation prompts for and confirms a password; do not put it in a command argument. Disabling revokes existing sessions. There is no public registration or automatic legacy ownership assignment. The server uses `EVIDENCETWIN_SESSION_SECRET` or a private `session.key`; preserve it with the data root. Cookies are HttpOnly, SameSite Strict, API-path scoped, with a 12-hour session lifetime. Set `EVIDENCETWIN_SECURE_COOKIES=1` for a separately reviewed HTTPS deployment.
+Invitation prompts for and confirms a password of 12–256 characters. Account names must contain 1–100 characters. Keep passwords out of command arguments. Disabling revokes existing sessions. There is no public registration or automatic legacy ownership assignment. The server uses `EVIDENCETWIN_SESSION_SECRET` or a private `session.key`; preserve it with the data root. Cookies are HttpOnly, SameSite Strict, API-path scoped, with a 12-hour session lifetime. Set `EVIDENCETWIN_SECURE_COOKIES=1` for a separately reviewed HTTPS deployment.
 
 Operators can configure six providers at `/app/settings/ai`: Ollama, OpenAI, Google, Anthropic, OpenRouter and DeepSeek. Alternatively set `EVIDENCETWIN_PROVIDER`, `EVIDENCETWIN_MODEL` and the provider's server-only API key (`GEMINI_API_KEY`/`GOOGLE_API_KEY` for Google). Provider secrets and `ai-settings.json` are private; never print, export or commit them. Saving a case does not call a provider. Running Council requires explicit consent, evidence and a configured provider; configuration alone does not prove reachability or model suitability.
 
@@ -41,7 +41,7 @@ From `frontend/`, use `npm run build`, `npm run lint`, `npm test`, then `npm run
 
 For visual fixtures only, start Vite with `VITE_ANALYSIS_FIXTURES=true` and visit `/app/analyses/sample-a1`; running/failed fixtures also exist. These are visibly labeled authored development examples. Production excludes them even when that flag is set. Normal API errors never fall back to fixture findings. `npm run test:preview` checks the isolated preview; existing broad `test:e2e` specs need deliberate workflow updates and are not current acceptance evidence.
 
-Dedicated Playwright MCP, Context7 MCP and Chrome DevTools MCP were unavailable during this transformation. Browser feedback used installed Playwright CLI with Brave and disposable actual Flask storage; some inspection captures use labeled development fixtures. No paid-provider, scientific, hosted, physical-device, screen-reader or cross-browser acceptance is claimed. The owner performs final acceptance.
+The owner performs final acceptance. Keep focused engineering checks, fixture inspections and actual backend observations separate in verification records. Discover available browser and documentation tools in the current session. Historical reports retain their own tool availability and evidence limits.
 
 ## Installed engineering MCPs
 
@@ -60,3 +60,15 @@ OMP_NUM_THREADS=2 "$HOME/.local/share/evidencetwin-libretranslate/venv/bin/libre
 ```
 
 Backend configuration uses `EVIDENCETWIN_LIBRETRANSLATE_URL` (default `http://127.0.0.1:5002`) and optional server-only `EVIDENCETWIN_LIBRETRANSLATE_API_KEY`. An unavailable service leaves the original report readable and shows an honest translation limitation.
+
+## Temporary public test link
+
+With the existing backend environment, frontend dependencies and `cloudflared` installed, run from any directory using the checkout’s absolute path.
+
+```sh
+bash "/home/abdulrahman/Desktop/Evidence Twin/scripts/trycloudflare-test.sh"
+```
+
+The [launcher](../scripts/trycloudflare-test.sh) creates a separate temporary data directory, prompts for a 12–256 character password for the `tester` operator, and starts Flask on loopback port 5004 and Vite on loopback port 5204. Both ports must be free. It prints the generated HTTPS TryCloudflare URL after local startup checks. The exact tunnel host is allowed in Vite, the backend uses the exact public origin, and account cookies are secure.
+
+Keep the terminal open. Ctrl+C stops the launcher’s processes and preserves the displayed test directory. Each launch creates a new test workspace. Existing local research and provider settings stay in their original directory. Configure a provider in the test workspace’s Service administration before requesting AI review. The temporary public link is for testing and does not establish hosted pilot readiness. This launcher has a shell syntax check, with public browser operation still requiring owner testing.

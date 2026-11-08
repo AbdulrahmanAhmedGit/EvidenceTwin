@@ -33,9 +33,9 @@ Run acceptance requires the current saved revision, evidence, a configured provi
 
 ## Input and processing limits
 
-Accept UTF-8 (optional BOM) CSV or structured JSON `{columns,rows,variables?,notes?}`, PNG/JPEG/WebP and PDF attachment bytes. XLSX is unavailable. Maximum ten files, five images, one table, 20 MiB per file and 64 MiB retained bytes per revision; default HTTP request cap is also 64 MiB including multipart overhead. CSV has at most 5,000 data rows, 100 uniquely named nonblank columns and consistent row widths; cell text is bounded at 10,000 characters. Images are verified for format and bounded to 16 million pixels. Duplicate content hashes within a revision are rejected. PDF signature checking is not extraction; PDF contents are not sent to the model. Source URLs are metadata only and are never fetched.
+Accept UTF-8 (optional BOM) CSV or structured JSON `{columns,rows,variables?,notes?}`, PNG/JPEG/WebP and PDF attachment bytes. XLSX is unavailable. Maximum ten files, five images, one table, 20 MiB per file and 64 MiB retained bytes per revision; default HTTP request cap is also 64 MiB including multipart overhead. CSV has at most 5,000 data rows, 100 uniquely named nonblank columns and consistent row widths; cell text is bounded at 10,000 characters. Images are verified for format and bounded to 16 million pixels. Duplicate content hashes within a revision are rejected. PDF signature checking is not extraction; PDF contents are not sent to the model. Newly authorized reviews can retrieve supported public source URLs under the bounded access policy in [Evidence processing](EVIDENCE_PROCESSING.md). Case saving and revision previews do not fetch them.
 
-Explicit run consent covers study/question metadata, up to 200 dataset rows and supplied images to the operator-configured provider. Larger dataset context is labeled truncated. Read [scientific scope](SCIENTIFIC_SCOPE.md) for limitations.
+Explicit run consent covers the saved research metadata, supplied images, selected complete-table records, descriptive calculations and readable public-source excerpts shared with the operator-configured provider. Reviewers can request bounded exact-match table queries. The retained table and selected model context have separate limits. Read [Evidence processing](EVIDENCE_PROCESSING.md) for budgets and [Scientific scope](SCIENTIFIC_SCOPE.md) for interpretation limits.
 
 ## Retained analysis and operator API
 
@@ -45,7 +45,7 @@ Legacy `/api/analyses` creation/list/detail and per-analysis `cancel`, `retry`, 
 
 ## Evidence-processing extension
 
-See [the processing guide](EVIDENCE_PROCESSING.md#new-read-apis) for revision previews, recorded run processing, complete-table queries and retained source downloads. These ownership-authorized read APIs are additive. New runs record descriptive-evidence/1, selected rows/calculations, source retrieval status, coverage and structured limits. Historical runs return an explicit legacy response. Original scientific assessment and existing wire status taxonomy remain separate. URL-only saved cases can now request source-based review with consent and an available provider.
+See [the processing guide](EVIDENCE_PROCESSING.md#new-read-apis) for revision previews, recorded run processing, complete-table queries and retained source downloads. These ownership-authorized read APIs are additive. New runs record `descriptive-evidence/2`, selected rows/calculations, source retrieval status, coverage and structured limits. Historical runs return an explicit legacy response. Original scientific assessment and existing wire status taxonomy remain separate. URL-only saved cases can now request source-based review with consent and an available provider.
 
 ## Source snapshots and report translations
 

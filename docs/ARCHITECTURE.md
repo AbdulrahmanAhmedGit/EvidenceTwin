@@ -2,7 +2,7 @@
 
 Current behavior, reviewed 2026-11-08. The approved hosted/scientific requirements in [the brief](../concepts_brief.md) remain a target; this guide describes the implemented local application.
 
-React 19.3 / Router 7.18 / Vite 8 uses route splitting, React Query and domain adapters. `ResearchEntry`, `ResearchCases` and `CaseDataset` implement one question-first case journey. `cases-api.ts` validates its wire payloads; existing analysis/evidence/Council/audit/report adapters retain inspection journeys. `SessionGate` establishes a principal before selecting an account draft. Ordinary settings exclude provider credentials; operator settings remain server-authorized.
+React 19.3 / Router 7.18 / Vite 8 uses route splitting, React Query and domain adapters. `ResearchEntry`, `ResearchCases` and `CaseDataset` implement one chart-first case journey with optional questions and supporting evidence. `cases-api.ts` validates its wire payloads; existing analysis/evidence/Council/audit/report adapters retain inspection journeys. `SessionGate` establishes a principal before selecting an account draft. Ordinary settings exclude provider credentials; operator settings remain server-authorized.
 
 Flask 3.1 factory installs transport blueprints and runtime services. `services/access.py` establishes the local operator or optional invited principal. `research_cases.py` owns case/revision operations. `runtime.py` handles bounded ingestion and authorized legacy operations. `workflow.py` runs exploratory model reviews in a bounded thread pool. Provider calls and credentials remain server-side; packaged prompts define model behavior, not scientific proof.
 

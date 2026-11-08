@@ -20,11 +20,11 @@ The [evidence-processing guide](EVIDENCE_PROCESSING.md) documents supported enti
 
 ## Unified results and translated reports
 
-The results overview opens with the recorded scientific assessment and any supplied Council interpretation or reproducible descriptive observations. Execution completion remains a separate status. Display titles use verbatim quoted claims or remove recognized English/Arabic instruction wrappers before applying the bounded prefix rule. The complete original question remains inspectable.
+The results overview opens with the recorded visual observation and original chart, followed by supporting Council interpretation, descriptive observations and the separate scientific assessment. Execution completion remains a separate status. Display titles use verbatim quoted claims or remove recognized English/Arabic instruction wrappers before applying the bounded prefix rule. The complete original question remains inspectable.
 
 A desktop narrative sits beside an evidence workspace with charts, data and sources. Mobile reading and keyboard order follow the introduction, evidence, then detailed narrative. Exact uploaded/retrieved observations drive plots. Source rows, hashes, calculation methods and original images remain accessible. Compact Council perspectives disclose original explanations, claim positions and provenance. Actual disagreements and grouped limitations remain distinct. Blind Optics is explicitly unavailable.
 
-The report opens with its executive finding. Translation and record metadata disclose contextually. English/Arabic machine translation is an explicit action. A derivative is tied to its original report hash and owner. If a translated passage changes protected numbers or references, the original passage is retained and the derivative is labeled partial. The original report and its JSON export remain separate. Browser printing expands preserved records and reviewer explanations, then restores the previous reading state. There is no server-generated PDF service.
+New version-4 reports open with the recorded visual summary. Older reports retain their original sections and findings. Translation and record metadata disclose contextually. English/Arabic machine translation is an explicit action. A derivative is tied to its original report hash and owner. If a translated passage changes protected numbers or references, the original passage is retained and the derivative is labeled partial. The original report and its JSON export remain separate. Browser printing expands preserved records and reviewer explanations, then restores the previous reading state. There is no server-generated PDF service.
 
 ## Chart inspection priority
 

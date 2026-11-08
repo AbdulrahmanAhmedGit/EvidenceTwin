@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-08",
+  "baselineSha256": "41f69d651ad9b61e26fa8db845c16e0d8f3ab83154e1ce5acdc599aea06e92e5",
+  "records": [
+    {
+      "original": "docs/ACCESSIBILITY_REVIEW.md",
+      "archive": "docs/archive/2026-11-08/ACCESSIBILITY_REVIEW.md",
+      "originalSha256": "8f812b4dea4cb4d8c8cd152dfb45efd8b451633847806c19918040709cf987b8",
+      "archiveSha256": "8f812b4dea4cb4d8c8cd152dfb45efd8b451633847806c19918040709cf987b8",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/AI_PROVIDER_CONFIGURATION.md",
+      "archive": "docs/archive/2026-11-08/AI_PROVIDER_CONFIGURATION.md",
+      "originalSha256": "82bf846813591aeb00ab4694ca4fc80ebcdc776600af681c0676027207959aa3",
+      "archiveSha256": "f84f3c55b75f048dc809809d57c1b2563f08cd54a8ccde0c7ba3a530eecbb70d",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/BACKEND_RUNTIME_VERIFICATION.md",
+      "archive": "docs/archive/2026-11-08/BACKEND_RUNTIME_VERIFICATION.md",
+      "originalSha256": "cff70a558e52015bd0821ccdf681916fff3c1f02568b0b26001896856ef60f48",
+      "archiveSha256": "581168f831244ea44441cf28f93294c7ee96b113d55db904945a16d6305ad3b9",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/FRONTEND_COLOR_TYPOGRAPHY_REVIEW.md",
+      "archive": "docs/archive/2026-11-08/FRONTEND_COLOR_TYPOGRAPHY_REVIEW.md",
+      "originalSha256": "14e6c2086703f310df9ff2814d891f9278d3c54349bf84b8785b76399e536c41",
+      "archiveSha256": "14e6c2086703f310df9ff2814d891f9278d3c54349bf84b8785b76399e536c41",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/FRONTEND_MOTION_REFINEMENT.md",
+      "archive": "docs/archive/2026-11-08/FRONTEND_MOTION_REFINEMENT.md",
+      "originalSha256": "58dc2142247093561eb76562cba2b4c367960317c23d1aaa1037b8342efb3b81",
+      "archiveSha256": "58dc2142247093561eb76562cba2b4c367960317c23d1aaa1037b8342efb3b81",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/FRONTEND_REDESIGN.md",
+      "archive": "docs/archive/2026-11-08/FRONTEND_REDESIGN.md",
+      "originalSha256": "bbca67393b204898a620358762b618ded4fbf2db2d285c29d2e79bdcd4442438",
+      "archiveSha256": "bbca67393b204898a620358762b618ded4fbf2db2d285c29d2e79bdcd4442438",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/FRONTEND_STABILIZATION.md",
+      "archive": "docs/archive/2026-11-08/FRONTEND_STABILIZATION.md",
+      "originalSha256": "0329f96ea51654a1d39352de242a3447891544faa2c6d5df4964a1687b8e4af6",
+      "archiveSha256": "0329f96ea51654a1d39352de242a3447891544faa2c6d5df4964a1687b8e4af6",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/LANDING_REDESIGN.md",
+      "archive": "docs/archive/2026-11-08/LANDING_REDESIGN.md",
+      "originalSha256": "d28b8b3c883dbf92e07ce7c97d56340090135a94db0e7c500da491eedd4e2b47",
+      "archiveSha256": "d28b8b3c883dbf92e07ce7c97d56340090135a94db0e7c500da491eedd4e2b47",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/PHASE_2_ACCEPTANCE.md",
+      "archive": "docs/archive/2026-11-08/PHASE_2_ACCEPTANCE.md",
+      "originalSha256": "6b6a1ecb64f9a7b486837c181e56de55c41140ffe33bf07d25721a2be5b7b807",
+      "archiveSha256": "6b6a1ecb64f9a7b486837c181e56de55c41140ffe33bf07d25721a2be5b7b807",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/PHASE_3_ACCEPTANCE.md",
+      "archive": "docs/archive/2026-11-08/PHASE_3_ACCEPTANCE.md",
+      "originalSha256": "6c904b565051724a1049aa62f3c97fd390a72f96fa051309659976c228e983a8",
+      "archiveSha256": "6c904b565051724a1049aa62f3c97fd390a72f96fa051309659976c228e983a8",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/PHASE_4_ACCEPTANCE.md",
+      "archive": "docs/archive/2026-11-08/PHASE_4_ACCEPTANCE.md",
+      "originalSha256": "e25fcc6eb0b4e50ad22cc930938e31af76de1d0311b3e0be16fcbf9dfc1ae8b6",
+      "archiveSha256": "e25fcc6eb0b4e50ad22cc930938e31af76de1d0311b3e0be16fcbf9dfc1ae8b6",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/PHASE_5_ACCEPTANCE.md",
+      "archive": "docs/archive/2026-11-08/PHASE_5_ACCEPTANCE.md",
+      "originalSha256": "56dedae0357652b087ad89609f4f9b697cd761fdbc3ec3001fcdc4f6a52ce739",
+      "archiveSha256": "56dedae0357652b087ad89609f4f9b697cd761fdbc3ec3001fcdc4f6a52ce739",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/PROMPT_FIRST_REDESIGN.md",
+      "archive": "docs/archive/2026-11-08/PROMPT_FIRST_REDESIGN.md",
+      "originalSha256": "df352e9cc968365959831bf666fc25eb851d841c89eb791c13815353ae44cc3c",
+      "archiveSha256": "df352e9cc968365959831bf666fc25eb851d841c89eb791c13815353ae44cc3c",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/QUICK_FIVE_PHASE_AUDIT.md",
+      "archive": "docs/archive/2026-11-08/QUICK_FIVE_PHASE_AUDIT.md",
+      "originalSha256": "1a92a5de256c23d4d11e1bae8c42de9ab095506251ebe8390f9d2df37cb5f212",
+      "archiveSha256": "1a92a5de256c23d4d11e1bae8c42de9ab095506251ebe8390f9d2df37cb5f212",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/SAAS_DASHBOARD_REDESIGN.md",
+      "archive": "docs/archive/2026-11-08/SAAS_DASHBOARD_REDESIGN.md",
+      "originalSha256": "30462526a203c12498ba69a208023edde245c660de0240443185989e059b01a1",
+      "archiveSha256": "30462526a203c12498ba69a208023edde245c660de0240443185989e059b01a1",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    },
+    {
+      "original": "docs/DOCUMENTATION_MAP.md",
+      "archive": "docs/archive/2026-11-08/DOCUMENTATION_MAP.md",
+      "originalSha256": "50b617e6d55ad88e2768443b74a88b7778d3fc93cd0d5a79b6d7a0be6928f8f1",
+      "archiveSha256": "5313b517c912ab12c9df7a95b06695a81ccec11ec9b7764fff82e6af6bf63d6d",
+      "changes": "Relative Markdown link targets rebased. All other text preserved."
+    }
+  ]
+}
