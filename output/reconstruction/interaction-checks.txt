@@ -1,0 +1,11 @@
+### Result
+"Post-fix interaction captures and print regenerated"
+### Ran Playwright code
+```js
+await (async (page) => {await page.goto("http://127.0.0.1:5202/app");await page.evaluate(()=>{localStorage.setItem("locale","en");localStorage.setItem("theme","light")});await page.setViewportSize({width:1440,height:1000});await page.goto("http://127.0.0.1:5202/app/analyses/90d93a2492644baa9ce4460957296432/report");await page.locator(".report-document").waitFor();await page.pdf({path:"output/reconstruction/report-print.pdf",format:"A4",printBackground:true});await page.goto("http://127.0.0.1:5202/app/analyses/90d93a2492644baa9ce4460957296432/council");await page.getByRole("heading",{name:"Main findings",exact:true}).waitFor();await page.getByRole("navigation",{name:"Reviewer perspectives"}).getByRole("button").nth(1).click();await page.getByText("Full reviewer explanation",{exact:true}).click();await page.screenshot({path:".impeccable/review/reconstruction/council-statistical-expanded.png",fullPage:true});await page.goto("http://127.0.0.1:5202/app/analyses/new");await page.getByRole("button",{name:"Source link",exact:true}).click();await page.evaluate(()=>document.activeElement?.blur());await page.screenshot({path:".impeccable/review/reconstruction/composer-source-open.png",fullPage:true});return "Post-fix interaction captures and print regenerated";})(page);
+```
+### Page
+- Page URL: http://127.0.0.1:5202/app/analyses/new
+- Page Title: New investigation — EvidenceTwin Council
+### Events
+- New console entries: .playwright-cli/console-2026-11-07T17-59-59-790Z.log#L54-L57

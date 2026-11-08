@@ -1,0 +1,17 @@
+{
+  "composer": {
+    "menuHeightBefore": 626.078125,
+    "menuHeightAfter": 626.078125,
+    "mobileComposerOverflow": false,
+    "questionHeight": 253.1875,
+    "action": {
+      "top": 686.65625,
+      "bottom": 744.65625,
+      "viewport": 844
+    }
+  },
+  "results": {
+    "mobileResultsOverflow": false,
+    "reportOverflow": false
+  }
+}

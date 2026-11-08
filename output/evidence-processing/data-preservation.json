@@ -1,0 +1,15 @@
+{
+  "preexistingRecordCount": 13,
+  "changedPreexistingRecords": [],
+  "allOriginalFileHashesMatch": true,
+  "originalFileReferencesChecked": 20,
+  "historicalProcessingRemainsLegacy": true,
+  "savedCasePreviewVersion": "descriptive-evidence/1",
+  "savedCaseComparisonCount": 0,
+  "diabetesCasePreview": {
+    "version": "descriptive-evidence/1",
+    "rowCount": 455,
+    "comparisons": 1,
+    "difference": "8.7"
+  }
+}

@@ -1,0 +1,54 @@
+.root .unified-report-reader{grid-template-areas:"tools tools" "document contents";grid-template-columns:minmax(0,860px) minmax(150px,200px);gap:20px 36px}
+.root .unified-report-reader .report-toolbar{grid-area:tools;margin:0}
+.root .unified-report-reader .report-translation-controls{grid-area:translation;margin:0 0 12px;border:0;padding:16px 20px;background:var(--surface);border-radius:12px}
+.root .unified-report-reader .report-document{grid-area:document;border:0;border-radius:12px;background:var(--paper);padding:36px 42px;max-inline-size:none}
+.root .unified-report-reader .report-contents{grid-area:contents}
+.root .unified-report-reader .report-contents-mobile{display:none}
+.root .unified-report-reader .report-masthead{border:0;padding-block-end:12px}
+.root .unified-report-reader .report-masthead>span{font-size:.8125rem;color:var(--muted)}
+.root .unified-report-reader .report-heading{padding-block:24px 12px}
+.root .unified-report-reader .report-heading h2{font-size:1.5rem;line-height:1.6;max-inline-size:52ch;text-wrap:pretty}
+.root .unified-report-reader .report-section{margin-block:32px}
+.root .unified-report-reader .report-section-heading h3{font-size:1.125rem;margin-block:0 14px}
+.root .unified-report-reader .report-body{font-size:1rem;line-height:1.9;max-inline-size:70ch;white-space:pre-line}
+.root .unified-report-reader .report-executive-finding{padding:24px;background:var(--accent-soft);border-radius:12px}
+.root .unified-report-reader .report-executive-finding .report-body p:last-child{margin-block-end:0}
+.root .unified-report-reader .report-review-contribution{font-size:.9375rem;line-height:1.8}
+.root .unified-report-reader .report-review-contribution .report-body{margin-block-start:14px}
+.root .unified-report-reader .report-section:has(.report-review-contribution){margin-block:24px;padding-block-end:18px;border-block-end:1px solid var(--line)}
+.root .report-machine-label{font-size:.875rem;line-height:1.8;font-weight:600;color:var(--color-accent-text)}
+.root .report-recorded-plots .evidence-comparison{margin-block:24px;padding:20px;background:var(--surface)}
+@media(max-width:1150px){.root .unified-report-reader{grid-template-columns:1fr;grid-template-areas:"tools" "document"}.root .unified-report-reader .report-contents{display:none}.root .unified-report-reader .report-contents-mobile{display:block;grid-area:contents;font-size:.875rem}.root .unified-report-reader .report-contents-mobile nav{display:grid;gap:12px;margin-block:16px}.root .unified-report-reader .report-document{padding:28px}}
+@media(max-width:600px){.root .unified-report-reader .report-document{padding:22px 4px}.root .unified-report-reader .report-executive-finding{padding:20px}.root .unified-report-reader .report-heading h2{font-size:1.25rem}.root .unified-report-reader .report-translation-controls{padding:16px}.root .unified-report-reader .coverage-explanations>div{grid-template-columns:1fr}.root .unified-report-reader .report-section-heading h3{font-size:1.0625rem}}
+@media print{.root .unified-report-reader{display:block}.root .unified-report-reader .report-document{padding:0!important;border:0;background:white;color:black}.root .unified-report-reader .report-translation-controls,.root .unified-report-reader .report-contents-mobile{display:none}.root .unified-report-reader .report-executive-finding{background:none;padding:0}.root .report-review-contribution>*{display:block}.root .report-review-contribution summary{display:none}.root .report-machine-label{display:block;color:black}.root .report-recorded-plots details>*{display:block}.root .report-recorded-plots figure{break-inside:avoid}}
+
+.root .unified-report-reader .report-translation-options{font-size:.875rem}
+.root .unified-report-reader .report-translation-options>summary{cursor:pointer;min-block-size:40px;padding:8px 10px}
+.root .unified-report-reader .report-translation-options[open]{flex-basis:100%}
+.root .unified-report-reader .report-translation-options .report-translation-controls{margin-block:12px 0}
+.root .unified-report-reader .report-heading h2{display:none}
+.root .unified-report-reader .report-heading{padding-block:8px}
+.root .unified-report-reader .report-heading dl{margin-block:6px 10px}
+.root .unified-report-reader .report-heading details{margin-block:10px}
+.root .unified-report-reader .report-section.report-executive-finding{margin-block-start:16px}
+.root .report-retained-language{font-size:.8125rem;color:var(--muted);line-height:1.8}
+@media print{
+ .root .unified-report-reader .report-heading h2{display:block}
+ .root .unified-report-reader .report-record-appendix>*{display:block}
+ .root .unified-report-reader .report-record-appendix summary{display:none}
+ .root .unified-report-reader .brand-logo__light{display:block!important}
+ .root .unified-report-reader .brand-logo__dark{display:none!important}
+ .root .unified-report-reader{--muted:#444;--ink:#111;--surface:#fff;--paper:#fff;--line:#ccc;--color-accent-text:#222}
+}
+.root .unified-report-reader .report-document-metadata{font-size:.8125rem;color:var(--muted);padding:6px 0}
+.root .unified-report-reader .report-document-metadata>summary{cursor:pointer;min-block-size:32px}
+.root .unified-report-reader .report-masthead{padding-block-end:6px}
+@media(max-width:600px){.root .unified-report-reader .report-toolbar{gap:8px}.root .unified-report-reader .report-toolbar>button,.root .unified-report-reader .report-translation-options>summary{font-size:.8125rem;padding-inline:10px;min-block-size:40px}.root .unified-report-reader .report-masthead .brand-logo{max-inline-size:150px}.root .unified-report-reader .report-document{padding-block-start:14px}}
+@media print{.root .unified-report-reader .report-document-metadata>summary{display:none}}
+
+.root .unified-report-reader .report-document>.report-contents-mobile{margin-block:24px}
+.root .report-visual-evidence{margin-block:18px 24px}
+.root .report-visual-evidence figure{margin:0 0 18px}
+.root .report-visual-evidence img{display:block;inline-size:100%;max-block-size:340px;object-fit:contain;background:var(--paper);border-radius:8px}
+.root .report-visual-evidence figcaption,.root .report-visual-evidence>p{font-size:.8125rem;line-height:1.8;color:var(--muted)}
+@media print{.root .report-visual-evidence figure{break-inside:avoid}}

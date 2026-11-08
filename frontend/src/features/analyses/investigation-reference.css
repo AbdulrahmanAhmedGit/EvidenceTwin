@@ -1,0 +1,89 @@
+/* Approved investigation composition. All values stay scoped to the entry surface. */
+.root:has(.research-entry){
+ --investigation-composer-top:#fff;--investigation-composer-bottom:#f5f8ff;
+ --investigation-composer-border:#8ea5d3;--investigation-wave:#416bc5;
+ --investigation-example:#fff;--investigation-example-hover:#f0f4ff;
+ --investigation-health:#7554b8;--investigation-environment:#287b64;--investigation-medicine:#95631b;
+}
+.root.dark:has(.research-entry){
+ --color-bg-page:#101722;--color-bg-navigation:#0d1420;--color-bg-surface:#1c2535;--color-bg-secondary:#202b3c;
+ --color-border-separator:#303d53;--color-border-control:#536883;
+ --color-text-primary:#f0f3fa;--color-text-secondary:#bcc7da;
+ --color-accent-solid:#96b5ff;--color-accent-solid-hover:#b4caff;--color-accent-subtle:#233456;--color-accent-text:#adc6ff;
+ --investigation-composer-top:#232e40;--investigation-composer-bottom:#1a2230;
+ --investigation-composer-border:#5c79b6;--investigation-wave:#3e6fdc;
+ --investigation-example:#1d2635;--investigation-example-hover:#253249;
+ --investigation-health:#ba93f1;--investigation-environment:#65c4a5;--investigation-medicine:#e7b65f;
+}
+.root:has(.research-entry) .breadcrumbs{display:none}
+.root:has(.research-entry) .workspace-header-context{color:var(--ink);font-size:.9375rem}
+.root:has(.research-entry) .app-layout>aside{background:var(--color-bg-navigation)}
+.root:has(.research-entry) .app-layout>aside>a.active{background:var(--accent-soft);color:var(--color-accent-text);border-radius:8px}
+.root .research-entry{position:relative;isolation:isolate;overflow:hidden;max-inline-size:none;margin:0;padding:56px 44px 64px;min-block-size:calc(100dvh - var(--header-height))}
+.root .research-entry::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 50% 18%,color-mix(in srgb,var(--investigation-wave) 7%,transparent),transparent 65%)}
+.root .research-entry-content{position:relative;max-inline-size:1124px;margin-inline:auto}
+.root .investigation-introduction{position:relative;display:block;block-size:auto;min-block-size:0;padding:0;border:0;background:none;text-align:center}
+.root .investigation-context{display:inline-flex;align-items:center;gap:9px;padding:8px 16px;border:1px solid color-mix(in srgb,var(--accent) 16%,transparent);border-radius:24px;background:var(--accent-soft);color:var(--color-accent-text);font-size:.9375rem;font-weight:650;line-height:1.7}
+.root .investigation-context svg{flex:none}
+.root .research-entry h1{font-size:clamp(1.75rem,2.55vw,2.625rem);line-height:1.3;font-weight:750;letter-spacing:-.035em;margin:18px 0 12px;text-wrap:balance}
+.root .research-entry-intro{font-size:1.25rem;line-height:1.55;max-inline-size:850px;color:var(--muted);margin:0 auto 48px;text-wrap:pretty}
+.root .investigation-atmosphere{position:absolute;inset-block-start:56px;inset-inline-start:0;inline-size:100%;block-size:470px;z-index:-1;pointer-events:none;stroke:var(--investigation-wave);stroke-width:1;stroke-dasharray:1 5;opacity:.3;mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.root.dark .investigation-atmosphere{opacity:.55}
+.root .research-entry .research-form{max-inline-size:none}
+.root .research-entry .research-composer{border:1px solid var(--investigation-composer-border);border-radius:22px;background:linear-gradient(125deg,var(--investigation-composer-top),var(--investigation-composer-bottom));box-shadow:0 16px 38px #03091a0b}
+.root.dark .research-entry .research-composer{box-shadow:0 16px 38px #03091426}
+.root .research-entry .research-composer:focus-within{border-color:var(--accent)}
+.root .research-entry .composer-writing{padding:24px 26px 0}
+.root .research-entry .research-question{min-block-size:124px;font-size:1.1875rem;line-height:1.75;padding:0 0 8px;background:none;border:0;box-shadow:none}
+.root .research-entry .composer-action-row{padding:0 22px 22px;gap:16px}
+.root .research-entry .composer-tools{gap:10px;flex-wrap:wrap}
+.root .research-entry .composer-tools button{min-block-size:44px;padding:9px 13px;font-size:.875rem;border:1px solid var(--line);background:color-mix(in srgb,var(--paper) 40%,transparent);border-radius:13px;gap:8px}
+.root .research-entry .composer-tools button:hover{background:var(--surface);border-color:var(--color-border-control)}
+.root .research-entry .composer-tools .composer-add{inline-size:auto}
+.root .research-entry .composer-tools .composer-review-trigger{border-color:transparent;background:none;padding-inline:10px;color:var(--muted);gap:8px}
+.root .research-entry .composer-tools button[aria-expanded=true]{background:var(--accent-soft);color:var(--color-accent-text);border-color:var(--investigation-composer-border)}
+.root .research-entry .composer-start{min-block-size:48px;padding:11px 20px;font-size:.9375rem;border-radius:14px;gap:16px}
+.root .research-entry .composer-feedback{padding-inline:26px}
+.root .investigation-save-note{font-size:.75rem;color:var(--muted);text-align:center;margin:12px auto 0;line-height:1.7}
+.root .research-entry .evidence-selection{padding-block:0 10px;margin-block-end:16px;gap:12px}
+.root .research-entry .evidence-selection li{inline-size:168px;min-inline-size:168px;border-radius:12px;background:var(--surface);border-color:var(--line)}
+.root .research-entry .evidence-selection li>div{font-size:.8125rem;padding-inline:10px}
+.root .research-entry .evidence-selection li>div>bdi,.root .research-entry .evidence-selection li>div>a{max-inline-size:148px}
+.root .research-entry .evidence-selection small{font-size:.6875rem;line-height:1.7}
+.root .research-entry .upload-preview,.root .research-entry .attachment-dataset-preview,.root .research-entry .evidence-selection .attachment-file-icon{block-size:100px;background:var(--paper)}
+.root .research-entry .preview-table-row{font-size:7px;line-height:13px}
+.root .research-entry .evidence-selection button{min-block-size:30px;min-inline-size:30px;border-radius:7px}
+.root .investigation-examples{margin-block-start:52px}
+.root .investigation-examples-heading{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-block-end:18px}
+.root .investigation-examples h2{font-size:1.1875rem;line-height:1.5;margin:0;letter-spacing:-.02em;font-weight:700}
+.root .investigation-examples-heading>span{font-size:.8125rem;color:var(--muted)}
+.root .investigation-prompt-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
+.root .investigation-prompt{display:flex;align-items:flex-start;text-align:start;gap:14px;padding:17px 16px;background:var(--investigation-example);border:1px solid var(--line);border-radius:16px;min-inline-size:0;min-block-size:112px;font-weight:400;box-shadow:none}
+.root .investigation-prompt:hover:not(:disabled){background:var(--investigation-example-hover);border-color:var(--color-border-control)}
+.root .investigation-prompt>span:last-child{min-inline-size:0}
+.root .investigation-prompt strong{display:block;font-size:.875rem;font-weight:700;line-height:1.5;margin-block-end:6px;color:var(--ink)}
+.root .investigation-prompt>span>span{display:block;font-size:.8125rem;line-height:1.65;color:var(--muted)}
+.root .investigation-prompt-icon{display:grid;place-items:center;inline-size:44px;block-size:44px;flex:none;border-radius:12px;background:var(--accent-soft);color:var(--color-accent-text)}
+.root .prompt-health .investigation-prompt-icon{color:var(--investigation-health);background:color-mix(in srgb,var(--investigation-health) 13%,transparent)}
+.root .prompt-environment .investigation-prompt-icon{color:var(--investigation-environment);background:color-mix(in srgb,var(--investigation-environment) 13%,transparent)}
+.root .prompt-medicine .investigation-prompt-icon{color:var(--investigation-medicine);background:color-mix(in srgb,var(--investigation-medicine) 13%,transparent)}
+.root .investigation-example-note{font-size:.75rem;color:var(--muted);line-height:1.8;margin-block:16px 0}
+.root .example-replacement{font-size:.875rem;margin-block-start:18px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.root .example-replacement p{flex-basis:100%;margin:0 0 4px}
+.root .example-replacement button{font-size:.8125rem;padding:8px 12px;min-block-size:40px}
+.root[dir=rtl] .research-entry h1{font-size:clamp(2rem,2.7vw,2.75rem);letter-spacing:0;line-height:1.5;margin-block:12px}
+.root[dir=rtl] .research-entry-intro{line-height:1.8;max-inline-size:750px}
+@media(min-width:1500px){.root .investigation-examples{margin-inline:-60px}}
+@media(max-width:1200px){.root .research-entry{padding:44px 28px 60px}.root .research-entry-intro{font-size:1.125rem;margin-block-end:36px}.root .investigation-prompt-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.root .research-entry .composer-tools{gap:6px}.root .research-entry .composer-tools button{font-size:.8125rem;padding-inline:10px}.root .research-entry .composer-start{padding-inline:16px}.root .research-entry .composer-action-row{gap:8px}}
+@media(max-width:760px){.root .research-entry{padding:30px 20px 44px}.root .investigation-context{font-size:.8125rem;padding:6px 12px}.root .research-entry h1{font-size:1.875rem;margin-block:20px 12px;line-height:1.35}.root .research-entry-intro{font-size:1rem;line-height:1.8;margin-block-end:30px}.root .research-entry .composer-writing{padding:18px 18px 0}.root .research-entry .research-question{min-block-size:108px;font-size:1.0625rem}.root .research-entry .composer-action-row{padding:0 12px 14px;gap:6px;align-items:flex-end}.root .research-entry .composer-tools{gap:3px;flex-wrap:nowrap}.root .research-entry .composer-tools button{padding:8px;min-inline-size:38px;border-radius:10px}.root .research-entry .composer-add>span,.root .research-entry .composer-source-trigger>span{display:none}.root .research-entry .composer-review-trigger{max-inline-size:120px;font-size:.75rem;overflow:hidden;white-space:nowrap}.root .research-entry .composer-start{min-block-size:44px;padding:8px 12px;border-radius:11px;gap:6px}.root .research-entry .composer-submit-short{font-size:.8125rem}.root .investigation-save-note{font-size:.6875rem;max-inline-size:34ch}.root .investigation-atmosphere{inset-block-start:80px;block-size:400px;opacity:.25}.root .investigation-examples{margin-block-start:36px}.root .investigation-examples-heading{align-items:flex-start;flex-direction:column;gap:4px;margin-block-end:16px}.root .investigation-examples h2{font-size:1.125rem}.root .investigation-prompt-grid{gap:12px}.root .investigation-prompt{padding:14px;gap:10px}.root .investigation-prompt-icon{inline-size:36px;block-size:36px;border-radius:10px}.root .investigation-prompt-icon svg{inline-size:22px;block-size:22px}.root[dir=rtl] .research-entry h1{font-size:2rem;line-height:1.6}.root[dir=rtl] .research-entry-intro{line-height:1.9}}
+@media(max-width:520px){.root .investigation-prompt-grid{grid-template-columns:minmax(0,1fr)}.root .investigation-prompt{min-block-size:100px}.root .investigation-prompt>span>span{font-size:.875rem}.root .investigation-prompt strong{font-size:.9375rem}.root .research-entry .composer-start svg{display:none}.root .research-entry .composer-review-trigger{max-inline-size:106px}.root .research-entry .composer-tools button{min-inline-size:34px;padding-inline:6px}.root .research-entry .composer-action-row{padding-inline:10px}}
+.root .composer-upload-invitation{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-block-end:16px}
+.root .composer-upload-invitation button{display:inline-flex;align-items:center;gap:9px;background:var(--accent-soft);color:var(--color-accent-text);border-color:var(--line);border-radius:12px;font-size:.875rem;padding:10px 14px}
+.root .composer-upload-invitation>span{font-size:.75rem;color:var(--muted)}
+.root .research-entry .chart-first-composer:has(.composer-upload-invitation) .research-question{min-block-size:72px;font-size:1.0625rem}
+.root .investigation-workflow{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px;margin-block:22px 8px;font-size:.8125rem;font-weight:600;color:var(--color-accent-text)}
+.root .investigation-workflow>span{display:inline-flex;gap:12px;align-items:center}
+.root .investigation-workflow>span>span{font-weight:400;color:var(--muted)}
+.root .investigation-method-status{font-size:.75rem;color:var(--muted);text-align:center;max-inline-size:85ch;line-height:1.8;margin:0 auto}
+.root .investigation-examples{margin-block-start:36px}
+@media(max-width:760px){.root .composer-upload-invitation{gap:8px}.root .composer-upload-invitation>span{font-size:.6875rem}.root .investigation-workflow{gap:6px;font-size:.75rem}.root .investigation-workflow>span{gap:6px}}

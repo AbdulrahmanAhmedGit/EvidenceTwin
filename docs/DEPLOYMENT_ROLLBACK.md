@@ -1,0 +1,27 @@
+# Runtime, deployment and rollback
+
+Current supported execution is a single local Flask process with SQLite/private files and local thread workers. No hosted service was deployed, production database migrated or paid provider invoked by this transformation. The isolated PostgreSQL package has no HTTP cutover. Its detailed disposable test/migration instructions remain in [backend/README.md](../backend/README.md); do not run them against application data.
+
+Accounts-disabled mode grants a single local operator; keep it on loopback. Optional `EVIDENCETWIN_ACCOUNTS=1` enables invitations, sessions and server ownership checks, but does not establish hosted pilot readiness. For any separately authorized HTTPS deployment use same-origin API forwarding, an SPA fallback for non-API deep links, secure cookies (`EVIDENCETWIN_SECURE_COOKIES=1`), protected server session material, private data storage and reviewed operations. Existing CORS does not support credentialed cross-origin accounts. Flask development server instructions are local development instructions.
+
+Account administration while the server is running uses `.venv/bin/python -m evidencetwin_backend.accounts invite-researcher --name NAME [--operator]` or `disable-researcher --name NAME` from `backend/`. Flask app-factory account commands remain compatible only with the workspace service stopped. Passwords are prompted, never passed in arguments.
+
+Server values: `EVIDENCETWIN_DATA_DIRECTORY`, `EVIDENCETWIN_ACCOUNTS`, `EVIDENCETWIN_SESSION_SECRET`, `EVIDENCETWIN_SECURE_COOKIES`, provider/model/key configuration. Local queue defaults are two worker threads and sixteen pending slots (`EVIDENCETWIN_WORKERS`, `EVIDENCETWIN_QUEUE_LIMIT`); these are not shared multi-process quotas or pilot spend guarantees. External calls may remain uncertain after failure/cancellation; inspect recorded state instead of automatically dispatching a replacement.
+
+## Preserve before change
+
+Before a binary/runtime/account-mode change, record the exact code revision, configuration names and private data-root location. Stop new writes and wait for active jobs/external calls to settle; record anything still uncertain. Stop the one application process before copying the whole data root. Preserve the SQLite database and any WAL/SHM sidecars, uploads, private `ai-settings.json`, `session.key`, ownership/revisions/events/reports together, plus required server secret environment through an approved private mechanism. Restrict backup permissions; never place credentials or private research in public artifacts. Copying only SQLite is not an evidence-consistent backup. Verify a backup against a disposable restore and original byte/hash/ownership counts before relying on it.
+
+No destructive database migration is part of this increment. New record kinds coexist with original analysis/benchmark records. Pre-account legacy rows without `ownerId` stay operator-only. Newly saved local-mode rows have `ownerId='local'` and are not imported into any account. Switch back to local mode to access those local records until an explicit reviewed ownership migration exists. Do not assign them on first login or edit ownership manually.
+
+## Rollback
+
+Stop the server and preserve the post-change data separately. Restore the matched prior source/build and coordinated private data/configuration snapshot into a private directory, verify paths/permissions and hashes, then start one loopback process and inspect real record/file/report access. Do not use old binaries to write a newer data root: earlier code may not understand account/revision retention or ownership. Preserve all post-snapshot research for an explicit reconciliation; a restore must not silently discard it. Retain active-call uncertainty until resolved. Changing `EVIDENCETWIN_ACCOUNTS` alone is not a reviewed data migration.
+
+The pre-transformation source snapshot at `output/transformation/source-before.tar.gz` and documentation inventory support change review; they are not a replacement for a coordinated private runtime-data backup. No actual restore drill is claimed here. Hosted cutover, retention/deletion rules, backup schedules/RPO/RTO, external identity integration, quota/spend controls and private-pilot approval remain open under the [gate register](designs/backend-completion/TECHNICAL_PLAN_GATES.md).
+
+A private pre-change runtime copy was created at `backend/instance/backups/2026-11-07-before-transformation/` while the original workspace service was stopped. It contains SQLite, uploads and existing runtime configuration. The two original analysis record bodies match that copy exactly (`output/transformation/data-preservation.json`). No restore drill was performed; preserve and reconcile any later research before considering rollback.
+
+## 2026-11-08 evidence-processing activation
+
+The local service was stopped after confirming zero active jobs. A coordinated private copy was made at `backend/instance/backups/2026-11-08-before-evidence-processing/`, excluding prior backup directories and the ephemeral worker lock. The existing environment and account mode were preserved on restart. All 13 pre-existing record bodies and 20 original file references retained their hashes, as recorded in `output/evidence-processing/data-preservation.json`. No schema or ownership migration occurred. This was a preservation check, not a restore drill. Retain later research and source artifacts separately before any rollback, and use the coordinated restoration procedure above.

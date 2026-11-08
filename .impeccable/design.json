@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-08T15:43:21.523352+00:00",
+  "title": "Design System: EvidenceTwin Council",
+  "extensions": {
+    "colorMeta": {
+      "bg-page": {
+        "role": "neutral",
+        "displayName": "Bg Page",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "bg-surface": {
+        "role": "neutral",
+        "displayName": "Bg Surface",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "bg-secondary": {
+        "role": "neutral",
+        "displayName": "Bg Secondary",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "bg-navigation": {
+        "role": "neutral",
+        "displayName": "Bg Navigation",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "text-primary": {
+        "role": "neutral",
+        "displayName": "Text Primary",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "text-secondary": {
+        "role": "neutral",
+        "displayName": "Text Secondary",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "border-separator": {
+        "role": "neutral",
+        "displayName": "Border Separator",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "border-control": {
+        "role": "neutral",
+        "displayName": "Border Control",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "accent-solid": {
+        "role": "primary",
+        "displayName": "Accent Solid",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "accent-solid-hover": {
+        "role": "primary",
+        "displayName": "Accent Solid Hover",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "accent-subtle": {
+        "role": "primary",
+        "displayName": "Accent Subtle",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "accent-text": {
+        "role": "primary",
+        "displayName": "Accent Text",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "text-on-accent": {
+        "role": "primary",
+        "displayName": "Text On Accent",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "warning-text": {
+        "role": "semantic",
+        "displayName": "Warning Text",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "danger-text": {
+        "role": "semantic",
+        "displayName": "Danger Text",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "data-series-a": {
+        "role": "semantic",
+        "displayName": "Data Series A",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "data-series-b": {
+        "role": "semantic",
+        "displayName": "Data Series B",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "focus-ring": {
+        "role": "semantic",
+        "displayName": "Focus Ring",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-focus-ring": {
+        "role": "semantic",
+        "displayName": "Dark Focus Ring",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-bg-page": {
+        "role": "neutral",
+        "displayName": "Dark Bg Page",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-bg-surface": {
+        "role": "neutral",
+        "displayName": "Dark Bg Surface",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-bg-secondary": {
+        "role": "neutral",
+        "displayName": "Dark Bg Secondary",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-bg-navigation": {
+        "role": "neutral",
+        "displayName": "Dark Bg Navigation",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-text-primary": {
+        "role": "neutral",
+        "displayName": "Dark Text Primary",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-text-secondary": {
+        "role": "neutral",
+        "displayName": "Dark Text Secondary",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-border-separator": {
+        "role": "neutral",
+        "displayName": "Dark Border Separator",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-border-control": {
+        "role": "neutral",
+        "displayName": "Dark Border Control",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-accent-solid": {
+        "role": "primary",
+        "displayName": "Dark Accent Solid",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-accent-solid-hover": {
+        "role": "primary",
+        "displayName": "Dark Accent Solid Hover",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-accent-subtle": {
+        "role": "primary",
+        "displayName": "Dark Accent Subtle",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-accent-text": {
+        "role": "primary",
+        "displayName": "Dark Accent Text",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-text-on-accent": {
+        "role": "primary",
+        "displayName": "Dark Text On Accent",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-warning-text": {
+        "role": "semantic",
+        "displayName": "Dark Warning Text",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-danger-text": {
+        "role": "semantic",
+        "displayName": "Dark Danger Text",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-data-series-a": {
+        "role": "semantic",
+        "displayName": "Dark Data Series A",
+        "source": "frontend/src/styles/precision.css"
+      },
+      "dark-data-series-b": {
+        "role": "semantic",
+        "displayName": "Dark Data Series B",
+        "source": "frontend/src/styles/precision.css"
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Application heading",
+        "purpose": "Bounded 26px application titles; mobile 24px. Creation invitation is 28px desktop."
+      },
+      "question": {
+        "displayName": "Research question",
+        "purpose": "Composer text; original scientific wording and direction preserved."
+      }
+    },
+    "shadows": [
+      {
+        "name": "dialog",
+        "value": "0 20px 80px #11182730",
+        "purpose": "Dialog elevation; backdrop #11182780 without blur."
+      },
+      {
+        "name": "composer-focus",
+        "value": "0 0 0 2px var(--accent-soft)",
+        "purpose": "Composer focus within; forced colors also supplies a Highlight outline."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control",
+        "value": "150ms ease",
+        "purpose": "Control color/border transitions; removed under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "report-and-inspection-reflow",
+        "value": "1150px"
+      },
+      {
+        "name": "case-rail-stack",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "results-stack",
+        "value": "900px"
+      }
+    ],
+    "notes": [
+      "Extracted from current reconstruction CSS; frontend/src/styles/precision.css owns semantic tokens.",
+      "No synthetic tonal ramps: light/dark semantic values are shipped; an eight-step runtime scale is absent.",
+      "Shared controls have 7px radii; navigation retains 4px. Compact contextual actions have their own target sizes.",
+      "Evidence findings use existing surface/accent/muted/line aliases. Proportional bars carry no scaled labels. Readable DOM labels and exact reported values precede the bars, with exact observations, method and provenance disclosed separately. Processing coverage remains distinct from scientific claim assessment. Council uses structured findings and explicitly labeled AI positions with legacy output fallback."
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary button extracted from current workspace styles.",
+      "html": "<button class=\"ds-primary\">Save revision</button>",
+      "css": ".ds-primary{font-family:var(--font-body,Manrope,sans-serif);font-size:.875rem;line-height:1.5;font-weight:600;min-height:44px;padding:10px 16px;border:1px solid var(--line,#dce1e9);border-radius:7px;background:var(--accent,#3159bb);color:var(--on-accent,#fff);transition:background-color 150ms ease,border-color 150ms ease,color 150ms ease}.ds-primary:hover{background:var(--accent-hover,#244596)}.ds-primary:focus-visible{outline:3px solid var(--accent,#3159bb);outline-offset:3px}.ds-primary:disabled{opacity:.6}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary button extracted from current workspace styles.",
+      "html": "<button class=\"ds-secondary\">Save revision</button>",
+      "css": ".ds-secondary{font-family:var(--font-body,Manrope,sans-serif);font-size:.875rem;line-height:1.5;font-weight:600;min-height:44px;padding:10px 16px;border:1px solid var(--line,#dce1e9);border-radius:7px;background:var(--paper,#fff);color:var(--ink,#202737);transition:background-color 150ms ease,border-color 150ms ease,color 150ms ease}.ds-secondary:hover{background:var(--surface,#f1f3f6)}.ds-secondary:focus-visible{outline:3px solid var(--accent,#3159bb);outline-offset:3px}.ds-secondary:disabled{opacity:.6}"
+    },
+    {
+      "name": "Text field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Text field extracted from current workspace styles.",
+      "html": "<label class=\"ds-label\">Source title<input class=\"ds-field\" placeholder=\"Optional reference\"></label>",
+      "css": ".ds-label{display:grid;gap:8px;font-family:var(--font-body,Manrope,sans-serif);font-size:.875rem;line-height:1.5;}.ds-field{font-family:var(--font-body,Manrope,sans-serif);font-size:.875rem;line-height:1.5;padding:11px 12px;border:1px solid var(--color-border-control,#8793a6);border-radius:7px;background:var(--paper,#fff);color:var(--ink,#202737)}.ds-field:hover{border-color:var(--color-border-control,#8793a6)}.ds-field:focus{border-color:var(--accent,#3159bb)}.ds-field:focus-visible{outline:3px solid var(--accent,#3159bb);outline-offset:3px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Navigation extracted from current workspace styles.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Cases</a><a href=\"#\">Council reviews</a></nav>",
+      "css": ".ds-nav{display:grid;background:var(--color-bg-navigation,#f1f3f6);padding:12px;gap:4px}.ds-nav a{font-family:var(--font-body,Manrope,sans-serif);font-size:.875rem;line-height:1.5;display:block;min-height:44px;padding:11px 12px;color:var(--ink,#202737);text-decoration:none;border-radius:4px}.ds-nav a[aria-current]{background:var(--paper,#fff);color:var(--color-accent-text,#2a50ad);font-weight:700}.ds-nav a:hover{background:var(--accent-soft,#e5ebfb)}.ds-nav a:focus-visible{outline:3px solid var(--accent,#3159bb);outline-offset:3px}"
+    },
+    {
+      "name": "Status label",
+      "kind": "chip",
+      "refersTo": "status",
+      "description": "Status label extracted from current workspace styles.",
+      "html": "<span class=\"ds-status\"><span class=\"ds-dot\"></span>Running</span>",
+      "css": ".ds-status{display:inline-flex;align-items:center;gap:7px;padding:0;font:500 .8125rem/1.6 var(--font-body,Manrope,sans-serif);color:var(--color-accent-text,#2a50ad)}.ds-dot{width:6px;height:6px;border-radius:50%;background:currentColor}"
+    },
+    {
+      "name": "Question composer",
+      "kind": "custom",
+      "refersTo": "composer",
+      "description": "Compact question composer with actual attachment thumbnails above the question and anchored top-layer popovers. Runtime auto-sizes from 56px to min(340px, 40vh), or min(340px, 30vh) below 600px. Explicit expansion uses 65vh. CSV thumbnails show first complete records from a bounded local read.",
+      "html": "<div class=\"ds-composer\"><textarea class=\"ds-question\" aria-label=\"Scientific question\" placeholder=\"Ask a research question…\"></textarea><div class=\"ds-composer-footer\"><div class=\"ds-tools\"><button aria-label=\"Add supporting information\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg></button><button>Visual review</button></div><button class=\"ds-create\">Create investigation</button></div></div>",
+      "css": ".ds-composer{border:1px solid var(--color-border-control,#8793a6);border-radius:12px;background:var(--paper,#fff);color:var(--ink,#202737)}.ds-composer:focus-within{border-color:var(--accent,#3159bb)}.ds-question{box-sizing:border-box;width:100%;min-height:56px;max-height:min(340px,40vh);resize:none;border:0;background:transparent;color:inherit;padding:14px 18px 8px;font:400 1.0625rem/1.75 var(--font-body,Manrope,sans-serif);unicode-bidi:plaintext}.ds-composer-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 12px 12px;font:.8125rem var(--font-body,Manrope,sans-serif)}.ds-tools{display:flex;align-items:center;gap:4px}.ds-tools button{font:500 .8125rem var(--font-body,Manrope,sans-serif);border:0;border-radius:7px;padding:8px 10px;min-height:40px;background:transparent;color:inherit}.ds-tools button:hover{background:var(--surface,#f1f3f6)}.ds-create{background:var(--accent,#3159bb);color:var(--on-accent,#fff);border:0;border-radius:7px;padding:9px 12px;min-height:40px;font:600 .8125rem var(--font-body,Manrope,sans-serif)}.ds-create:hover{background:var(--accent-hover,#244596)}.ds-composer :focus-visible{outline:2px solid var(--accent,#3159bb);outline-offset:3px}@media(max-width:599px){.ds-question{max-height:min(340px,30vh)}}"
+    },
+    {
+      "name": "Case record",
+      "kind": "card",
+      "refersTo": "case-record",
+      "description": "Case record extracted from current workspace styles.",
+      "html": "<article class=\"ds-record\"><h3>Scientific question</h3><p>Saved revision · 2 evidence files</p><a href=\"#\">Open case</a></article>",
+      "css": ".ds-record{border:1px solid transparent;border-radius:8px;background:var(--paper,#fff);padding:20px 24px;color:var(--ink,#202737);font-family:var(--font-body,Manrope,sans-serif)}.ds-record:hover{border-color:var(--line,#dce1e9)}.ds-record h3{font-size:1rem;line-height:1.6;margin:0 0 8px}.ds-record p{font-size:.8125rem;color:var(--muted,#596478)}.ds-record a{display:inline-flex;align-items:center;min-height:44px;font-size:.8125rem;color:var(--color-accent-text,#2a50ad)}.ds-record a:hover{text-decoration:underline}.ds-record a:focus-visible{outline:3px solid var(--accent,#3159bb);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The annotated seminar review",
+    "overview": "Neutral paper and charcoal surfaces, restrained cobalt actions and readable contributions give research a calm working environment. Questions, supplied evidence and individual interpretations stay distinct. Interface language supports English and Arabic while research retains its supplied wording and direction.\n\nThis system records the authorized application reconstruction and its unified results and report extension through 2026-11-08. Runtime authority is `frontend/src/styles/{precision,workspace,observatory}.css`, `features/analyses/research-entry.css`, and the inspection, evidence findings, results overview and report reader styles under `frontend/src/features/inspection/`. Public showcase composition remains separate. Scientific validation and hosted-pilot readiness require their own evidence.",
+    "keyCharacteristics": [
+      "Bounded headings and generous scientific reading measures.",
+      "Paper reading surfaces, contextual controls and disclosed detail.",
+      "Semantic light/dark themes and logical RTL layout."
+    ],
+    "rules": [
+      {
+        "name": "The Semantic Surface Rule",
+        "body": "Resolve surfaces, text and controls through the active theme's semantic variables.",
+        "section": "colors"
+      },
+      {
+        "name": "The Source Wording Rule",
+        "body": "Compact display titles use a bounded verbatim excerpt. Results and reports prefer a quoted claim or remove a recognized English or Arabic instruction wrapper before truncation. Full scientific wording remains available in the original-question disclosure and preserved report records.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do resolve surfaces, text, controls and status through semantic CSS variables.",
+      "Do preserve question, evidence revision and real review history as distinct records.",
+      "Do use Manrope/Alan Sans for prose and IBM Plex Mono for code and numerical data.",
+      "Do preserve original content direction with dir=\"auto\", bdi and isolated code.",
+      "Do keep visible focus, reduced motion and honest missing/failed/unavailable states.",
+      "Do preserve official logo bytes, colors, proportions and orientation."
+    ],
+    "donts": [
+      "Don't treat AI agreement, parsing or a completed run as scientific proof.",
+      "Don't recolor or mirror the official artwork.",
+      "Don't add decorative gradients or fabricated findings.",
+      "Don't present a URL as retrieved, a PDF as extracted or XLSX as supported."
+    ]
+  }
+}

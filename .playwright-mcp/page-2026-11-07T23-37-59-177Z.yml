@@ -1,0 +1,156 @@
+- generic [ref=e3]:
+  - link "Skip to content" [ref=e4] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e5]:
+    - link "Research Workspace" [ref=e6] [cursor=pointer]:
+      - /url: /app
+    - generic [ref=e7]:
+      - button "Change language" [ref=e8] [cursor=pointer]: ع
+      - button "Toggle theme" [ref=e9] [cursor=pointer]
+      - link "Documentation" [ref=e12] [cursor=pointer]:
+        - /url: /docs
+  - generic [ref=e17]:
+    - complementary "Workspace navigation" [ref=e18]:
+      - link "EvidenceTwin home" [ref=e19] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e22]:
+        - generic [ref=e23]: Workspace
+        - button "Collapse navigation" [expanded] [ref=e24] [cursor=pointer]
+      - link "Research home" [ref=e29] [cursor=pointer]:
+        - /url: /app
+      - link "New investigation" [ref=e37] [cursor=pointer]:
+        - /url: /app/analyses/new
+      - link "Research cases" [ref=e43] [cursor=pointer]:
+        - /url: /app/cases
+      - generic [ref=e50]: Review outputs
+      - link "Council reviews" [ref=e51] [cursor=pointer]:
+        - /url: /app/analyses
+      - link "Reports" [ref=e58] [cursor=pointer]:
+        - /url: /app/reports
+      - generic [ref=e63]:
+        - link "Service administration" [ref=e86] [cursor=pointer]:
+          - /url: /app/settings/ai
+        - link "Settings" [ref=e64] [cursor=pointer]:
+          - /url: /app/settings
+        - link "Documentation" [ref=e70] [cursor=pointer]:
+          - /url: /docs
+    - main "Analysis" [ref=e76]:
+      - status [ref=e77]: Analysis
+      - navigation "Breadcrumb" [ref=e78]:
+        - link "Workspace" [ref=e79] [cursor=pointer]:
+          - /url: /app
+        - generic [aria-hidden] [ref=e80]: /
+        - generic [ref=e81]: Analysis
+        - generic [ref=e82]: Connected
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - paragraph
+            - heading "Engineering diagnostic — original diabetes evidence" [level=1] [ref=e95]
+            - generic [ref=e96]:
+              - generic [ref=e97]: Draft
+              - generic [ref=e98]: Exploratory Mode
+              - generic [ref=e99]: Unverified source
+              - time [ref=e100]: Nov 8, 2026, 1:09 AM
+          - generic [ref=e101]:
+            - button "Copy page link" [ref=e102] [cursor=pointer]
+            - link "View report" [ref=e103] [cursor=pointer]:
+              - /url: /app/analyses/evidence-processing-diagnostic/report
+        - navigation "Analysis views" [ref=e104]:
+          - link "Overview" [ref=e105] [cursor=pointer]:
+            - /url: /app/analyses/evidence-processing-diagnostic
+          - link "Evidence" [ref=e106] [cursor=pointer]:
+            - /url: /app/analyses/evidence-processing-diagnostic/evidence
+          - link "Visualizations" [ref=e107] [cursor=pointer]:
+            - /url: /app/analyses/evidence-processing-diagnostic/visualizations
+          - link "Council" [ref=e108] [cursor=pointer]:
+            - /url: /app/analyses/evidence-processing-diagnostic/council
+          - link "Audit Trail" [ref=e109] [cursor=pointer]:
+            - /url: /app/analyses/evidence-processing-diagnostic/audit
+          - link "Report" [ref=e110] [cursor=pointer]:
+            - /url: /app/analyses/evidence-processing-diagnostic/report
+        - status [ref=e111]: "Analysis status: Draft"
+        - generic [ref=e112]:
+          - heading "Draft" [level=2] [ref=e113]
+          - paragraph [ref=e114]: This is not a completed assessment. You may inspect any evidence or audit records actually available.
+          - link "Open a new analysis builder →" [ref=e115] [cursor=pointer]:
+            - /url: /app/analyses/new
+        - region "Evidence findings" [ref=e116]:
+          - generic [ref=e117]:
+            - heading "What the evidence shows" [level=2] [ref=e118]
+            - paragraph [ref=e119]: A reproducible comparison of reported dataset values.
+          - generic [ref=e120]:
+            - figure "Diabetes prevalence (% of population ages 20 to 79) 2024 · Reported observations" [ref=e121]:
+              - generic [ref=e122]:
+                - heading "Diabetes prevalence (% of population ages 20 to 79)" [level=3] [ref=e123]
+                - generic [ref=e124]: 2024 · Reported observations
+              - paragraph [ref=e125]: Egypt higher than United States
+              - img "Egypt 22.4 % · United States 13.7 %" [ref=e126]:
+                - generic [ref=e127]:
+                  - generic [ref=e128]: Egypt
+                  - generic [ref=e130]: 22.4%
+                - generic [ref=e131]:
+                  - generic [ref=e132]: United States
+                  - generic [ref=e134]: 13.7%
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - term [ref=e137]: Difference (first − second)
+                  - definition [ref=e138]: 8.7 percentage points
+                - generic [ref=e139]:
+                  - term [ref=e140]: Ratio (first ÷ second)
+                  - definition [ref=e141]: "1.635"
+              - group [ref=e142]:
+                - generic "Exact observations and method" [ref=e143] [cursor=pointer]
+            - group [ref=e144]:
+              - generic "455 rows available · inspect provenance" [ref=e145] [cursor=pointer]
+          - paragraph [ref=e146]: These calculations describe the submitted observations. The full scientific claim, methodology and source authenticity remain unverified.
+          - generic [ref=e147]:
+            - heading "Checks and coverage" [level=3] [ref=e148]
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - term [ref=e151]: Complete-table selection
+                - definition [ref=e152]: Performed
+              - generic [ref=e153]:
+                - term [ref=e154]: Descriptive arithmetic
+                - definition [ref=e155]: Performed
+              - generic [ref=e156]:
+                - term [ref=e157]: Source retrieval
+                - definition [ref=e158]: Retrieved
+              - generic [ref=e159]:
+                - term [ref=e160]: Source authenticity
+                - definition [ref=e161]: Not performed
+              - generic [ref=e162]:
+                - term [ref=e163]: Statistical inference
+                - definition [ref=e164]: Not performed
+              - generic [ref=e165]:
+                - term [ref=e166]: Blind reconstruction
+                - definition [ref=e167]: Unavailable
+          - generic [ref=e168]:
+            - heading "Source material" [level=3] [ref=e169]
+            - paragraph [ref=e170]: https://ourworldindata.org/grapher/diabetes-prevalence
+            - paragraph [ref=e171]: Source bytes and readable passages are retained with this run. Retrieval does not establish authenticity.
+            - link "Download retained source snapshot" [ref=e172] [cursor=pointer]:
+              - /url: /api/analyses/evidence-processing-diagnostic/source-snapshot
+            - paragraph [ref=e173]:
+              - time [ref=e174]: 11/8/2026, 1:37:42 AM
+          - generic [ref=e175]:
+            - heading "Limits and next steps" [level=3] [ref=e176]
+            - group [ref=e177]:
+              - generic "Council outputs are AI interpretations. Shared models may share errors; agreement does not establish scientific truth." [ref=e178] [cursor=pointer]
+            - group [ref=e179]:
+              - generic "Source authenticity and methodological comparability have not been independently established." [ref=e180] [cursor=pointer]
+            - group [ref=e181]:
+              - generic "Blind Optics and Neutral Twin remain unavailable. Blinding, rendering templates and paired-review acceptance are unresolved under D07/E04." [ref=e182] [cursor=pointer]
+        - group [ref=e183]:
+          - generic "Original question and detailed Council record" [ref=e184] [cursor=pointer]
+        - generic [ref=e185]:
+          - link "Inspect evidence" [ref=e186] [cursor=pointer]:
+            - /url: /app/analyses/evidence-processing-diagnostic/evidence
+          - link "Review Council" [ref=e187] [cursor=pointer]:
+            - /url: /app/analyses/evidence-processing-diagnostic/council
+          - link "Read full report" [ref=e188] [cursor=pointer]:
+            - /url: /app/analyses/evidence-processing-diagnostic/report
+          - link "Compare analyses →" [ref=e189] [cursor=pointer]:
+            - /url: /app/compare?a=evidence-processing-diagnostic
+        - group [ref=e190]:
+          - generic "Evidence context & metadata" [ref=e191] [cursor=pointer]

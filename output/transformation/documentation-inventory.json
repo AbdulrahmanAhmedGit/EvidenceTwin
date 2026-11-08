@@ -1,0 +1,1800 @@
+[
+  {
+    "path": ".impeccable/critique/2026-11-06T21-36-36Z__frontend-src-app-tsx.md",
+    "bytes": 14953,
+    "sha256": "f600af8c020e65e8653bc7ef29a9bdff02959cad8a96768091153ec73004b62f",
+    "headings": [
+      "# Assessment A \u2014 independent design review",
+      "## Design specificity verdict",
+      "## Nielsen scores",
+      "## Cognitive load",
+      "## Emotional journey",
+      "## Strengths",
+      "## Priority issues",
+      "### P1 \u2014 Promise and availability diverge before the first task",
+      "### P1 \u2014 A single unavailable service becomes a dashboard full of failures",
+      "### P2 \u2014 Containers and controls dominate the evidence record",
+      "### P2 \u2014 Explanatory text is styled as machine metadata",
+      "### P2 \u2014 Researcher settings are mixed with operator configuration",
+      "## Persona red flags",
+      "## Minor observations",
+      "## Questions for the parent synthesis",
+      "## Evidence and limits"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": ".impeccable/surfaces/frontend-src-app-tsx.md",
+    "bytes": 6173,
+    "sha256": "d22e6a4f4b02c1310d3e17bbe8a9213473a59142bcab65555b328dfa389a02ac",
+    "headings": [
+      "# Research dossier \u2014 frontend redesign brief",
+      "## Incumbent system capture",
+      "## Direction exploration",
+      "## Direction contract",
+      "## Engineering and verification",
+      "## Prompt-first entry amendment"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "BACKEND_IMPLEMENTATION_GUIDE.md",
+    "bytes": 34308,
+    "sha256": "a284c3f38613965f8a8f6ff76b5607d6ddd523536e9e99bdf319ea7691612925",
+    "headings": [
+      "# EvidenceTwin backend implementation and operation",
+      "## Current scope",
+      "## Configure providers in the workspace",
+      "## Install and run",
+      "# A vision-capable model ID is explicitly selected by the operator.",
+      "# For local Ollama, use http://127.0.0.1:11434 (no key required).",
+      "# Set OLLAMA_API_KEY securely in the server environment for cloud access.",
+      "## Provider selection",
+      "## Architecture and data ownership",
+      "## Architecture V3 pipeline mapping",
+      "## Input and upload policy",
+      "## Endpoint handoff",
+      "## Environment and integration",
+      "## Verification",
+      "## Owner implementation checklist",
+      "## Isolated execution infrastructure completion report",
+      "### Delivered scope",
+      "### Actual environment and verification",
+      "### EX specification traceability and evidence limits",
+      "### Operation, safety and recovery contracts",
+      "### Startup and interfaces",
+      "### Remaining integration and pilot gates"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "DESIGN.md",
+    "bytes": 17148,
+    "sha256": "42ffa4acc1a17f2ea4a54b18e63fb45f35465c363dafc108f45292e5f7eccb64",
+    "headings": [
+      "# Design System: EvidenceTwin Council",
+      "## Overview",
+      "## Colors",
+      "### Primary",
+      "### Neutral",
+      "## Typography",
+      "## Layout",
+      "## Elevation & Depth",
+      "## Shapes",
+      "## Components",
+      "### Buttons",
+      "### Fields",
+      "### Navigation",
+      "### Status labels and attachment tags",
+      "### Notices, cards and empty states",
+      "### Reviewer-role gutter",
+      "### Research question composer",
+      "## Do's and Don'ts"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "PRODUCT.md",
+    "bytes": 7956,
+    "sha256": "2feaac95df25ea9a6518d6f9e8de95bb8977c70f7b9efa1d792db44ad45a8967",
+    "headings": [
+      "# EvidenceTwin Council",
+      "## Platform",
+      "## Users",
+      "## Product Purpose",
+      "## Positioning",
+      "## Operating Context",
+      "## Capabilities and Constraints",
+      "### Existing foundation",
+      "### Approved pilot direction",
+      "### Open decisions",
+      "## Brand Commitments",
+      "## Evidence on Hand",
+      "## Product Principles",
+      "## Accessibility & Inclusion"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4772,
+    "sha256": "8be7a84dbaa74908e4339e5482bc3d5e724707e6f9ed51374ce80d481b76b9cc",
+    "headings": [
+      "# EvidenceTwin Council",
+      "## Run",
+      "## Implementation status",
+      "## Local inspection preview",
+      "## Optional Flask development proxy",
+      "## Latest quick audit",
+      "## Official brand assets",
+      "## Flask backend",
+      "## Configure AI APIs in the UI"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "backend/README.md",
+    "bytes": 6173,
+    "sha256": "4a387c76b343916cdda786c705ee232c17736659d8ecf789f85cf7a45f91c726",
+    "headings": [
+      "# EvidenceTwin Flask backend",
+      "## Isolated PostgreSQL execution infrastructure",
+      "### Explicit disposable PostgreSQL tests",
+      "### Migration and worker boundaries"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/COUNTERFACTUAL ANALYST.md",
+    "bytes": 3510,
+    "sha256": "0fa1ee0620c0c0ea7a5775ccea9c623e2953bf9af25ad1b1964837b2adaf426e",
+    "headings": [
+      "### Role",
+      "### Primary Objective",
+      "### Core Principle",
+      "### Areas of Investigation",
+      "#### 1. Original vs Neutral Comparison",
+      "#### 2. Interpretation Sensitivity",
+      "#### 3. Controlled Counterfactuals",
+      "#### 4. Sensitivity and Robustness",
+      "#### 5. Limitations",
+      "### Important Boundaries",
+      "### Expected Result"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/Cross-Reviewer.md",
+    "bytes": 2959,
+    "sha256": "afa021c366c2d89dc0c27cf9d0776b7d601122b13342c02b091e4f4a375201c4",
+    "headings": [
+      "### Role",
+      "### Inputs",
+      "### Responsibilities",
+      "#### 1. Evidence Reference Validation",
+      "#### 2. Scope Compliance",
+      "#### 3. Contradiction Detection",
+      "#### 4. Finding Quality",
+      "#### 5. Correction Recommendations",
+      "### Rules",
+      "### Required Output"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/EVIDENCE JUDGE.md",
+    "bytes": 5074,
+    "sha256": "eaf5bec2f9e9c9453d07c70fca8c23d00781848022435e9476932121e6f74c41",
+    "headings": [
+      "### Role",
+      "### Primary Objective",
+      "### Inputs",
+      "### Evidence Priority",
+      "### Adjudication Procedure",
+      "#### Step 1 \u2014 Identify the Exact Claim",
+      "#### Step 2 \u2014 Examine the Evidence",
+      "#### Step 3 \u2014 Examine Reviewer Findings",
+      "#### Step 4 \u2014 Examine Cross-Review",
+      "#### Step 5 \u2014 Issue a Verdict",
+      "### Scientific Safeguards",
+      "### Corrected Interpretation",
+      "### Required Output",
+      "### Final Responsibility"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/SCIENTIFIC SKEPTIC.md",
+    "bytes": 3537,
+    "sha256": "e6819dcadfc409c6d6a3290856939c3388a45fbdff6825e3dadee65f9ca134b2",
+    "headings": [
+      "### Role",
+      "### Primary Objective",
+      "### Areas of Investigation",
+      "#### 1. Study Design",
+      "#### 2. Causal Inference",
+      "#### 3. Population and Generalization",
+      "#### 4. Methodological Limitations",
+      "#### 5. Alternative Explanations",
+      "#### 6. Claim Language",
+      "### Important Boundaries",
+      "### Expected Result"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/STATISTICAL AUDITOR.md",
+    "bytes": 3195,
+    "sha256": "272031b6892902dfbba3b38fb72d898baa951b59c650df672809608e64c789c4",
+    "headings": [
+      "### Role",
+      "### Primary Objective",
+      "### Areas of Investigation",
+      "#### 1. Arithmetic Verification",
+      "#### 2. Dataset Consistency",
+      "#### 3. Statistical Significance",
+      "#### 4. Effect Interpretation",
+      "#### 5. Reproducibility",
+      "### Important Boundaries",
+      "### Expected Result"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/VISUAL ANALYST.md",
+    "bytes": 4687,
+    "sha256": "0c1a9aa25dc555b1c9cf7021561d90878e42595f21536c53bbe5fd84b3ccde6c",
+    "headings": [
+      "### Role",
+      "### Primary Objective",
+      "### Areas of Investigation",
+      "#### 1. Axes and Scales",
+      "#### 2. Data Encoding",
+      "#### 3. Labels and Context",
+      "#### 4. Visual Framing",
+      "#### 5. Uncertainty Presentation",
+      "### Original Visualization Inspection",
+      "### Neutral Visualization Inspection",
+      "### Important Boundaries",
+      "### Strict Scope and Evidence Restrictions",
+      "### Additional Scientific Precision Rules",
+      "### Expected Result"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/shared.md",
+    "bytes": 4199,
+    "sha256": "7c0e37cc05f51e7048a64a943c5ce95494649a4fdbce31b6ba320208a384da02",
+    "headings": [
+      "### Identity",
+      "### Core Principles",
+      "### Input Contract",
+      "### Evidence Discipline",
+      "### Image and Evidence Identification",
+      "### Required Output"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "backend/evidencetwin_backend/services/README.md",
+    "bytes": 900,
+    "sha256": "5f08bb1e9df0bf03bd9396e1b61ea5d6c07ed3712654a635325de21b544f87cb",
+    "headings": [
+      "# Application services"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "concepts_brief.md",
+    "bytes": 38548,
+    "sha256": "41f69d651ad9b61e26fa8db845c16e0d8f3ab83154e1ce5acdc599aea06e92e5",
+    "headings": [
+      "# Complete the EvidenceTwin verification backend",
+      "## Overview",
+      "## Current foundation",
+      "## Deployment and access established by the user",
+      "### Primary V1 experience",
+      "### System responsibilities",
+      "### Access and privacy requirements",
+      "### API and future clients",
+      "### Migration implications",
+      "## Anchored working hypothesis for review",
+      "## User-defined verification requirements",
+      "## Required report outputs",
+      "## V1 scientific scope established by the user",
+      "### Claim categories",
+      "### Input formats",
+      "### Metadata required as applicable to each check",
+      "### Explicit exclusions",
+      "### Minimum end-to-end acceptance",
+      "## First end-to-end acceptance case selected by the user",
+      "### Reference investigation findings",
+      "### Time-specific assessment policy established by the user",
+      "### Consequence for the manually investigated Ember case",
+      "## Source verification policy established by the user",
+      "### Required source checks",
+      "### Source-level statuses",
+      "### Per-source verification record",
+      "### Separation from claim adjudication",
+      "## Clarified claim assessment requirements",
+      "### Contradicted",
+      "### Insufficient Evidence",
+      "### Required fields for every claim",
+      "### User-provided acceptance examples",
+      "## Analysis",
+      "## Goldfish review synthesis",
+      "### Requirements proposed by the reviewers",
+      "### Alternatives proposed for consideration, not yet accepted",
+      "### Proposed acceptance examinations",
+      "## Goals vs. Non-Goals",
+      "### In-scope goals established by the user",
+      "### Remaining scope decisions",
+      "### Non-goals",
+      "## Alternatives Weighed",
+      "## Key Decisions & Staging for Next Steps"
+    ],
+    "authority": "approved requirements"
+  },
+  {
+    "path": "design_draft.md",
+    "bytes": 116759,
+    "sha256": "f925cc93e61e554809e3b0aa15631ec7f55d99c3931c63f776838d3176e1daf9",
+    "headings": [
+      "# EvidenceTwin V1: Hosted scientific verification backend",
+      "## Overview",
+      "## The Problem",
+      "## Goals",
+      "### G01 \u2014 Support a bounded, declared scientific scope",
+      "### G02 \u2014 Bind each assertion to the evidence it actually concerns",
+      "### G03 \u2014 Establish source provenance without equating it with scientific truth",
+      "### G04 \u2014 Reproduce applicable calculations and examine comparability",
+      "### G05 \u2014 Keep visual inspection and AI contributions auditable",
+      "### G06 \u2014 Distinguish contradiction, incomplete evidence and incomplete execution",
+      "### G07 \u2014 Preserve time-specific results and explain revisions",
+      "### G08 \u2014 Provide usable reports, evidence requests and reproducibility records",
+      "### G09 \u2014 Protect hosted cases and provider authority",
+      "### G10 \u2014 Operate within declared pilot limits and migrate existing work safely",
+      "## Non-Goals",
+      "## Technical Plan (Architecture)",
+      "### 1. Responsibilities and data flow",
+      "### 2. Research identities and immutable evidence",
+      "### 3. Separate execution, evidence coverage and scientific decisions",
+      "### 4. Version-aware scientific pipeline",
+      "### 5. Durable execution, cancellation and external calls",
+      "### 6. Hosted access, retrieval and private processing",
+      "### 7. API and frontend integration changes",
+      "### 8. Changes to existing components and proposed new boundaries",
+      "### 9. Acceptance and migration mechanisms",
+      "### 10. Author decision register",
+      "### 11. Incorporated scientific and operating baseline",
+      "#### Recommended end-to-end flow and stops",
+      "### 12. Open Decision, Enablement and Pilot gates",
+      "### 13. Scientific specification refinement",
+      "## Open Questions",
+      "## Additional Resources",
+      "## Bounded infrastructure coding readiness \u2014 pending explicit authorization"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/ACCESSIBILITY_REVIEW.md",
+    "bytes": 8560,
+    "sha256": "8f812b4dea4cb4d8c8cd152dfb45efd8b451633847806c19918040709cf987b8",
+    "headings": [
+      "# EvidenceTwin accessibility improvements",
+      "## Resize and reflow",
+      "## Forms and focus order",
+      "## Understandable feedback and alternatives",
+      "## Verification and limits",
+      "## Final validation results"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "docs/AI_PROVIDER_CONFIGURATION.md",
+    "bytes": 4580,
+    "sha256": "82bf846813591aeb00ab4694ca4fc80ebcdc776600af681c0676027207959aa3",
+    "headings": [
+      "# Configure AI APIs in the workspace",
+      "## Storage and access",
+      "## HTTP contracts",
+      "## Verification"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/BACKEND_RUNTIME_VERIFICATION.md",
+    "bytes": 2544,
+    "sha256": "cff70a558e52015bd0821ccdf681916fff3c1f02568b0b26001896856ef60f48",
+    "headings": [
+      "# Backend runtime verification \u2014 November 5, 2026",
+      "## Executed checks",
+      "## Boundaries"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/BACKEND_SKELETON_REFERENCE.md",
+    "bytes": 42266,
+    "sha256": "36312daa8560d5cf1ce3520bbbd565a6c3686b660b2d132a623140998babff07",
+    "headings": [
+      "# EvidenceTwin \u2014 Backend Implementation Guide",
+      "## Current status and ownership",
+      "## Install, test and run",
+      "## Folder map",
+      "## Source of truth and wire contracts",
+      "## Consistent errors and HTTP methods",
+      "## Connect the unchanged React frontend",
+      "## Configuration and CORS",
+      "## Authentication extension point",
+      "## Upload integration point",
+      "## Scientific Core and capabilities handoff",
+      "## Endpoint inventory",
+      "## Per-endpoint owner handoff",
+      "### GET /api/health",
+      "### GET /api/capabilities",
+      "### GET /api/activity",
+      "### POST /api/analyses",
+      "### GET /api/analyses",
+      "### GET /api/analyses/<analysis_id>",
+      "### DELETE /api/analyses/<analysis_id>",
+      "### POST /api/analyses/<analysis_id>/retry",
+      "### POST /api/analyses/<analysis_id>/cancel",
+      "### GET /api/analyses/<analysis_id>/evidence",
+      "### GET /api/analyses/<analysis_id>/dataset",
+      "### GET /api/analyses/<analysis_id>/visualizations",
+      "### GET /api/analyses/<analysis_id>/council",
+      "### GET /api/analyses/<analysis_id>/audit",
+      "### GET /api/analyses/<analysis_id>/report",
+      "### GET /api/comparisons",
+      "### POST /api/benchmarks",
+      "### GET /api/benchmarks",
+      "### GET /api/benchmarks/<benchmark_id>",
+      "### GET /api/reports",
+      "### GET /api/reports/<report_id>",
+      "### DELETE /api/reports/<report_id>",
+      "### GET /api/integrations",
+      "### POST /api/integrations/<integration_id>/test",
+      "### GET /api/cases",
+      "### GET /api/cases/<case_id>",
+      "## Progressive implementation checklist",
+      "## Validation record and remaining gaps",
+      "## Infrastructure references"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/BRAND_INTEGRATION.md",
+    "bytes": 9698,
+    "sha256": "7469312aef9bc9673b7085454233453f489b079d705fad2477ef5f55be596a66",
+    "headings": [
+      "# Official EvidenceTwin brand integration",
+      "## Added files",
+      "## Updated components and placement",
+      "## BrandLogo API",
+      "## Usage rules",
+      "## Browser and application icons",
+      "## Removed scaffold branding",
+      "## Original asset integrity",
+      "## Verification and visual review"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/DESIGN_SYSTEM.md",
+    "bytes": 7991,
+    "sha256": "f3a53f2b974ce2a45782aed10759634c797e69482a4703977f58eacbe4bfc59a",
+    "headings": [
+      "# EvidenceTwin design system",
+      "## Scientific folio",
+      "## Tokens",
+      "## Typography",
+      "## Layout and navigation",
+      "## Interaction and accessibility",
+      "## Scientific display boundaries",
+      "## Official artwork",
+      "## Motion refinement",
+      "## Color and type precision",
+      "## Workspace composition (November 2026)"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/DEVELOPMENT_STAGES.md",
+    "bytes": 5514,
+    "sha256": "00f77b0bbebb90e5cf35178c5e4c0de021bdc0f20d337fe62c534f3594e68965",
+    "headings": [
+      "# Development stages and experience quality",
+      "## Mandatory rule for every phase",
+      "## Phase 1 \u2014 Foundation and shared navigation",
+      "## Phase 2 \u2014 Public website and documentation",
+      "## Phase 3 \u2014 Workspace and analysis submission",
+      "## Phase 4 \u2014 Analysis inspection and scientific tools",
+      "## Phase 5 \u2014 Research tools and final validation",
+      "## Implemented shared improvements",
+      "## Current work",
+      "## November 3 stabilization"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/FRONTEND_API_CONTRACT.md",
+    "bytes": 26336,
+    "sha256": "dd1a7f57b4b7219273c090190f648a5ebe6340820cb4420acdcb181f90c646f3",
+    "headings": [
+      "# Proposed frontend API contract",
+      "## Implemented frontend calls",
+      "## Section payloads",
+      "## Remaining proposed interfaces",
+      "## Phase 3 list and capability adapters",
+      "## Phase 3 creation and settings update",
+      "## Phase 4 analysis inspection contracts",
+      "### Analysis record and processing",
+      "### Common section permissions",
+      "### Evidence and dataset",
+      "### Visualization assets",
+      "### Council and disagreements",
+      "### Audit and report",
+      "## Phase 5 research-tool adapters",
+      "### Capability additions",
+      "### Analysis comparison",
+      "### Benchmark creation",
+      "### Benchmark retrieval",
+      "### Reports management",
+      "### Integration management",
+      "### Integration ownership",
+      "## November 3 stabilization clarification",
+      "## Flask skeleton status",
+      "## November 5 runtime implementation update",
+      "## Workspace AI API configuration"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/FRONTEND_ARCHITECTURE.md",
+    "bytes": 6426,
+    "sha256": "3282fbe86f65e2a0db61677a3c67f7bfd964091c28f9e78244862e81abbab5c3",
+    "headings": [
+      "# Frontend architecture",
+      "## Draft state and submission",
+      "## Preferences and safety boundaries",
+      "## Remaining work",
+      "## Phase 4 inspection modules",
+      "## Phase 5 research modules"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/FRONTEND_COLOR_TYPOGRAPHY_REVIEW.md",
+    "bytes": 8296,
+    "sha256": "14e6c2086703f310df9ff2814d891f9278d3c54349bf84b8785b76399e536c41",
+    "headings": [
+      "# Color and typography refinement",
+      "## Color principles",
+      "### Rendered measurements",
+      "## Typography principles",
+      "## Browser verification and limits"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "docs/FRONTEND_MOTION_REFINEMENT.md",
+    "bytes": 7200,
+    "sha256": "58dc2142247093561eb76562cba2b4c367960317c23d1aaa1037b8342efb3b81",
+    "headings": [
+      "# Evidence in motion \u2014 frontend refinement",
+      "## Direction",
+      "## Stack and decisions",
+      "## Accessibility and lifecycle",
+      "## Asset provenance",
+      "## Validation",
+      "## Source inventory"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/FRONTEND_REDESIGN.md",
+    "bytes": 5745,
+    "sha256": "bbca67393b204898a620358762b618ded4fbf2db2d285c29d2e79bdcd4442438",
+    "headings": [
+      "# Frontend redesign \u2014 November 6, 2026",
+      "## Scope and audit",
+      "## Implemented changes",
+      "## Review and verification",
+      "## Remaining integration boundaries"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/FRONTEND_STABILIZATION.md",
+    "bytes": 6297,
+    "sha256": "0329f96ea51654a1d39352de242a3447891544faa2c6d5df4964a1687b8e4af6",
+    "headings": [
+      "# Frontend stabilization \u2014 November 3 audit fixes",
+      "## Analysis response identity",
+      "## Comparison preselection",
+      "## Report filters",
+      "## Native theme",
+      "## Verification",
+      "## Remaining integration gaps"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/INTEGRATION_GUIDE.md",
+    "bytes": 11940,
+    "sha256": "4fc76ac79f213f5efa750bee7f6d690879c8165999e14bb51cf120c3636d1e75",
+    "headings": [
+      "# Flask integration guide",
+      "## Phase 3 capability and draft behavior",
+      "## Phase 4 inspection and local previews",
+      "## Phase 5 connections and development proxy",
+      "# Replace this example with the owner's actual listening origin.",
+      "## November 3 frontend stabilization",
+      "## Runnable Flask skeleton",
+      "## November 5 local backend runtime",
+      "## PostgreSQL execution infrastructure handoff"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/LANDING_REDESIGN.md",
+    "bytes": 3954,
+    "sha256": "d28b8b3c883dbf92e07ce7c97d56340090135a94db0e7c500da491eedd4e2b47",
+    "headings": [
+      "# Landing page redesign",
+      "## Design read and audit",
+      "## Assets",
+      "## Verification"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/PHASE_2_ACCEPTANCE.md",
+    "bytes": 3456,
+    "sha256": "6b6a1ecb64f9a7b486837c181e56de55c41140ffe33bf07d25721a2be5b7b807",
+    "headings": [
+      "# Phase 2 acceptance \u2014 public website and documentation",
+      "## Delivered",
+      "## Evidence",
+      "## Phase 3 started (snapshot at Phase 2 acceptance)"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "docs/PHASE_3_ACCEPTANCE.md",
+    "bytes": 5280,
+    "sha256": "6c904b565051724a1049aa62f3c97fd390a72f96fa051309659976c228e983a8",
+    "headings": [
+      "# Phase 3 acceptance \u2014 workspace and analysis submission",
+      "## Delivered routes and behavior",
+      "## Draft and submission guarantees implemented in the frontend",
+      "## Navigation, accessibility and motion",
+      "## Verification",
+      "## Remaining project work (snapshot at Phase 3 acceptance)"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "docs/PHASE_4_ACCEPTANCE.md",
+    "bytes": 5904,
+    "sha256": "e25fcc6eb0b4e50ad22cc930938e31af76de1d0311b3e0be16fcbf9dfc1ae8b6",
+    "headings": [
+      "# Phase 4 acceptance \u2014 analysis inspection and scientific interfaces",
+      "## Delivered",
+      "## Backend and fixture boundaries",
+      "## Verification evidence",
+      "## Next stage",
+      "## Subsequent stage update"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "docs/PHASE_5_ACCEPTANCE.md",
+    "bytes": 7216,
+    "sha256": "56dedae0357652b087ad89609f4f9b697cd761fdbc3ec3001fcdc4f6a52ce739",
+    "headings": [
+      "# Phase 5 \u2014 Research tools and final frontend validation",
+      "## Delivered workflows",
+      "## Integration boundaries",
+      "## Verification record",
+      "## Known limits and owner handoff"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "docs/PROMPT_FIRST_REDESIGN.md",
+    "bytes": 9263,
+    "sha256": "df352e9cc968365959831bf666fc25eb851d841c89eb791c13815353ae44cc3c",
+    "headings": [
+      "# EvidenceTwin frontend redesign and prompt-first research entry",
+      "## Delivered experience",
+      "## Frontend-only boundaries",
+      "## Shared design improvements",
+      "## Impeccable workflow and evidence",
+      "## Verification",
+      "## Important files",
+      "## Review artifacts and rollback",
+      "## Limits"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/QUICK_FIVE_PHASE_AUDIT.md",
+    "bytes": 6752,
+    "sha256": "1a92a5de256c23d4d11e1bae8c42de9ab095506251ebe8390f9d2df37cb5f212",
+    "headings": [
+      "# EvidenceTwin \u2014 quick five-phase audit",
+      "## Overall finding",
+      "## Confirmed findings",
+      "### Medium \u2014 analysis response identity is not validated",
+      "### Medium \u2014 \u201cCompare analyses\u201d loses the current analysis",
+      "## Lower-priority polish",
+      "## Fresh verification",
+      "## Handoff requirements",
+      "## Subsequent stabilization"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/SAAS_DASHBOARD_REDESIGN.md",
+    "bytes": 8855,
+    "sha256": "30462526a203c12498ba69a208023edde245c660de0240443185989e059b01a1",
+    "headings": [
+      "# EvidenceTwin workspace refinement",
+      "## Design and implementation",
+      "## Data meaning",
+      "## Source inventory",
+      "## Skill application",
+      "## Boundaries and remaining integration work",
+      "## Verification",
+      "### Review findings addressed",
+      "### Performance review boundary",
+      "### Manual browser inspection",
+      "### Final check results"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/codebase_raw.md",
+    "bytes": 11529,
+    "sha256": "3bc4ae836a7e8debf848bc12b1e9e2001d96575885eb18864e954700627486ec",
+    "headings": [],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/comprehension_raw.md",
+    "bytes": 9516,
+    "sha256": "c422a6825cd6732b026e3eb6cf2bd82925d26694216234293d13663afcd703fe",
+    "headings": [],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/concepts_brief.md",
+    "bytes": 38760,
+    "sha256": "7a4315d48e357f63f5ea97b5f63a8ae60bee6de965efe1c72f6dbf486108fe01",
+    "headings": [
+      "# Complete the EvidenceTwin verification backend",
+      "## Overview",
+      "## Current foundation",
+      "## Deployment and access established by the user",
+      "### Primary V1 experience",
+      "### System responsibilities",
+      "### Access and privacy requirements",
+      "### API and future clients",
+      "### Migration implications",
+      "## Anchored working hypothesis for review",
+      "## User-defined verification requirements",
+      "## Required report outputs",
+      "## V1 scientific scope established by the user",
+      "### Claim categories",
+      "### Input formats",
+      "### Metadata required as applicable to each check",
+      "### Explicit exclusions",
+      "### Minimum end-to-end acceptance",
+      "## Source verification policy established by the user",
+      "### Required source checks",
+      "### Source-level statuses",
+      "### Per-source verification record",
+      "### Separation from claim adjudication",
+      "## Clarified claim assessment requirements",
+      "### Contradicted",
+      "### Insufficient Evidence",
+      "### Required fields for every claim",
+      "### User-provided acceptance examples",
+      "## Analysis after Goldfish brainstorming",
+      "## Goals vs. Non-Goals",
+      "### In-scope goals established by the user",
+      "### Remaining scope decisions",
+      "### Non-goals",
+      "## Alternatives Weighed",
+      "## Key Decisions & Staging for Next Steps",
+      "## Proposed requirements synthesized from the six lenses",
+      "### Scientific support and Core boundary",
+      "### Researcher journey and resource identities",
+      "### Hosted ownership, provider authority and privacy",
+      "### Bounded ingestion and source retrieval",
+      "### Durable execution and economics",
+      "### Reproducibility, operations and migration",
+      "## Proposed staging and examinations",
+      "## Outstanding decisions and assumptions"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/design_raw.md",
+    "bytes": 13476,
+    "sha256": "4372e2b090e50aa233578edebfbfc00bce73a5a5818adeb22e80e020ce31d001",
+    "headings": [],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/goldfish_review_report.md",
+    "bytes": 20274,
+    "sha256": "735cf907362e814f6b2ec239f9e8bfe951c32fcc3cab6d543fc42071f4a47d52",
+    "headings": [
+      "# Goldfish Brainstorm Review Report",
+      "## Reviewer status and evidence boundary",
+      "## Prioritized findings",
+      "### M01 \u2014 Bound scientific coverage with explicit supported combinations \u2014 Major",
+      "### M02 \u2014 Define one canonical scientific record and explicit contract transition \u2014 Major",
+      "### M03 \u2014 Separate private research cases, evidence revisions, attempts and report versions \u2014 Major",
+      "### M04 \u2014 Enforce tenancy through repository, artifact and worker boundaries \u2014 Major",
+      "### M05 \u2014 Make provider authority, credential lifecycle and private processing explicit \u2014 Major",
+      "### M06 \u2014 Specify durable execution and uncertain paid-call recovery \u2014 Major",
+      "### M07 \u2014 Budget the whole execution, including failed and cancelled calls \u2014 Major",
+      "### M08 \u2014 Define lossless bounded ingestion and show exact processing scope \u2014 Major",
+      "### M09 \u2014 Treat source retrieval as a new network and untrusted-content boundary \u2014 Major",
+      "### M10 \u2014 Define reproducibility artifacts and lifecycle retention/deletion \u2014 Major",
+      "### M11 \u2014 Plan reversible data, file and worker cutover together \u2014 Major",
+      "### M12 \u2014 Design safe operational diagnostics and actionable errors \u2014 Major",
+      "### M13 \u2014 Make claim bindings and evidence requests an explicit researcher journey \u2014 Major",
+      "### M14 \u2014 Size hosted persistence and polling from a pilot workload envelope \u2014 Major",
+      "### N01 \u2014 Reuse current transport and keep optional integrations staged \u2014 Nit",
+      "## Proposed examinations and unresolved decisions"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/readiness_raw.md",
+    "bytes": 12681,
+    "sha256": "90495482f0975e8c90730ce894e8e30ec1d713543ba8d9f06db54b399fdf5a3a",
+    "headings": [],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/review_input.md",
+    "bytes": 24791,
+    "sha256": "dc3df93d3a74cf99f8c91951145f7d023c3a903409010f7c1a7193a2bc367245",
+    "headings": [
+      "# Complete the EvidenceTwin verification backend",
+      "## Overview",
+      "## Current foundation",
+      "## Deployment and access established by the user",
+      "### Primary V1 experience",
+      "### System responsibilities",
+      "### Access and privacy requirements",
+      "### API and future clients",
+      "### Migration implications",
+      "## Anchored working hypothesis for review",
+      "## User-defined verification requirements",
+      "## Required report outputs",
+      "## V1 scientific scope established by the user",
+      "### Claim categories",
+      "### Input formats",
+      "### Metadata required as applicable to each check",
+      "### Explicit exclusions",
+      "### Minimum end-to-end acceptance",
+      "## Source verification policy established by the user",
+      "### Required source checks",
+      "### Source-level statuses",
+      "### Per-source verification record",
+      "### Separation from claim adjudication",
+      "## Clarified claim assessment requirements",
+      "### Contradicted",
+      "### Insufficient Evidence",
+      "### Required fields for every claim",
+      "### User-provided acceptance examples",
+      "## Analysis",
+      "## Goals vs. Non-Goals",
+      "### In-scope goals established by the user",
+      "### Remaining scope decisions",
+      "### Non-goals",
+      "## Alternatives Weighed",
+      "## Key Decisions & Staging for Next Steps"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/structural_raw.md",
+    "bytes": 11920,
+    "sha256": "b278d0cd15fbb9fe8bece36097611c93e10ebb5d74961a0266eac10880eed545",
+    "headings": [],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/zoomout_raw.md",
+    "bytes": 12791,
+    "sha256": "a701d25f65a2ffbee88e78f493c4a45db5edd24a0e68c52fc6d7755997d8e932",
+    "headings": [],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/ACCEPTANCE_CORPUS_CONTRACT_DRAFT.md",
+    "bytes": 18803,
+    "sha256": "eccbcc202b6c7bf7ca8e40ae33001461c4ced042392b74da2e54a16bfe88f5ab",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 R07 versioned acceptance-corpus contract",
+      "## 1. Three artifacts, three meanings",
+      "## 2. Corpus and case identity contracts",
+      "## 3. Fixture manifest and admissibility",
+      "## 4. Expected-output contract",
+      "## 5. Review and readiness records",
+      "## 6. Existing specification-family inventory",
+      "## 7. Proposed capability traceability",
+      "## 8. Ember case: readiness example, not a pass",
+      "## 9. Execution record contract \u2014 future authorized runs only",
+      "## 10. Nondeterminism and reference stability",
+      "## 11. Gate evidence and restrictions",
+      "## 12. Remaining inputs and design handoff"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/CANONICAL_CHECK_CONTRACT_OPTIONS.md",
+    "bytes": 15802,
+    "sha256": "42f22e70e206b5134b92be94d2978b9e189656ac3f25d4bfe9e794d6e4b12475",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 R01 canonical check representation options",
+      "## 1. The decision and its scope",
+      "## 2. Common contract both options must express",
+      "## 3. Proposed semantic cases and payload requirements",
+      "## 4. Option A \u2014 Separate typed axes",
+      "### Mechanism",
+      "### Required cross-field predicates",
+      "### Tradeoffs and failure conditions",
+      "## 5. Option B \u2014 Tagged variants",
+      "### Mechanism",
+      "### Required structural and semantic predicates",
+      "### Tradeoffs and failure conditions",
+      "## 6. Lifecycle, publication and compatibility invariants",
+      "## 7. Representation acceptance obligations \u2014 unexecuted specifications",
+      "## 8. Decision record to complete"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/CANONICAL_SCHEMA_PUBLICATION_PROPOSAL.md",
+    "bytes": 24570,
+    "sha256": "59c4caf785a60078a90b2a26ad769fcb67a3e17fae62a86c0c425342f5eeba35",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 FD01\u2013FD02 canonical schema and publication proposal",
+      "## 1. Scope and representation boundaries",
+      "## 2. Candidate canonical check envelope",
+      "## 3. Candidate dimension types and values",
+      "### ApplicabilityDimension \u2014 proposed fields",
+      "### ExecutionDimension \u2014 proposed fields",
+      "### RequirementDimension \u2014 proposed fields",
+      "### Not Applicable determination encoding \u2014 B direction selected; exact schema OPEN",
+      "## 4. Candidate whole-record validity relation",
+      "### Proposed transition obligations, not a finalized transition graph",
+      "## 5. Validation inputs and outcome proposal",
+      "## 6. Formal publication predicates \u2014 proposed for review",
+      "## 7. Guarded commit and race obligations",
+      "## 8. Candidate boundary examples and existing obligations",
+      "## 9. Explicit decisions still required"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/CHECK_LIFECYCLE_PUBLICATION_DRAFT.md",
+    "bytes": 16465,
+    "sha256": "6c9fda81589fdc28e81acfb41040383359973c68d481d299f3297a70a223d3c4",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Check lifecycle and guarded publication",
+      "## 1. Four operations that must not be confused",
+      "## 2. Candidate operation contracts",
+      "## 3. Whole-record mutation contract",
+      "### Duplicate requests and uncertainty",
+      "## 4. Guarded publication predicate",
+      "## 5. Concurrency and race specifications",
+      "## 6. Failure and read/projection contract",
+      "## 7. Acceptance obligations \u2014 unexecuted specifications",
+      "## 8. Remaining specifications and progression"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/CODING_READINESS_REPORT.md",
+    "bytes": 20220,
+    "sha256": "638f6a5eda6d932747117723ee9f48b6399daf3ee0285db3ab00fee3f1e2bb7e",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Coding Readiness Report",
+      "## 1. Completed design deliverables and decisions",
+      "## 2. Final proposed schema and repository boundaries",
+      "## 3. Lifecycle and immutable output guarantees",
+      "## 4. Transaction, publication and recovery guarantees proposed",
+      "## 5. Dependency compatibility findings",
+      "## 6. Test infrastructure and acceptance coverage",
+      "## 7. Design risks and owner-dependent decisions",
+      "## 8. Proposed implementation phases and dependencies",
+      "## 9. Exact expected file changes",
+      "## 10. Gates and stopping point",
+      "## Evidence and review limitations",
+      "### Additional review findings closed as recommendations",
+      "### Final document and preservation checks"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/CONFIRMATION_REVISION_CONTRACTS_DRAFT.md",
+    "bytes": 17464,
+    "sha256": "2bdb33e5a0745c6a65995960a849ed2bc1d5025455965f8bdcdfe2fad41d3e2a",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 R05 researcher confirmation and revision contracts",
+      "## 1. Distinct kinds of approval",
+      "## 2. Logical record contracts",
+      "### Proposal record",
+      "### Confirmation record",
+      "### Analysis scope snapshot",
+      "## 3. Classification and materiality predicates",
+      "## 4. Operations and pre/postconditions",
+      "## 5. Stale confirmation and concurrency",
+      "## 6. Change impact and result reuse",
+      "## 7. Researcher review journey and integration boundary",
+      "## 8. Audit, privacy and deletion",
+      "## 9. Acceptance obligations \u2014 unexecuted specifications",
+      "## 10. Open contract items and next refinement"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/CORE_TRANSACTION_PLAN_DRAFT.md",
+    "bytes": 10689,
+    "sha256": "ed7482b49202525dd8d75d5bfb2a5f1e8a44b77b93027b76eb17f1f2f0d6c20f",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Core repository and transaction contract",
+      "## 1. Fixed access boundary",
+      "## 2. Repository operation plan",
+      "## 3. Guard participation and write inspection",
+      "## 4. Idempotency and rejection outcomes",
+      "## 5. Database time and resource boundaries",
+      "## 6. Verification required before implementation acceptance",
+      "## Primary references",
+      "## Current readiness package \u2014 2026-11-06"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/COUNCIL_REVIEW_CONTRACTS_DRAFT.md",
+    "bytes": 21006,
+    "sha256": "070d3ffeb05425bdeda582b1eb43c4a544c04403e9cc58cbb4b4180d0c493ba9",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 R06 Council packets, phases and evidence judging",
+      "## 1. Existing integration boundary \u2014 inspected, not changed",
+      "## 2. Independent review packet contract",
+      "## 3. Role-specific obligations",
+      "## 4. Visual-condition and disclosure contract",
+      "## 5. Reviewer output and validation layers",
+      "## 6. Full Council and Focused phase contracts",
+      "## 7. Cross-review and disagreement records",
+      "## 8. Evidence Judge contract",
+      "## 9. Scheduling, private processing and audit",
+      "## 10. Acceptance obligations \u2014 all unexecuted specifications",
+      "## 11. Baseline fingerprint and open review items"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/CROSS_CONTRACT_REVIEW.md",
+    "bytes": 13344,
+    "sha256": "db2120c00bef6f8b4e31978dff9056c353a4b25e17e3ab40cb7188a4ccffe2f3",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 R01\u2013R07 cross-contract consistency review",
+      "## 1. Review scope and evidence",
+      "## 2. Editorial findings corrected under existing owner decisions",
+      "## 3. Cross-contract semantic checks",
+      "## 4. Remaining formal-specification decision bundle",
+      "## 5. Dependencies to keep explicit",
+      "## 6. Review boundary and next step"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/DECIMAL_ARITHMETIC_CONTRACT_DRAFT.md",
+    "bytes": 15534,
+    "sha256": "29d17344e3e82623996fcc55771205b64ac7ec99b747ca66508c30a4cb0104f7",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Decimal arithmetic and explicit conversion boundaries",
+      "## 1. Original representation and parsed value",
+      "## 2. Value classification before arithmetic",
+      "## 3. Explicit, versioned arithmetic context",
+      "## 4. Defined, undefined and blocked results",
+      "## 5. Separate tolerance contracts",
+      "## 6. Unit-aware comparison and percentages",
+      "## 7. Explicit Decimal-to-binary statistical boundary",
+      "## 8. Output, wire and reproducibility metadata",
+      "## 9. Acceptance obligations \u2014 unexecuted specifications",
+      "## 10. Open decisions and references"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/DEPENDENCY_COMPATIBILITY_REVIEW.md",
+    "bytes": 6553,
+    "sha256": "03a87082be565f02e065a5e13ab6a604f8c47f0f81e1e3785bd0ca66e2851064",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Dependency compatibility review",
+      "## Proposed first implementation environment",
+      "## Checks actually performed",
+      "## Authorized implementation checks required later",
+      "## Sources"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/EXECUTION_POSTGRESQL_SCHEMA_REVIEW.md",
+    "bytes": 37535,
+    "sha256": "cbd11cc194c91257a2c51dc48109042893e5700c4d7bbddd45444f529b114b10",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Concrete execution schema and SQL review",
+      "## 1. Decisions and evidence boundary",
+      "## 2. Proposed DDL \u2014 review artifact only",
+      "## 3. Cross-row enforcement and immutable records",
+      "## 4. Final lock order and queue/admission algorithm",
+      "## 5. SQL templates \u2014 documentation only",
+      "## 6. Idempotency and rejection protocol",
+      "## 7. Database-only retries \u2014 final recommendation",
+      "## 8. Worker-stop, artifacts and security review",
+      "## 9. SQL/schema review conclusions",
+      "## 10. Final review refinements and readiness baseline",
+      "## 11. Required internal command and adapter contracts",
+      "## 12. Lost-acknowledgement replay ordering clarification"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/EXECUTION_SCHEMA_STATEMENT_MAP.md",
+    "bytes": 17663,
+    "sha256": "6b2512251a103e9d88a6e8ecac07719f382acca6693bff1110517765dbdf4912",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Execution metadata, constraints and statement map",
+      "## 1. Recommended persistence model",
+      "## 2. Recommended coordination order",
+      "## 3. Statement-level operation map",
+      "## 4. Time, fairness and idempotency recommendations",
+      "## 5. Accepted, rejected and uncertain writes",
+      "## 6. Readiness and verification boundary",
+      "## Primary references",
+      "## Current readiness package \u2014 2026-11-06"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/EXECUTION_TEST_SPECIFICATION.md",
+    "bytes": 12821,
+    "sha256": "6c56bc0428429c43e1a02c710ffee05848b03cc5a1af61fdb86329aba72c4d92",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Execution integration environment and acceptance specification",
+      "## 1. Recommended isolated test environment",
+      "## 2. Process and failure harness",
+      "## 3. Acceptance matrix \u2014 unexecuted",
+      "## 4. Security and operational review",
+      "## 5. Development configuration additions"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/EXPLICIT_ABSENCE_CONTRACT_DRAFT.md",
+    "bytes": 12893,
+    "sha256": "4062483b96459e694077d2ade9579fb5369ea08138d7857e00e491ada329da9f",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Explicit typed absence and unresolved applicability",
+      "## 1. Four distinct meanings",
+      "## 2. Independent axes with a discriminated requirement slot",
+      "## 3. Typed absence basis",
+      "## 4. Undetermined applicability payload",
+      "## 5. Proposed cross-field relation for review",
+      "## 6. Central validation and guarded publication",
+      "## 7. Coverage, report and API projections",
+      "## 8. Boundary examples and existing acceptance obligations",
+      "## 9. Remaining formal decisions"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/FIRST_CODING_SCOPE.md",
+    "bytes": 10414,
+    "sha256": "1f7ca5fbff8555038c54bd63ccb54db864aaa15c82d133f6651228a27c48221e",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 First coding scope and readiness decisions",
+      "## Decisions incorporated",
+      "## Development-testing defaults only",
+      "## First implementation scope, after separate coding authorization",
+      "## Required test evidence \u2014 planned, not executed",
+      "## Remaining bounded planning work",
+      "## Current readiness package \u2014 2026-11-06"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/FIRST_IMPLEMENTATION_FILE_MAP.md",
+    "bytes": 11257,
+    "sha256": "81fbaf22451a7dc6fba5bb2e02ec72e8b1315c3938132b51d8c713ac3468cd62",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 First implementation file and test mapping",
+      "## 1. Existing code boundary inspected",
+      "## 2. Proposed production file changes after separate implementation authority",
+      "## 3. Proposed test files and observations",
+      "## 4. PostgreSQL testing boundary",
+      "## 5. Remaining decisions before coding authorization",
+      "## Current readiness package \u2014 2026-11-06"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/JOB_ATTEMPT_TRANSITIONS_DRAFT.md",
+    "bytes": 23260,
+    "sha256": "0361d364a7a51714b466813e01eb7d0dd53c71957820432f2fbe084be401eef9",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Separate Job and Execution Attempt transition tables",
+      "## 1. Scope and proposed state inventories",
+      "## 2. Actors, common guards and atomic effects",
+      "## 3. Complete Job transition table \u2014 proposed",
+      "## 4. Complete Execution Attempt transition table \u2014 proposed",
+      "## 5. Cross-state invariants",
+      "## 6. Events that do not change lifecycle state",
+      "## 7. Invalid transitions and race ordering",
+      "## 8. Recovery and review obligations \u2014 unexecuted"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/LEASE_RETRY_RECONCILIATION_DRAFT.md",
+    "bytes": 9891,
+    "sha256": "d55654f450fc006852bdc1528cde9da231ddfaa6bc591bbe9a66a89447c7452f",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Lease, retry and reconciliation rules",
+      "## 1. Lease and heartbeat rules proposed for review",
+      "## 2. Retry rules proposed for review",
+      "## 3. Reconciliation actions proposed for review",
+      "## 4. Planned verification and remaining limits"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/NUMERICAL_CONTRACTS_DRAFT.md",
+    "bytes": 22139,
+    "sha256": "6f8fdb64a51d84e8e0b7b81eb7e4cb24ba25fba9667ca041c047a30ae679200c",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 R02 numerical contracts and precision",
+      "## 1. Contract layers",
+      "## 2. Logical input types",
+      "### Data-value categories",
+      "## 3. Logical numerical output types",
+      "## 4. Procedure contract detail",
+      "## 5. Unit and selection invariants",
+      "## 6. Three precision contracts",
+      "### Rounding and tolerance comparison",
+      "## 7. Numerical comparison contract",
+      "## 8. Representation direction options \u2014 A recommended for refinement",
+      "## 9. Acceptance specifications \u2014 no cases executed",
+      "## 10. Open specification record and next step"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/OPEN_DECISIONS.md",
+    "bytes": 36139,
+    "sha256": "6b30cec2575fcdf8d850fa76648e822cbf37741d5f72487c06bdbdbf780314f2",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Consolidated open decisions",
+      "## How to answer",
+      "## Already approved \u2014 do not reopen by default",
+      "## 1. Scientific procedures and decision rules",
+      "## 2. Source verification and historical identity",
+      "## 3. CSV/XLSX ingestion and scope",
+      "## 4. Visualization and Council protocol",
+      "## 5. Accounts, permissions and identity lifecycle",
+      "## 6. Private processing, retention and reproducibility",
+      "## 7. Queue mechanics, shared controls and recovery",
+      "## 8. Pilot workload, limits, cost and observability",
+      "## 9. Products, public contracts and compatibility",
+      "## 10. Migration, recovery and acceptance evidence",
+      "## Suggested response format",
+      "## Traceability"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/POSTGRESQL_TOOLING_OPTIONS.md",
+    "bytes": 5670,
+    "sha256": "c4d9554d6072446e89b1193364c78c6fa38b4e20d18bf4d0c4daa1992a8f6900",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 PostgreSQL access and migration tooling choice",
+      "## Decision to make",
+      "## File-map impact of either choice",
+      "## Primary documentation consulted"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/PUBLICATION_GUARD_SCHEMA_PROPOSAL.md",
+    "bytes": 14912,
+    "sha256": "ac1451a15f7bab90ace5447e46145062d7921aafe7d6ba8f5119c596dcbbad1c",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Candidate publication guard schemas",
+      "## 1. Trust and type boundaries",
+      "## 2. Candidate request family",
+      "## 3. Authoritative guard facts and validation binding",
+      "## 4. Candidate operation profiles",
+      "## 5. Atomic decision and outcome family",
+      "## 6. Candidate artifact relationships",
+      "## 7. Required unexecuted contract examples",
+      "## 8. Remaining formal design work"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/PUBLICATION_IDEMPOTENCY_OPTIONS.md",
+    "bytes": 11629,
+    "sha256": "3b2020efc867dbc9cedd4deb16096e0e72ee4c80e95935aacb253900b949c85e",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 FD02 publication and idempotency options",
+      "## 1. Acceptance boundary and shared facts",
+      "## 2. A \u2014 Conditional/version-guarded publication",
+      "### Candidate mechanism",
+      "### Tradeoffs and failure conditions",
+      "## 3. B \u2014 Bounded transactional locking",
+      "### Candidate mechanism",
+      "### Tradeoffs and failure conditions",
+      "## 4. Shared idempotency contract",
+      "## 5. Artifacts, audit and honest incomplete reports",
+      "## 6. Race obligations \u2014 unexecuted specifications",
+      "## 7. Decision comparison"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/RECOMMENDED_DECISIONS.md",
+    "bytes": 30315,
+    "sha256": "81f1e79eee5f346ce90b3aae3718fb0f65556844d0a6d7d14fcace9dba2d3318",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Proposed Q01\u2013Q60 policy package",
+      "## 1. Scientific procedures and decision rules",
+      "## 2. Sources and historical identity",
+      "## 3. CSV/XLSX ingestion",
+      "## 4. Visualization and Council protocol",
+      "## 5. Accounts and access",
+      "## 6. Private processing and reproducibility",
+      "## 7. Queue and recovery",
+      "## 8. Workload, limits, costs and operations",
+      "## 9. Products and API contracts",
+      "## 10. Migration and acceptance",
+      "## Remaining gates even if the policy direction is approved",
+      "## Clarifications retained for technical drafting",
+      "## Approval boundary and next step"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/SCIENTIFIC_CONTRACTS_DRAFT.md",
+    "bytes": 37092,
+    "sha256": "e3d78608e86054c0eeaf517717fd582fa638c9fa49378a8ad2594bb786c41e2d",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 R01\u2013R07 scientific contract refinement",
+      "## R01 \u2014 Canonical check and assessment records",
+      "### R01.1 Scope envelope",
+      "### R01.2 Check lifecycle and result",
+      "### R01.3 Assessment and coverage contract",
+      "## R02 \u2014 Numerical request and output contracts",
+      "### R02.1 Common request/result",
+      "### R02.2 Candidate procedure predicates",
+      "### R02.3 Comparison against a reported value",
+      "## R03 \u2014 Parameterized statistical contracts",
+      "### R03.1 Required request contract",
+      "### R03.2 Required output and failure contract",
+      "## R04 \u2014 Source procedures and proof records",
+      "### R04.1 Retrieval versus source-verification contracts",
+      "### R04.2 Status and temporal constraints",
+      "## R05 \u2014 Confirmation, revision and scope contracts",
+      "### R05.1 Confirmation record",
+      "### R05.2 Preconditions and postconditions",
+      "## R06 \u2014 Review packets, phase dependencies and judge validation",
+      "### R06.1 Packet manifest",
+      "### R06.2 Phase dependency table",
+      "### R06.3 Output and judge eligibility",
+      "## R07 \u2014 Acceptance corpus contracts",
+      "### R07.1 Required case record",
+      "### R07.2 Candidate cases \u2014 all unexecuted specifications",
+      "## Consolidated decisions still open after this refinement"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/SCIENTIFIC_SPECIFICATION_DRAFT.md",
+    "bytes": 37907,
+    "sha256": "356b149e67aa7e731a77918c7d56032e7ff9228c44fd9dd64326c4f1b3df1003",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Scientific applicability and verification specification",
+      "## 1. Unit of evaluation and immutable scope",
+      "## 2. Check result semantics",
+      "## 3. Proposed Scientific Applicability Matrix",
+      "## 4. Deterministic numerical procedure contracts",
+      "### Precision and rounding",
+      "## 5. Statistical candidates: descriptive output versus inference",
+      "### Statistical method decision bundle \u2014 all OPEN",
+      "## 6. Source-family mandatory-check draft",
+      "### Publication-time and current layer",
+      "## 7. Review modes and report-level mandatory gates",
+      "## 8. Required acceptance cases \u2014 specifications only, not results",
+      "## 9. Refinement deliverables and open choices",
+      "## 10. Primary references and evidence boundary"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/SOURCE_PROCEDURES_DRAFT.md",
+    "bytes": 21997,
+    "sha256": "27f595a7bd88c9b8d49a3b9bd3bf6fba43948244c44420b4d0d256d968f78c75",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 R04 source retrieval, proof and temporal contracts",
+      "## 1. Distinct source objects and facts",
+      "## 2. Retrieval request and result contracts",
+      "### Request",
+      "### Result",
+      "## 3. Isolated retrieval and parsing boundary",
+      "## 4. Common source-proof contract",
+      "## 5. Source-family procedure sheets",
+      "### Official publisher HTML",
+      "### Official CSV/XLSX download",
+      "### Versioned repository record",
+      "### Bounded text-based research PDF",
+      "## 6. Source status and availability semantics",
+      "## 7. Corrections, retractions and change attribution",
+      "## 8. Historical/current identity and revision comparisons",
+      "### Historical binding request",
+      "### Current binding and refresh",
+      "## 9. Source-to-submission comparison contract",
+      "## 10. Publication, privacy and reproducibility",
+      "## 11. Acceptance obligations \u2014 unexecuted specifications",
+      "## 12. Open specification record and next step"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/STATISTICAL_CONTRACTS_DRAFT.md",
+    "bytes": 22088,
+    "sha256": "678c4861d7e5bceb466724262a4fd395ad99edafeaae3fe1d5404822e3e7c8dc",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 R03 statistical request, prerequisite and result contracts",
+      "## 1. Separate the assertions being checked",
+      "## 2. Logical request contract",
+      "## 3. Prerequisite evidence contract",
+      "## 4. Candidate-family contract sheets",
+      "### Pearson candidate",
+      "### Spearman candidate",
+      "### Mean-interval candidate",
+      "### Proportion-interval candidate",
+      "### Welch-comparison candidate",
+      "### Chi-square-independence candidate",
+      "## 5. Result contract and independent output eligibility",
+      "## 6. Hypotheses, selection and uncertainty interpretation",
+      "## 7. Decimal/binary and stochastic boundaries",
+      "## 8. Failure and publication predicates",
+      "## 9. Statistical decision bundle \u2014 still OPEN",
+      "## 10. Acceptance obligations \u2014 all unexecuted specifications",
+      "## 11. References, open gates and next refinement"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/TECHNICAL_PLAN_GATES.md",
+    "bytes": 25855,
+    "sha256": "249b70eaecfe0d709622c00395e0e0c53be67210ba5470821210db3362cbc045",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Technical Plan gate register",
+      "## Gate rules",
+      "## Decision gates \u2014 all OPEN",
+      "## Enablement gates \u2014 all OPEN",
+      "## Pilot gates \u2014 all OPEN",
+      "## Closing evidence and sequencing",
+      "## Coding-readiness consolidation \u2014 no gate closure"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/TRANSACTION_CONSISTENCY_OPTIONS.md",
+    "bytes": 6932,
+    "sha256": "e2a5f59390f30c7967269658917bee87a217b2f03add09dcd627bc08923dd2fa",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Short-transaction consistency choice",
+      "## Fixed requirements",
+      "## Comparison retained as decision history",
+      "## Common review obligations after selection",
+      "## Scope after this decision",
+      "## Primary references"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/TYPED_CHECK_AXES_DRAFT.md",
+    "bytes": 20329,
+    "sha256": "c6bedecb9627e4d313eb4bc8c4d848e0cd22368f976ef8da5198695131ddd10e",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Independent typed check dimensions",
+      "## 1. Contract scope and notation",
+      "## 2. Explicit logical types",
+      "### Applicability dimension",
+      "### Execution dimension",
+      "### Requirement Determination dimension",
+      "### Separate record components",
+      "## 3. Whole-record validity matrix",
+      "## 4. Centralized whole-record validation",
+      "### No field-update bypass",
+      "## 5. Validation at trust boundaries",
+      "## 6. Stale and unauthorized publication contract",
+      "## 7. Acceptance obligations \u2014 unexecuted specifications",
+      "## 8. Open specification items and continuation"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/VERSION_GUARDED_PUBLICATION_DRAFT.md",
+    "bytes": 16623,
+    "sha256": "c6342b4814cb073ae74dfa2e787a5cc82c9f3dfad445ab3c6cc45a734f41aced",
+    "headings": [
+      "# EvidenceTwin V1 \u2014 Conditional publication, monotonic fencing and guard coverage",
+      "## 1. Acceptance operation and atomicity",
+      "## 2. Guard set \u2014 required meaning, not final schema",
+      "## 3. Monotonic fencing contract",
+      "## 4. Write-path guard coverage",
+      "## 5. Transaction outcomes and rejected publication audit",
+      "## 6. Staged artifacts and accepted visibility",
+      "## 7. Whole-record validation and scientific boundaries",
+      "## 8. Guard-coverage acceptance specifications \u2014 unexecuted",
+      "## 9. Remaining exact design decisions"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "docs/designs/backend-completion/ember-2025-acceptance/acceptance_case.md",
+    "bytes": 12432,
+    "sha256": "59659fdc0e8c481a7fbde8e9db5d21f491ee22a208cf870a482491a634b77f34",
+    "headings": [
+      "# Proposed first acceptance case: Ember global clean electricity, 2025",
+      "## Claim under test",
+      "## Publisher references",
+      "## Preserved evidence",
+      "## Reference extraction and calculation",
+      "### Report-associated dataset",
+      "### Current yearly dataset",
+      "## Acceptance requirements",
+      "## Coverage limitations of this first case",
+      "## Historical/current policy established by the user"
+    ],
+    "authority": "design proposal / decision history"
+  },
+  {
+    "path": "frontend/README.md",
+    "bytes": 531,
+    "sha256": "f961bd12a9aed71894c848b05d330d95a5a9fec6c85b637b1279767fed62fefe",
+    "headings": [
+      "# EvidenceTwin frontend"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "output/impeccable-review/assessment-a.md",
+    "bytes": 14520,
+    "sha256": "0c73bd76c916ace2c594c74dd56c2f2efc996fac9ebe08b75cd3af9861c74663",
+    "headings": [
+      "# Assessment A \u2014 independent design review",
+      "## Design specificity verdict",
+      "## Nielsen scores",
+      "## Cognitive load",
+      "## Emotional journey",
+      "## Strengths",
+      "## Priority issues",
+      "### P1 \u2014 Promise and availability diverge before the first task",
+      "### P1 \u2014 A single unavailable service becomes a dashboard full of failures",
+      "### P2 \u2014 Containers and controls dominate the evidence record",
+      "### P2 \u2014 Explanatory text is styled as machine metadata",
+      "### P2 \u2014 Researcher settings are mixed with operator configuration",
+      "## Persona red flags",
+      "## Minor observations",
+      "## Questions for the parent synthesis",
+      "## Evidence and limits"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "output/impeccable-review/assessment-b.md",
+    "bytes": 10403,
+    "sha256": "946aabe73db0abe1bd1fa4b00457ce8a11ead167533ed601984d1af98d04c299",
+    "headings": [
+      "# Assessment B \u2014 independent detector and technical audit",
+      "## Evidence boundary",
+      "## Deterministic source detector \u2014 separate from confirmed defects",
+      "## Live detector visualization",
+      "## Audit health",
+      "## Human-confirmed findings",
+      "### P2 \u2014 Compact navigation targets reduce touch comfort",
+      "### P2 \u2014 Quiet button boundaries use separator contrast",
+      "## Verified positives and checks",
+      "## Limits and interpretation",
+      "## Run notes"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "output/impeccable-review/direction.md",
+    "bytes": 5947,
+    "sha256": "5980670af63fd652d6420c8ae7613277f7669ce9d64c850fb690be07ee31e08a",
+    "headings": [
+      "# Research dossier \u2014 frontend redesign brief",
+      "## Incumbent system capture",
+      "## Direction exploration",
+      "## Direction contract",
+      "## Engineering and verification",
+      "## Prompt-first entry amendment"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "output/impeccable-review/finish-review.md",
+    "bytes": 4810,
+    "sha256": "efd42c472c854cc1d96038c1809a21dc336170ad2ae1596aadf0cb4c4ade312f",
+    "headings": [
+      "# Capture validity",
+      "# Direction and craft",
+      "# Product/engineering/accessibility",
+      "# Prioritized findings",
+      "# Disposition"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "output/impeccable-review/finish-verdict.md",
+    "bytes": 1859,
+    "sha256": "0476a66e89b48f397140bb243803a38bce8c3c130e18dfa6f3eb2c0c4ea1ce9e",
+    "headings": [
+      "# Finish verdict",
+      "## Scope"
+    ],
+    "authority": "historical verification / design"
+  },
+  {
+    "path": "snippets/prompts/COUNTERFACTUAL ANALYST.md",
+    "bytes": 3510,
+    "sha256": "0fa1ee0620c0c0ea7a5775ccea9c623e2953bf9af25ad1b1964837b2adaf426e",
+    "headings": [
+      "### Role",
+      "### Primary Objective",
+      "### Core Principle",
+      "### Areas of Investigation",
+      "#### 1. Original vs Neutral Comparison",
+      "#### 2. Interpretation Sensitivity",
+      "#### 3. Controlled Counterfactuals",
+      "#### 4. Sensitivity and Robustness",
+      "#### 5. Limitations",
+      "### Important Boundaries",
+      "### Expected Result"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "snippets/prompts/Cross-Reviewer.md",
+    "bytes": 2959,
+    "sha256": "afa021c366c2d89dc0c27cf9d0776b7d601122b13342c02b091e4f4a375201c4",
+    "headings": [
+      "### Role",
+      "### Inputs",
+      "### Responsibilities",
+      "#### 1. Evidence Reference Validation",
+      "#### 2. Scope Compliance",
+      "#### 3. Contradiction Detection",
+      "#### 4. Finding Quality",
+      "#### 5. Correction Recommendations",
+      "### Rules",
+      "### Required Output"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "snippets/prompts/EVIDENCE JUDGE.md",
+    "bytes": 5074,
+    "sha256": "eaf5bec2f9e9c9453d07c70fca8c23d00781848022435e9476932121e6f74c41",
+    "headings": [
+      "### Role",
+      "### Primary Objective",
+      "### Inputs",
+      "### Evidence Priority",
+      "### Adjudication Procedure",
+      "#### Step 1 \u2014 Identify the Exact Claim",
+      "#### Step 2 \u2014 Examine the Evidence",
+      "#### Step 3 \u2014 Examine Reviewer Findings",
+      "#### Step 4 \u2014 Examine Cross-Review",
+      "#### Step 5 \u2014 Issue a Verdict",
+      "### Scientific Safeguards",
+      "### Corrected Interpretation",
+      "### Required Output",
+      "### Final Responsibility"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "snippets/prompts/SCIENTIFIC SKEPTIC.md",
+    "bytes": 3537,
+    "sha256": "e6819dcadfc409c6d6a3290856939c3388a45fbdff6825e3dadee65f9ca134b2",
+    "headings": [
+      "### Role",
+      "### Primary Objective",
+      "### Areas of Investigation",
+      "#### 1. Study Design",
+      "#### 2. Causal Inference",
+      "#### 3. Population and Generalization",
+      "#### 4. Methodological Limitations",
+      "#### 5. Alternative Explanations",
+      "#### 6. Claim Language",
+      "### Important Boundaries",
+      "### Expected Result"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "snippets/prompts/STATISTICAL AUDITOR.md",
+    "bytes": 3195,
+    "sha256": "272031b6892902dfbba3b38fb72d898baa951b59c650df672809608e64c789c4",
+    "headings": [
+      "### Role",
+      "### Primary Objective",
+      "### Areas of Investigation",
+      "#### 1. Arithmetic Verification",
+      "#### 2. Dataset Consistency",
+      "#### 3. Statistical Significance",
+      "#### 4. Effect Interpretation",
+      "#### 5. Reproducibility",
+      "### Important Boundaries",
+      "### Expected Result"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "snippets/prompts/VISUAL ANALYST.md",
+    "bytes": 4687,
+    "sha256": "0c1a9aa25dc555b1c9cf7021561d90878e42595f21536c53bbe5fd84b3ccde6c",
+    "headings": [
+      "### Role",
+      "### Primary Objective",
+      "### Areas of Investigation",
+      "#### 1. Axes and Scales",
+      "#### 2. Data Encoding",
+      "#### 3. Labels and Context",
+      "#### 4. Visual Framing",
+      "#### 5. Uncertainty Presentation",
+      "### Original Visualization Inspection",
+      "### Neutral Visualization Inspection",
+      "### Important Boundaries",
+      "### Strict Scope and Evidence Restrictions",
+      "### Additional Scientific Precision Rules",
+      "### Expected Result"
+    ],
+    "authority": "technical guidance (verify against code)"
+  },
+  {
+    "path": "snippets/prompts/shared.md",
+    "bytes": 4199,
+    "sha256": "7c0e37cc05f51e7048a64a943c5ce95494649a4fdbce31b6ba320208a384da02",
+    "headings": [
+      "### Identity",
+      "### Core Principles",
+      "### Input Contract",
+      "### Evidence Discipline",
+      "### Image and Evidence Identification",
+      "### Required Output"
+    ],
+    "authority": "technical guidance (verify against code)"
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "name": "add",
+    "baseline": 130,
+    "height": 130,
+    "left": 465,
+    "top": 361.390625,
+    "right": 785,
+    "bottom": 576.5625,
+    "width": 320,
+    "viewportWidth": 1440,
+    "viewportHeight": 1000
+  },
+  {
+    "arrowKeyFocused": "Add source link"
+  },
+  {
+    "escapeReturnedToPlus": true
+  },
+  {
+    "name": "source",
+    "baseline": 130,
+    "height": 130,
+    "left": 465,
+    "top": 361.390625,
+    "right": 785,
+    "bottom": 617.015625,
+    "width": 320,
+    "viewportWidth": 1440,
+    "viewportHeight": 1000
+  },
+  {
+    "invalidSourceStayedOpen": true
+  },
+  {
+    "sourceEnterClosed": true,
+    "stillComposer": true
+  },
+  {
+    "name": "review",
+    "baseline": 176,
+    "height": 176,
+    "left": 509,
+    "top": 407.390625,
+    "right": 829,
+    "bottom": 600.171875,
+    "width": 320,
+    "viewportWidth": 1440,
+    "viewportHeight": 1000
+  },
+  {
+    "reviewSelectedAndClosed": "Multi-perspective",
+    "closed": true
+  },
+  {
+    "name": "settings",
+    "baseline": 176,
+    "height": 176,
+    "left": 509,
+    "top": 407.390625,
+    "right": 829,
+    "bottom": 827.390625,
+    "width": 320,
+    "viewportWidth": 1440,
+    "viewportHeight": 1000
+  },
+  {
+    "outsideClickClosed": true
+  },
+  {
+    "name": "claims",
+    "baseline": 176,
+    "height": 176,
+    "left": 746,
+    "top": 352.390625,
+    "right": 1066,
+    "bottom": 604.5625,
+    "width": 320,
+    "viewportWidth": 1440,
+    "viewportHeight": 1000
+  },
+  {
+    "name": "flip-above",
+    "baseline": 176,
+    "height": 176,
+    "left": 465,
+    "top": 136.21875,
+    "right": 785,
+    "bottom": 351.390625,
+    "width": 320,
+    "viewportWidth": 1440,
+    "viewportHeight": 480
+  },
+  {
+    "flippedAbove": true
+  },
+  {
+    "name": "mobile-add",
+    "baseline": 252,
+    "height": 252,
+    "left": 29,
+    "top": 526.5,
+    "right": 349,
+    "bottom": 741.671875,
+    "width": 320,
+    "viewportWidth": 390,
+    "viewportHeight": 1000
+  },
+  {
+    "name": "mobile-review",
+    "baseline": 252,
+    "height": 252,
+    "left": 58,
+    "top": 526.5,
+    "right": 378,
+    "bottom": 719.28125,
+    "width": 320,
+    "viewportWidth": 390,
+    "viewportHeight": 1000
+  },
+  {
+    "name": "mobile-settings",
+    "baseline": 252,
+    "height": 252,
+    "left": 58,
+    "top": 526.5,
+    "right": 378,
+    "bottom": 946.5,
+    "width": 320,
+    "viewportWidth": 390,
+    "viewportHeight": 1000
+  },
+  {
+    "name": "arabic-add",
+    "baseline": 252,
+    "height": 252,
+    "left": 41,
+    "top": 470.9375,
+    "right": 361,
+    "bottom": 686.109375,
+    "width": 320,
+    "viewportWidth": 390,
+    "viewportHeight": 1000
+  },
+  {
+    "name": "arabic-review",
+    "baseline": 252,
+    "height": 252,
+    "left": 12,
+    "top": 470.9375,
+    "right": 332,
+    "bottom": 663.71875,
+    "width": 320,
+    "viewportWidth": 390,
+    "viewportHeight": 1000
+  },
+  {
+    "savedAndReopened": true,
+    "claims": 2,
+    "files": 2,
+    "reviewDepth": "council",
+    "context": "UI diagnostic notes only.",
+    "url": "https://example.org/ui-inspection-only"
+  }
+]

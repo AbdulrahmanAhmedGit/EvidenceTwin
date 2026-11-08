@@ -232,16 +232,6 @@
             "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
             "w": 61,
             "h": 19.796875
-          },
-          {
-            "html": "<input type=\"checkbox\" style=\"\">",
-            "w": 13,
-            "h": 20
-          },
-          {
-            "html": "<a href=\"/app/analyses\" data-discover=\"true\">Open analysis history <span class=\"directional-arrow\" aria-hidden=\"true\">→</span></a>",
-            "w": 147,
-            "h": 18
           }
         ]
       }
@@ -260,16 +250,6 @@
             "html": "<a href=\"/app\" data-discover=\"true\">Workspace</a>",
             "w": 61,
             "h": 19.796875
-          },
-          {
-            "html": "<input type=\"checkbox\" style=\"\">",
-            "w": 13,
-            "h": 20
-          },
-          {
-            "html": "<a href=\"/app/analyses\" data-discover=\"true\">Open analysis history <span class=\"directional-arrow\" aria-hidden=\"true\">→</span></a>",
-            "w": 147,
-            "h": 18
           }
         ]
       }
@@ -744,6 +724,707 @@
         "scroll": 1440,
         "dir": "ltr",
         "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/settings",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "en",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "ltr",
+        "lang": "en"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": []
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": []
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": []
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/docs/api",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": []
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          },
+          {
+            "html": "<a href=\"/app/library/a1\" data-discover=\"true\">المحور المقتطع</a>",
+            "w": 96,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/library/a2\" data-discover=\"true\">الصياغة السببية</a>",
+            "w": 99,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/library/a3\" data-discover=\"true\">عرض عدم اليقين</a>",
+            "w": 105,
+            "h": 20
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          },
+          {
+            "html": "<a href=\"/app/library/a1\" data-discover=\"true\">المحور المقتطع</a>",
+            "w": 96,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/library/a2\" data-discover=\"true\">الصياغة السببية</a>",
+            "w": 99,
+            "h": 20
+          },
+          {
+            "html": "<a href=\"/app/library/a3\" data-discover=\"true\">عرض عدم اليقين</a>",
+            "w": 105,
+            "h": 20
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/new",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/library",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/settings",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          },
+          {
+            "html": "<input type=\"checkbox\" checked=\"\">",
+            "w": 13,
+            "h": 18
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          },
+          {
+            "html": "<input type=\"checkbox\" checked=\"\" style=\"\">",
+            "w": 13,
+            "h": 18
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": 320,
+      "dimensions": {
+        "width": 320,
+        "scroll": 320,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "light",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": 768,
+      "dimensions": {
+        "width": 768,
+        "scroll": 768,
+        "overflow": [],
+        "targets": [
+          {
+            "html": "<a href=\"/app\" data-discover=\"true\">مساحة البحث</a>",
+            "w": 69,
+            "h": 22.1875
+          }
+        ]
+      }
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/docs/api",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/analyses/new",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/library",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/settings",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/evidence",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/visualizations",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/council",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
+      },
+      "axe": []
+    },
+    {
+      "locale": "ar",
+      "theme": "dark",
+      "route": "/app/analyses/inspection-1/report",
+      "viewport": "desktop",
+      "dimensions": {
+        "width": 1440,
+        "scroll": 1440,
+        "dir": "rtl",
+        "lang": "ar"
       },
       "axe": []
     }

@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "completedBlocks": 65,
+  "totalBlocks": 65,
+  "provider": "LibreTranslate",
+  "clientVersion": "protected-report-translation/2",
+  "error": null,
+  "retainedOriginalBlocks": 1,
+  "originalUnchanged": true,
+  "elapsedSeconds": 4.8,
+  "sourceReportHash": "b0ab1ac6eae9f8ab780a693a36a47b078c78ba83cfc64c966f652b53451aa25d"
+}

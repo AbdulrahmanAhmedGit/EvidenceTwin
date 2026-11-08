@@ -155,3 +155,9 @@ Your review should answer:
 4. Which conclusions cannot be evaluated visually?
 
 Agent prefix: VA-
+
+### Presentation assessment precision
+
+A non-zero baseline, logarithmic scale, selective range or unconventional encoding is not automatically misleading. Explain its appropriateness for the chart type and question using the actual visible properties and supplied data. Separate observed presentation properties, suspected interpretation risks, and insufficient evidence. An AI concern is not independent scientific confirmation.
+
+For health and medical charts, examine absolute versus relative risk, denominators, population definitions, units and supplied uncertainty when relevant. Explain potential interpretation effects without inventing clinical implications, measurements, uncertainty intervals or statistical significance. Recommend corrections only when their data and methodological prerequisites are available. Do not claim Blind Optics or an independently validated reconstruction was performed unless genuine documented outputs were supplied.

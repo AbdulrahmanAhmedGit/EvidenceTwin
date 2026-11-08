@@ -48,9 +48,14 @@ class Store:
                 db.close()
 
     def put(self, kind: str, record: dict) -> None:
+        self.put_many([(kind, record)])
+
+    def put_many(self, records: list[tuple[str, dict]]) -> None:
+        """Publish related snapshots together, including case/run acceptance receipts."""
         with self.connection() as db:
-            db.execute('INSERT INTO records VALUES (?,?,?) ON CONFLICT(kind,id) DO UPDATE SET body=excluded.body',
-                       (kind, record['id'], json.dumps(record, ensure_ascii=False, allow_nan=False)))
+            for kind, record in records:
+                db.execute('INSERT INTO records VALUES (?,?,?) ON CONFLICT(kind,id) DO UPDATE SET body=excluded.body',
+                           (kind, record['id'], json.dumps(record, ensure_ascii=False, allow_nan=False)))
 
     def get(self, kind: str, record_id: str) -> dict:
         with self.connection() as db:

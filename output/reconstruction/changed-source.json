@@ -1,0 +1,18 @@
+[
+  "frontend/src/AnalysisWorkspace.tsx",
+  "frontend/src/WorkspaceHome.tsx",
+  "frontend/src/styles/precision.css",
+  "frontend/src/styles/observatory.css",
+  "frontend/src/styles/workspace.css",
+  "frontend/src/features/analyses/ResearchEntry.tsx",
+  "frontend/src/features/analyses/ResearchCases.tsx",
+  "frontend/src/features/analyses/research-entry.css",
+  "frontend/src/features/research/Reports.tsx",
+  "frontend/src/features/inspection/VisualizationLab.tsx",
+  "frontend/src/features/inspection/CouncilView.tsx",
+  "frontend/src/features/inspection/ResearchReport.tsx",
+  "frontend/src/features/inspection/inspection.css",
+  "frontend/src/features/inspection/EvidenceInspector.tsx",
+  "frontend/src/features/inspection/AuditTrail.tsx",
+  "frontend/src/features/workspace/AnalysisRecords.tsx"
+]

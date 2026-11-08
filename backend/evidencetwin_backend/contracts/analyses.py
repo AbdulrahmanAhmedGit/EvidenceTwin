@@ -59,6 +59,8 @@ class ReviewSummary(Wire):
 class Analysis(Wire):
     id: str
     title: str
+    researchCaseId: NotRequired[str]
+    reportAvailable: NotRequired[bool]
     status: Status
     mode: Mode
     createdAt: Timestamp
@@ -78,6 +80,7 @@ class Analysis(Wire):
     reviewSummary: NotRequired[list[ReviewSummary]]
 class AnalysisRecord(Wire):
     id: str
+    researchCaseId: NotRequired[str]
     title: str
     createdAt: Timestamp
     status: Status

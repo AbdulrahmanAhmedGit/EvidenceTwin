@@ -1,15 +1,5 @@
 # Application services
 
-- runtime.py: existing Blueprint-to-application binding, typed transport validation,
-  application CRUD/filtering/comparison and truthful capability metadata.
-- store.py: private local SQLite JSON records and uploads.
-- workflow.py: bounded review jobs, actual transitions, cancellation, restart
-  recovery, audit and clearly unverified exploratory reports.
-- provider.py: strict owner reviewer/cross-review/judge schemas, reference integrity,
-  packaged instructions and Ollama transport adapted from snippets/VA.py.
-- transports.py: OpenAI, Gemini, Anthropic, OpenRouter and DeepSeek transport
-  adapters adapted from snippets/all.py.
+`runtime.py` binds legacy HTTP services, ingestion, authorized retrieval and truthful capabilities. `store.py` persists private SQLite JSON records and files. `research_cases.py` adds immutable revisions and explicit run acceptance; `access.py` provides optional invite-only sessions, ownership and operator enforcement. `workflow.py` runs local threaded exploratory jobs and preserves audit/report history. `provider.py`, `transports.py` and `ai_settings.py` configure server-side model execution and schema/reference validation.
 
-No source authentication, statistical inference, neutral-chart generation,
-benchmark scoring, MCP server or multi-user authentication is implemented. See the
-root implementation guide before enabling or deploying scientific capabilities.
+See [architecture](../../../docs/ARCHITECTURE.md) and [API](../../../docs/API.md). The independent `execution/` PostgreSQL package is not the HTTP runtime. Model review is not scientific verification.

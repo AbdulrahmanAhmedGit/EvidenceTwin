@@ -1,0 +1,55 @@
+.root .evidence-findings{max-inline-size:880px;margin-block:24px 40px;min-inline-size:0}
+.root .evidence-finding-heading{display:block;height:auto;padding:0;border:0}
+.root .evidence-finding-heading h2{font-size:1.5rem;line-height:1.35;margin:0 0 8px}
+.root .evidence-finding-heading>p{color:var(--muted);margin:0 0 24px;max-inline-size:65ch}
+.root .evidence-comparison{margin:0 0 16px;background:var(--surface);border-radius:12px;padding:24px}
+.root .evidence-comparison figcaption{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.root .evidence-comparison h3{font-size:1rem;margin:0;max-inline-size:52ch}
+.root .evidence-comparison figcaption>span{font-size:.8125rem;color:var(--muted)}
+.root .dataset-answer{font-size:1.25rem;line-height:1.5;margin:16px 0 0;font-weight:600}
+.root .comparison-plot{display:grid;gap:18px;margin-block:20px}
+.root .plot-label{display:flex;justify-content:space-between;gap:16px;font-size:.9375rem;line-height:1.5;overflow-wrap:anywhere}
+.root .plot-label strong{flex:none;max-inline-size:50%;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.root .plot-track{position:relative;height:24px;margin-block-start:5px}
+.root .plot-bar{position:absolute;height:100%;border-radius:3px}
+.root .comparison-primary{background:var(--accent)}
+.root .comparison-secondary{background:var(--muted)}
+.root .plot-zero{position:absolute;height:100%;border-inline-start:1px solid var(--line)}
+.root .comparison-calculations{display:flex;gap:32px;flex-wrap:wrap;margin:16px 0}
+.root .comparison-calculations dt{font-size:.8125rem;color:var(--muted)}
+.root .comparison-calculations dd{font-size:1.125rem;font-variant-numeric:tabular-nums;margin:4px 0 0}
+.root .evidence-findings details{margin-block:12px}
+.root .evidence-findings summary{font-size:.875rem;line-height:1.65;cursor:pointer}
+.root .evidence-findings details p{font-size:.875rem;line-height:1.7;max-inline-size:72ch}
+.root .evidence-provenance dl{font-size:.8125rem;overflow-wrap:anywhere}
+.root .evidence-provenance dd{margin-inline-start:0;margin-block-end:8px}
+.root .dataset-finding-group>.caption{overflow-wrap:anywhere}
+.root .processing-coverage{margin-block:28px}
+.root .processing-coverage h3,.root .retrieved-source h3,.root .processing-limitations h3{font-size:1rem;margin-block:24px 12px}
+.root .processing-coverage dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 28px}
+.root .processing-coverage dl>div{display:flex;justify-content:space-between;gap:12px;font-size:.8125rem}
+.root .processing-coverage dd{margin:0;color:var(--muted)}
+.root .retrieved-source p{overflow-wrap:anywhere;font-size:.875rem;max-inline-size:72ch}
+.root .processing-limitations details{max-inline-size:72ch}
+.root .original-analysis-record{margin-block:32px}
+.root .original-analysis-record>summary{font-weight:600}
+@media(max-width:600px){.root .evidence-comparison{padding:16px}.root .processing-coverage dl{grid-template-columns:1fr}}
+@media print{.root .evidence-findings details>*{display:block}.root .evidence-findings{break-inside:auto}.root .evidence-comparison{break-inside:avoid}}
+
+.root .processing-coverage .coverage-explanations{display:grid;grid-template-columns:1fr;gap:18px}
+.root .coverage-explanations>div{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px}
+.root .coverage-explanations dt{font-weight:600}
+.root .coverage-explanations dd{margin:0;color:var(--muted)}
+.root .coverage-explanations p{grid-column:1/-1;max-inline-size:72ch;margin:2px 0 0;font-size:.875rem;line-height:1.7;color:var(--muted)}
+.root .retrieved-source article+article{margin-block-start:24px}
+
+.root .report-translation-controls{grid-column:1/-1;margin-block:8px 24px;padding-block:16px;border-block:1px solid var(--line)}
+.root .translation-actions{display:flex;align-items:end;gap:10px;flex-wrap:wrap}
+.root .translation-actions label{display:grid;gap:5px;font-size:.8125rem}
+.root .report-translation-controls p{font-size:.875rem;line-height:1.7;max-inline-size:72ch;margin-block:12px 0}
+.root .report-translation-controls>.caption{letter-spacing:0;font-family:inherit}
+.root .report-translation-controls>button{margin-block-start:12px;margin-inline-end:8px}
+.root .translated-report[lang=ar]{font-family:'Alan Sans Variable',sans-serif}
+.root .translation-notice{font-weight:600;color:var(--accent)}
+@media print{.root .translation-actions,.root .report-translation-controls>button{display:none}.root .report-translation-controls{padding:8px 0}.root .translation-notice{display:block}}
+.root .comparison-axis{display:flex;justify-content:space-between;font-size:.75rem;color:var(--muted);font-variant-numeric:tabular-nums;margin-block-start:-10px}

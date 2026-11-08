@@ -19,6 +19,15 @@ import plug from '@iconify-icons/solar/plug-circle-linear'
 import collapse from '@iconify-icons/solar/sidebar-close-linear'
 import expand from '@iconify-icons/solar/sidebar-open-linear'
 import settings from '@iconify-icons/solar/settings-linear'
+import down from '@iconify-icons/solar/alt-arrow-down-linear'
+import paperclip from '@iconify-icons/solar/paperclip-linear'
+import link from '@iconify-icons/solar/link-linear'
+import database from '@iconify-icons/solar/database-linear'
+import heart from '@iconify-icons/solar/heart-pulse-linear'
+import leaf from '@iconify-icons/solar/leaf-linear'
+import pills from '@iconify-icons/solar/pills-linear'
+import chartSquare from '@iconify-icons/solar/chart-square-linear'
+import gallery from '@iconify-icons/solar/gallery-linear'
 import book from '@iconify-icons/solar/book-linear'
 
 type Props=Omit<IconProps,'icon'> & {size?:number;strokeWidth?:number}
@@ -44,3 +53,15 @@ export function PanelLeftOpen({className='',...props}:Props){return <Glyph data=
 export function BookOpen(props:Props){return <Glyph data={book} {...props}/>}
 
 export function SettingsIcon(props:Props){return <Glyph data={settings} {...props}/>}
+
+export function Paperclip(props:Props){return <Glyph data={paperclip} {...props}/>}
+export function LinkIcon(props:Props){return <Glyph data={link} {...props}/>}
+export function DatasetIcon(props:Props){return <Glyph data={database} {...props}/>}
+
+export function ChevronDown(props:Props){return <Glyph data={down} {...props}/>}
+
+export function HeartPulse(props:Props){return <Glyph data={heart} {...props}/>}
+export function Leaf(props:Props){return <Glyph data={leaf} {...props}/>}
+export function Pills(props:Props){return <Glyph data={pills} {...props}/>}
+export function ChartSquare(props:Props){return <Glyph data={chartSquare} {...props}/>}
+export function Gallery(props:Props){return <Glyph data={gallery} {...props}/>}

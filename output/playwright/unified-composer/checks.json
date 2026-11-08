@@ -1,0 +1,107 @@
+{
+  "capture": [
+    {
+      "name": "desktop-empty",
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "emptyQuestionFocused": true
+    },
+    {
+      "emptyExtraClaimFocused": true
+    },
+    {
+      "invalidSourceFocused": true
+    },
+    {
+      "name": "desktop-source",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "disabled": false
+    },
+    {
+      "name": "desktop-claims",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "disabled": false
+    },
+    {
+      "localDraftEnabled": true
+    },
+    {
+      "name": "desktop-preferences",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "disabled": false
+    },
+    {
+      "name": "desktop-ready",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "disabled": false
+    },
+    {
+      "name": "intermediate-ready",
+      "width": 820,
+      "scrollWidth": 820,
+      "disabled": false
+    },
+    {
+      "name": "mobile-en",
+      "width": 390,
+      "scrollWidth": 390,
+      "disabled": false
+    },
+    {
+      "name": "mobile-ar-dark",
+      "width": 390,
+      "scrollWidth": 390,
+      "disabled": false
+    },
+    {
+      "name": "mobile-ar-preferences",
+      "width": 390,
+      "scrollWidth": 390,
+      "disabled": false
+    },
+    {
+      "arabicFeedback": "اختيرت الملفات. ابدأ البحث أو احفظه لرفعها."
+    },
+    {
+      "name": "desktop-ar-dark",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "disabled": false
+    }
+  ],
+  "persistence": {
+    "reopened": true,
+    "claims": 2,
+    "files": 1,
+    "reviewDepth": "council",
+    "context": "UI diagnostic notes only. No scientific conclusion.",
+    "population": "UI diagnostic scope",
+    "uncertainty": "UI diagnostic limitation"
+  },
+  "revision": {
+    "revisionCount": 2,
+    "files": [
+      {
+        "name": "ui-inspection-only.csv",
+        "type": "text/csv"
+      },
+      {
+        "name": "ui-inspection-only.png",
+        "type": "image/png"
+      }
+    ],
+    "claims": 2
+  },
+  "clearance": {
+    "buttonBottom": 782.03125,
+    "navigationTop": 911,
+    "scrollWidth": 390,
+    "width": 390
+  }
+}

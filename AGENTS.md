@@ -1,0 +1,21 @@
+# EvidenceTwin Council
+
+Build a researcher-first React/TypeScript/Vite + Flask workspace for evidence-led scientific inquiry. Read `concepts_brief.md` first: it is the approved requirements baseline. `docs/DOCUMENTATION_MAP.md` identifies current guidance and historical evidence; `docs/PRODUCT_WORKFLOWS.md` describes the implemented journey.
+
+- Preserve research inputs, uploaded bytes, hashes, revisions, execution history and reports. Back up before migrations; document rollback. Never silently assign legacy data to a new account.
+- No fabricated production cases, citations, findings, progress, confidence or activity. Empty, failed and unavailable states must be honest. Isolate and label educational examples and development fixtures.
+- AI agreement is not scientific proof. Keep source provenance, performed checks, coverage, AI interpretation and claim assessment separate. Missing evidence is not contradiction. Scientific draft specifications and the 24 open gates do not authorize scientific enablement.
+- Every visible action must perform its intended operation. Consolidate duplicate journeys; remove dead controls. Keep provider administration server-authorized and outside ordinary researcher settings.
+- Support Arabic RTL and English LTR, both themes, mobile reflow, keyboard interaction, associated errors, visible focus and reduced motion. Preserve original scientific language with `dir="auto"`/`bdi`.
+- Official artwork in `frontend/public/brand/` must retain bytes, colors, proportions and orientation. See `docs/BRAND_INTEGRATION.md`.
+- Authorize every case, revision, analysis, file and report on the server. Keep credentials out of browser bundles, logs, exports and documentation. No paid infrastructure or destructive production operations without authorization.
+- Use Impeccable for direction, critique and finish review; code-first for application/read surfaces, comp-first for new showcase surfaces. Apply installed Vercel React Best Practices and Web Design Guidelines. Use available Context7 for version-specific documentation, Playwright for visual implementation feedback and DevTools only for deeper diagnostics. Report unavailable tools honestly.
+- Use semantic design tokens and existing domain adapters. Prefer simple components, route splitting and independent parallel reads over new dependencies. Document API changes and feature limitations.
+- Keep current instructions canonical; preserve dated verification and approval records unchanged. Archive superseded guidance with links, never rewrite old verification as current evidence.
+- The owner performs final acceptance. Run necessary builds, lint, focused backend checks and visual diagnosis; do not create a large acceptance campaign or claim scientific/E2E validation from compilation.
+
+Current implementation guidance: [architecture](docs/ARCHITECTURE.md), [setup](docs/DEVELOPMENT.md), [API](docs/API.md), [scientific scope](docs/SCIENTIFIC_SCOPE.md), [deployment/rollback](docs/DEPLOYMENT_ROLLBACK.md) and [visual system](DESIGN.md). Treat dated reports and nested drafts according to the documentation map.
+
+Current bounded evidence operations and limitations are documented in [evidence processing](docs/EVIDENCE_PROCESSING.md). Complete-data access and descriptive plots do not authorize source verification, statistical inference or Blind Optics. Preserve per-attempt processing/prompt/input records. Historical runs must never acquire retrospective scientific findings.
+
+Results combine a narrative and inspectable evidence rail. Preserve semantic mobile reading order. Display titles are verbatim subject excerpts, while original questions remain accessible. Report translations are owner-scoped derivatives tied to the original hash. Preserve numeric/reference safety fallback and label partially translated passages. Printing must include preserved records and restore disclosure state. See the current workflow and evidence-processing guides.

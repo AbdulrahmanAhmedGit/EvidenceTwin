@@ -41,7 +41,12 @@ class TestProvider:
         return {'data':data,'model':'test-model','usage':{'prompt_eval_count':10}}
 
 @pytest.fixture
-def runtime(tmp_path):
+def runtime(tmp_path, monkeypatch):
+    # Source transport has its own boundary tests. Existing workflow fixtures
+    # must not depend on a public website or dispatch real research requests.
+    monkeypatch.setattr('evidencetwin_backend.science.processing.retrieve_source', lambda url, directory: {
+        'url': url, 'status': 'unavailable', 'reason': 'External retrieval disabled in isolated test fixtures.',
+        'authenticity': 'unverified', 'contentVerification': 'not_performed'})
     provider=TestProvider()
     app=create_app({'TESTING':True,'RUNTIME_ENABLED':True,'DATA_DIRECTORY':str(tmp_path),'REVIEW_PROVIDER':provider,'WORKERS':2,'QUEUE_LIMIT':4})
     yield app,app.test_client(),provider
@@ -324,3 +329,28 @@ def test_selected_educational_case_is_explicit_in_model_input(runtime):
     assert packet['educational_case']=='a1'
     assert 'Illustrative' in packet['dataset']['notes'][0]
     assert any('educational' in limitation for limitation in record['analysis']['limitations'])
+
+
+def test_complete_dataset_queries_feed_roles_and_report(runtime, monkeypatch):
+    app, client, provider = runtime
+    original_chat = provider.chat
+    def request_rows(role, packet, images, schema):
+        reply = original_chat(role, packet, images, schema)
+        if role == 'visual_analyst' and not packet.get('requested_query_results'):
+            reply['data']['requested_queries'] = [{'filters': {'Entity': 'Group Beta', 'Year': '2024'}, 'limit': 1}]
+        return reply
+    monkeypatch.setattr(provider, 'chat', request_rows)
+    claim = 'Group Alpha was higher than Group Beta in 2024.'
+    rows = 'Entity,Code,Year,Reported rate (%)\n' + ''.join(f'Other {i},X,2024,1\n' for i in range(430)) + 'Group Alpha,A,2024,22.4\nGroup Beta,B,2024,13.7\n'
+    accepted = upload(client, metadata(url='', claim=claim, claims=[claim], reviewDepth='council'), [(BytesIO(rows.encode()), 'data.csv')])
+    record = wait(app, accepted.json['id'])
+    assert record['analysis']['status'] == 'completed_with_limitations'
+    assert record['analysis']['assessment'] == 'not_evaluated'
+    assert record['processing']['datasets'][0]['comparisons'][0]['difference'] == '8.7'
+    assert record['agentInputs']['visual_analyst']['requested_query_results'][0]['records'][0]['rowNumber'] == 433
+    assert any('8.7 percentage points' in section['body'] for section in record['report']['sections'])
+    assert record['promptSnapshots']['evidence-access-v2.md']
+    packet = provider.calls[0][1]
+    assert any(row[0] == 'Group Beta' for row in packet['dataset']['rows'])
+    assert 'reviewer_reports' not in packet
+    assert client.get(f"/api/analyses/{record['id']}/processing").status_code == 200

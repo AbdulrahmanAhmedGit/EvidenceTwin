@@ -45,7 +45,7 @@ def create_app(config: Mapping[str, Any] | None = None) -> Flask:
             allowed = {request.host_url.rstrip("/"), *app.config["CORS_ALLOWED_ORIGINS"]}
             if origin is not None and origin not in allowed:
                 raise Forbidden()
-        public = {"system.health", "system.capabilities"}
+        public = {"system.health", "system.capabilities", "access.session_info", "access.login"}
         if request.endpoint and request.endpoint not in public and auth_hook is not None:
             if auth_hook() is not None:
                 raise TypeError("AUTHENTICATE_REQUEST must return None or raise an HTTP authorization error")

@@ -1,0 +1,338 @@
+[
+  {
+    "variant": "desktop-en",
+    "name": "home",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "Your research, in focus"
+  },
+  {
+    "variant": "desktop-en",
+    "name": "composer",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "What would you like to investigate?"
+  },
+  {
+    "variant": "desktop-en",
+    "name": "cases",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "Your investigations"
+  },
+  {
+    "variant": "desktop-en",
+    "name": "history",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "Council reviews"
+  },
+  {
+    "variant": "desktop-en",
+    "name": "reports",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "Reports library"
+  },
+  {
+    "variant": "desktop-en",
+    "name": "investigation",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-en",
+    "name": "overview",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-en",
+    "name": "evidence",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-en",
+    "name": "visualizations",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-en",
+    "name": "council",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-en",
+    "name": "audit",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-en",
+    "name": "report",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "home",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "Your research, in focus"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "composer",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "What would you like to investigate?"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "cases",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "Your investigations"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "history",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "Council reviews"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "reports",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "Reports library"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "investigation",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "overview",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "evidence",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "visualizations",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "council",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "audit",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-en",
+    "name": "report",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "home",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "أبحاثك بوضوح"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "composer",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "ما الذي تودّ بحثه؟"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "cases",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "أبحاثك"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "history",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "مراجعات المجلس"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "reports",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "مكتبة التقارير"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "investigation",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "overview",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "evidence",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "visualizations",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "council",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "audit",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "mobile-ar-dark",
+    "name": "report",
+    "width": 390,
+    "scrollWidth": 390,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "home",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "أبحاثك بوضوح"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "composer",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "ما الذي تودّ بحثه؟"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "cases",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "أبحاثك"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "history",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "مراجعات المجلس"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "reports",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "مكتبة التقارير"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "investigation",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "overview",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "evidence",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "visualizations",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "council",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "audit",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  },
+  {
+    "variant": "desktop-ar-dark",
+    "name": "report",
+    "width": 1440,
+    "scrollWidth": 1440,
+    "title": "I came across these charts showing the relationship between atmospheric CO₂…"
+  }
+]

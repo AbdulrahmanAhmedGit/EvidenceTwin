@@ -1,0 +1,5 @@
+{
+  "@upstash/context7-mcp": "4.5.1",
+  "@playwright/mcp": "0.0.84",
+  "chrome-devtools-mcp": "1.12.0"
+}

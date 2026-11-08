@@ -1,0 +1,209 @@
+{
+  "version": "descriptive-evidence/1",
+  "datasets": [
+    {
+      "version": "descriptive-evidence/1",
+      "revisionId": "295395b81bfd4f76b82edc4be158d82b",
+      "evidenceId": "610a839af0d2461689f7aa4a49c8c724",
+      "filename": "diabetes-prevalence.csv",
+      "sha256": "896799a79e97b433101f5ea005bbd5b921c42f1bc6b939af2d712eb354d15c98",
+      "columns": [
+        "Entity",
+        "Code",
+        "Year",
+        "Diabetes prevalence (% of population ages 20 to 79)"
+      ],
+      "rowCount": 455,
+      "variables": [],
+      "notes": [
+        "User-supplied CSV; values are retained as supplied strings. No source verification or inference performed."
+      ],
+      "queries": [
+        {
+          "filters": {
+            "Entity": "Egypt",
+            "Year": "2024"
+          },
+          "columns": [
+            "Entity",
+            "Code",
+            "Year",
+            "Diabetes prevalence (% of population ages 20 to 79)"
+          ],
+          "totalMatches": 1,
+          "records": [
+            {
+              "rowNumber": 124,
+              "values": [
+                "Egypt",
+                "EGY",
+                "2024",
+                "22.4"
+              ]
+            }
+          ],
+          "limited": false,
+          "constraint": "At most 100 records and 64,000 serialized UTF-8 bytes per query. Complete input retained.",
+          "method": "case-insensitive exact equality over the complete table",
+          "id": "query-610a839af0d2461689f7aa4a49c8c724-dd60e57400b2"
+        },
+        {
+          "filters": {
+            "Entity": "United States",
+            "Year": "2024"
+          },
+          "columns": [
+            "Entity",
+            "Code",
+            "Year",
+            "Diabetes prevalence (% of population ages 20 to 79)"
+          ],
+          "totalMatches": 1,
+          "records": [
+            {
+              "rowNumber": 434,
+              "values": [
+                "United States",
+                "USA",
+                "2024",
+                "13.7"
+              ]
+            }
+          ],
+          "limited": false,
+          "constraint": "At most 100 records and 64,000 serialized UTF-8 bytes per query. Complete input retained.",
+          "method": "case-insensitive exact equality over the complete table",
+          "id": "query-610a839af0d2461689f7aa4a49c8c724-08e061e274e3"
+        }
+      ],
+      "comparisons": [
+        {
+          "id": "comparison-610a839af0d2461689f7aa4a49c8c724-2024",
+          "indicator": "Diabetes prevalence (% of population ages 20 to 79)",
+          "year": "2024",
+          "unit": "%",
+          "observations": [
+            {
+              "label": "Egypt",
+              "value": "22.4",
+              "rowNumber": 124,
+              "queryId": "query-610a839af0d2461689f7aa4a49c8c724-dd60e57400b2"
+            },
+            {
+              "label": "United States",
+              "value": "13.7",
+              "rowNumber": 434,
+              "queryId": "query-610a839af0d2461689f7aa4a49c8c724-08e061e274e3"
+            }
+          ],
+          "difference": "8.7",
+          "absoluteDifference": "8.7",
+          "differenceUnit": "percentage points",
+          "ratio": "1.635036496350364963503649635036496",
+          "plot": {
+            "version": "reported-comparison/1",
+            "kind": "horizontal_bar",
+            "scale": "linear",
+            "domain": [
+              "0",
+              "22.4"
+            ],
+            "baseline": "0",
+            "transformation": "identity",
+            "uncertaintyIntervals": "not_generated"
+          },
+          "relation": "higher",
+          "scope": "Reported values in the same submitted indicator and year. Population definitions, age-standardization, methodology and source authenticity have not been independently established.",
+          "method": "Decimal subtraction at precision 64; first-value / second-value ratio at precision 34 with half-even rounding. Inputs limited to 28 digits and exponent ±28. No significance test or causal inference."
+        }
+      ],
+      "records": [
+        {
+          "rowNumber": 124,
+          "values": [
+            "Egypt",
+            "EGY",
+            "2024",
+            "22.4"
+          ]
+        },
+        {
+          "rowNumber": 434,
+          "values": [
+            "United States",
+            "USA",
+            "2024",
+            "13.7"
+          ]
+        }
+      ],
+      "limitations": []
+    }
+  ],
+  "source": {
+    "url": "https://ourworldindata.org/grapher/diabetes-prevalence",
+    "retrievedAt": "2026-11-07T23:57:48.430103+00:00",
+    "status": "retrieved",
+    "authenticity": "unverified",
+    "contentVerification": "not_performed",
+    "finalUrl": "https://ourworldindata.org/grapher/diabetes-prevalence",
+    "mediaType": "text/html",
+    "size": 73611,
+    "sha256": "e88c5671102fe8e8b793ba848a765bd98700643114b3a6924a189c79565a5654",
+    "artifact": "source-e88c5671102fe8e8b793ba848a765bd98700643114b3a6924a189c79565a5654",
+    "extraction": "readable_text",
+    "reason": ""
+  },
+  "limitations": [
+    {
+      "id": "authenticity",
+      "category": "verification_gap",
+      "importance": "important",
+      "check": "source_authenticity",
+      "explanation": "Source authenticity and methodological comparability have not been independently established.",
+      "nextStep": "Inspect the source definitions, population, units and methods before extending the descriptive finding."
+    },
+    {
+      "id": "ai-interpretation",
+      "category": "method_limitation",
+      "importance": "context",
+      "check": "council",
+      "explanation": "Council outputs are AI interpretations. Shared models may share errors; agreement does not establish scientific truth.",
+      "nextStep": "Inspect cited observations, calculations and unresolved disagreements independently."
+    },
+    {
+      "id": "blind-optics",
+      "category": "unavailable_capability",
+      "importance": "context",
+      "check": "blind_optics",
+      "explanation": "Independent blind plot reconstruction is unavailable. Its blinding and rendering protocol still needs specification and acceptance.",
+      "nextStep": "Use the descriptive data plot and original image separately. Neither is a validated neutral reconstruction."
+    }
+  ],
+  "coverage": [
+    {
+      "check": "complete_dataset_queries",
+      "status": "performed"
+    },
+    {
+      "check": "descriptive_comparison",
+      "status": "performed"
+    },
+    {
+      "check": "source_retrieval",
+      "status": "retrieved"
+    },
+    {
+      "check": "source_authenticity",
+      "status": "not_performed"
+    },
+    {
+      "check": "statistical_inference",
+      "status": "not_performed"
+    },
+    {
+      "check": "blind_optics",
+      "status": "unavailable"
+    }
+  ]
+}

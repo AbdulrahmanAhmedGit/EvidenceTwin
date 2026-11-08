@@ -1,0 +1,35 @@
+# Independent finish review — 2026-11-07
+
+## 1. Capture validity
+
+Inspected all seven required captures: the English/light composer, Arabic/dark mobile composer, persisted desktop case and Arabic/dark mobile case, and the Council, evidence and report desktop fixtures. They show the same slate/cobalt application world and broadly agree with the inspected source. The fixture banner and authored/example language clearly identify the last three as development illustrations. Their contents do not establish real AI execution or scientific validation.
+
+The case-desktop capture has a clipped, focused skip-link fragment at its top edge and an unusual top gap. The case content itself is assessable, but recapture this image at a normal scroll/focus state before using it as final visual evidence. Mobile full-page images place fixed navigation within the first viewport, as expected; they do not prove that obscured content cannot be reached by scrolling. No claim of mobile keyboard or full interaction verification follows from these captures.
+
+## 2. Direction and craft
+
+The Operate/Read direction is coherent and appropriate. The question leads, attachment is contextual, and save is the sole primary entry action. Saved work preserves the same editing vocabulary, with revision/provenance information moved to a restrained rail on desktop and a later section on mobile. Council and report views remain readable and distinguish original claims from interpretation. Slate surfaces, cobalt actions, flat separators and consistent controls form a calm workspace. The official logo appears proportionate and correctly oriented in the captures; byte preservation was not independently checked.
+
+The mobile Arabic composer reflows convincingly. English scientific text is preserved in the saved Arabic case. Long table identifiers wrap awkwardly on mobile but remain visible; this is a minor readability issue, not evidence of lost data. Desktop table spacing and report section hierarchy are sound. The required craft floor was read; CSS explicitly supplies semantic colors, placeholder/caret/selection styling, focus treatment, tabular numerals and reduced-motion overrides. Screenshot inspection and declared CSS do not constitute a computed contrast audit or proof of every hover/error state.
+
+## 3. Product/engineering/accessibility
+
+Read the approved baseline, direction packet, and relevant entry, case, dataset, session, settings, API, theme and server ownership/persistence code. No application source was edited and no testing campaign was run for this review. Reported build and focused-test counts are packet evidence, not independently rerun results.
+
+The inspected implementation has meaningful loading/error/empty states; associated question/source errors; native disclosure and dialog controls; labelled file removal; `dir="auto"`/`bdi` for research content; and explicit external-processing consent. Saved-table inspection explicitly disclaims scientific checking. The server case/revision/file handlers apply ownership checks, revision saves use a precondition and atomic related-record transaction, and legacy unassigned records remain operator-only. Provider configuration is guarded on the server as well as in the UI. These are positive source findings, not a comprehensive security certification.
+
+Unsaved case edits use a revision-keyed in-memory map, so ordinary route unmounts need not discard them; reload retention is not promised. The new-investigation draft supports optional text persistence and explicitly says unsaved files stay in the tab. However, that persistence currently crosses authenticated user boundaries, as detailed below. The independent review uses the supplied brief and captures; no additional design interview was necessary for this reviewer role.
+
+## 4. Material findings (prioritized, exact locations)
+
+1. **P1 — Opt-in research text is restored into the next account using the same browser.** `frontend/src/features/analyses/draft-store.ts:4`, `:10`, `:14` use one origin-wide key and initialize it without an authenticated identity. `frontend/src/features/settings/Session.tsx:10` clears the query cache on login, while `:17` logs out and reloads without clearing or quarantining persisted draft text. Concrete source-derived sequence: A opts into text retention and writes research notes; A signs out; B signs in on the same browser and opens New investigation; the same key restores A's claims, source metadata and notes into B's draft. A session expiry followed by a different login can also retain the module's in-memory draft. Retention consent for a device is not authorization to associate that text with another researcher's workspace. Scope draft storage and in-memory state to a stable authenticated subject, keep explicit local mode separate, and quarantine unscoped legacy draft bytes instead of assigning them to the next login. Preserve recoverable text rather than silently deleting it. Validate the two-account transition with isolated data before acceptance.
+
+2. **P2 — The Council example teaches that missing evidence is contradictory evidence.** `frontend/src/features/inspection/fixtures/data.ts:7` places “A denominator, uncertainty and a definition of ‘dramatic’ were not supplied” in `contradictingEvidence`; `frontend/src/features/inspection/CouncilView.tsx:11` displays it under “Contradicting evidence,” visible near the bottom of `council-desktop-fixture.png`. This directly conflicts with the approved boundary that missing evidence is not contradiction, even though the example is properly labelled. Leave the contradiction list empty for this example and put the absent inputs in limitations, missing information, or the unresolved rationale. Recapture the Council fixture after correction. This finding concerns authored fixture content; it does not establish a production assessment error.
+
+3. **P3 — Recapture the desktop case without the clipped skip-link artifact.** `output/playwright/transformation/case-desktop.png`, top edge. This is a capture-quality defect, not a demonstrated application layout defect. Preserve keyboard-visible skip-link behavior while taking a representative content capture.
+
+The existing `DESIGN.md` and mapped surface brief still describe the superseded green system and preparation handoff. The packet explicitly schedules their replacement after this review; completing that documentation remains a finish deliverable rather than an additional application defect.
+
+## 5. Disposition
+
+**FIX**, followed by the two targeted recaptures. The visual world does not need rebuilding. Resolve account-bound draft retention and the missing-versus-contradictory fixture classification, then finish the canonical design documentation. A focused review of those changes is sufficient; this verdict does not call for a broad acceptance campaign. Final acceptance remains with the owner. No hosted cutover, deployment, paid provider call, scientific verification, broad E2E certification or production-data operation was performed or approved by this review.

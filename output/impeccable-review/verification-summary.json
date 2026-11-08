@@ -1,0 +1,18 @@
+{
+  "unit_tests_passed": 51,
+  "unique_browser_tests_passed": 132,
+  "fixture_preview_tests_passed": 3,
+  "axe_scans": 40,
+  "axe_violations": 0,
+  "sampled_layout_observations": 80,
+  "sampled_layout_overflows": 0,
+  "build": "passed",
+  "lint": "passed",
+  "production_fixture_exclusion": "passed",
+  "diff_check": "passed",
+  "protected_backend_api_files": 49,
+  "protected_files_changed": 0,
+  "official_svg_hashes": "4 match originals",
+  "finish_review": "original findings resolved; ship for reviewed scope",
+  "browser_run_note": "125 passing tests before tool execution limit; completion batch passed eight checks including the seven remaining unique tests and one repeated targeted regression."
+}

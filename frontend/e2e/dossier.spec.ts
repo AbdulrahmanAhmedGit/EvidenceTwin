@@ -51,7 +51,7 @@ for(const locale of ['en','ar'])for(const theme of ['light','dark'])test(`dossie
 test('unavailable submission is disclosed before entering evidence and preserves the draft',async({page})=>{
  await page.route('**/api/capabilities',route=>route.fulfill({json:{analyses:{create:false}}}))
  await page.setViewportSize({width:390,height:844})
- await page.goto('/app/analyses/new')
+ await page.goto('/app/analyses/new?prepare=1')
  await expect(page.locator('.submission-readiness')).toContainText('Analysis submission is currently unavailable.')
  await expect(page.locator('.step-position')).toHaveText('Step 1 of 5 · Evidence')
  await page.getByLabel('Educational case (optional)').selectOption('a1')

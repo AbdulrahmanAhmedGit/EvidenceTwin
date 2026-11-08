@@ -1,0 +1,9 @@
+[
+  "changing or removing an educational case stays in preparation and preserves the question",
+  "benchmark status polling follows backend transitions without invented percentages",
+  "backend authorization is distinct from an empty report library",
+  "report export requires record and detail permission and preview passes accessibility",
+  "public connection configuration rejects credential URLs instead of exposing them",
+  "benchmark unsupported capability validates configuration without sending a run",
+  "valid offline benchmark configuration gives local validation feedback without claiming execution"
+]

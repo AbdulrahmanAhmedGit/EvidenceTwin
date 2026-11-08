@@ -39,9 +39,18 @@ def load_config() -> dict[str, Any]:
         "MAX_FORM_MEMORY_SIZE": _positive_integer("EVIDENCETWIN_MAX_FORM_MEMORY_SIZE", 512 * 1024),
         "MAX_FORM_PARTS": _positive_integer("EVIDENCETWIN_MAX_FORM_PARTS", 32),
         "CORS_ALLOWED_ORIGINS": origins,
+        "LIBRETRANSLATE_URL": os.getenv("EVIDENCETWIN_LIBRETRANSLATE_URL", "http://127.0.0.1:5002"),
+        "LIBRETRANSLATE_API_KEY": os.getenv("EVIDENCETWIN_LIBRETRANSLATE_API_KEY", ""),
         # Owner hook: authenticate/authorize or raise Unauthorized/Forbidden.
         # No token parser, principal, login route or session is fabricated.
         "AUTHENTICATE_REQUEST": None,
+        "ACCOUNTS_ENABLED": os.getenv("EVIDENCETWIN_ACCOUNTS", "0") == "1",
+        "SECRET_KEY": os.getenv("EVIDENCETWIN_SESSION_SECRET"),
+        "SESSION_COOKIE_HTTPONLY": True,
+        "SESSION_COOKIE_NAME": "evidencetwin_session",
+        "SESSION_COOKIE_PATH": "/api",
+        "SESSION_COOKIE_SAMESITE": "Strict",
+        "SESSION_COOKIE_SECURE": os.getenv("EVIDENCETWIN_SECURE_COOKIES", "0") == "1",
     }
 
 def validate_origins(origins: list[str]) -> None:

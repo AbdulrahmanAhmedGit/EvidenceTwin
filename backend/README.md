@@ -1,26 +1,10 @@
 # EvidenceTwin Flask backend
 
-Persistent local exploratory analyses, six server-side provider adapters, isolated
-Council review, cross-review, model adjudication, audit and exploratory reports.
-Scientific source/statistical verification, Neutral Twin generation, benchmark
-scoring, authentication and MCP are explicitly unavailable until specified.
+Flask 3.1 local runtime: private SQLite JSON records/files, revisioned research cases, optional invite-only account sessions, operator-only provider administration, exploratory Council reviews and reports. Scientific verification and hosted durable-worker integration remain unavailable.
 
-```sh
-python3.14 -m venv .venv
-.venv/bin/python -m pip install -r requirements-dev.txt
-.venv/bin/python -m pytest -q
-EVIDENCETWIN_CORS_ORIGINS=http://127.0.0.1:5202 .venv/bin/python -m flask --app evidencetwin_backend:create_app run --host 127.0.0.1 --port 5000 --no-debugger --no-reload
-```
+See [development setup](../docs/DEVELOPMENT.md), [API](../docs/API.md), [architecture](../docs/ARCHITECTURE.md), [scientific scope](../docs/SCIENTIFIC_SCOPE.md) and [deployment/rollback](../docs/DEPLOYMENT_ROLLBACK.md). The [original implementation guide](../BACKEND_IMPLEMENTATION_GUIDE.md) preserves detailed historical runtime/infrastructure evidence; its pre-case access and workflow statements are superseded by those current guides.
 
-Run from backend/. Set EVIDENCETWIN_PROVIDER, EVIDENCETWIN_MODEL and the selected
-provider's server-side key to enable creation. No provider call occurs on startup.
-No provider response is treated as independent scientific verification. Files and
-records persist in instance/ by default. Use one process per workspace directory.
-
-Read [BACKEND_IMPLEMENTATION_GUIDE.md](../BACKEND_IMPLEMENTATION_GUIDE.md) for all
-routes, schemas, environment variables, architecture mapping, limits, cancellation,
-source boundaries and remaining owner implementation responsibilities.
-
+The section below preserves the isolated execution-infrastructure handoff and its original test boundary. The later optional local account implementation does not connect that package to HTTP execution or close pilot gates.
 
 ## Isolated PostgreSQL execution infrastructure
 

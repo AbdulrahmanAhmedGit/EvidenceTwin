@@ -1,0 +1,44 @@
+[
+  {
+    "original": "docs/FRONTEND_ARCHITECTURE.md",
+    "archived": "docs/archive/2026-11-07/FRONTEND_ARCHITECTURE.md",
+    "originalSha256": "3282fbe86f65e2a0db61677a3c67f7bfd964091c28f9e78244862e81abbab5c3",
+    "archiveSha256": "3282fbe86f65e2a0db61677a3c67f7bfd964091c28f9e78244862e81abbab5c3",
+    "changes": "Relative Markdown link targets rebased; original prose and dates retained."
+  },
+  {
+    "original": "docs/INTEGRATION_GUIDE.md",
+    "archived": "docs/archive/2026-11-07/INTEGRATION_GUIDE.md",
+    "originalSha256": "4fc76ac79f213f5efa750bee7f6d690879c8165999e14bb51cf120c3636d1e75",
+    "archiveSha256": "ec4737c3a46ea0daec160564f920f7b1e93cb8085bfadd220d8daf34cae5ed56",
+    "changes": "Relative Markdown link targets rebased; original prose and dates retained."
+  },
+  {
+    "original": "docs/DESIGN_SYSTEM.md",
+    "archived": "docs/archive/2026-11-07/DESIGN_SYSTEM.md",
+    "originalSha256": "f3a53f2b974ce2a45782aed10759634c797e69482a4703977f58eacbe4bfc59a",
+    "archiveSha256": "f4a01e2b949e82e66e353f913659dd692cebe7fd78eb0041e62d8309fb4d59d2",
+    "changes": "Relative Markdown link targets rebased; original prose and dates retained."
+  },
+  {
+    "original": "docs/BACKEND_SKELETON_REFERENCE.md",
+    "archived": "docs/archive/2026-11-07/BACKEND_SKELETON_REFERENCE.md",
+    "originalSha256": "36312daa8560d5cf1ce3520bbbd565a6c3686b660b2d132a623140998babff07",
+    "archiveSha256": "8c50806964fee66c9171e2f01d1c290a09791f0caeaec6b9448823a9a1933e2a",
+    "changes": "Relative Markdown link targets rebased; original prose and dates retained."
+  },
+  {
+    "original": "docs/DEVELOPMENT_STAGES.md",
+    "archived": "docs/archive/2026-11-07/DEVELOPMENT_STAGES.md",
+    "originalSha256": "00f77b0bbebb90e5cf35178c5e4c0de021bdc0f20d337fe62c534f3594e68965",
+    "archiveSha256": "00f77b0bbebb90e5cf35178c5e4c0de021bdc0f20d337fe62c534f3594e68965",
+    "changes": "Relative Markdown link targets rebased; original prose and dates retained."
+  },
+  {
+    "original": "docs/FRONTEND_API_CONTRACT.md",
+    "archived": "docs/archive/2026-11-07/FRONTEND_API_CONTRACT.md",
+    "originalSha256": "dd1a7f57b4b7219273c090190f648a5ebe6340820cb4420acdcb181f90c646f3",
+    "archiveSha256": "b1ed3f97b436a86197b16827fc859bafd9db19fa4478028a72565cf8807b6abd",
+    "changes": "Relative Markdown link targets rebased; original prose and dates retained."
+  }
+]

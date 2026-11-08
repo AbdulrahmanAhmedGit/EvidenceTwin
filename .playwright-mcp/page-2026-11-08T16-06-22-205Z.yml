@@ -1,0 +1,99 @@
+- generic [ref=f17e3]:
+  - link "Skip to content" [ref=f17e4] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f17e5]:
+    - link "Research Workspace" [ref=f17e6] [cursor=pointer]:
+      - /url: /app
+    - generic [ref=f17e7]:
+      - button "Change language" [ref=f17e8] [cursor=pointer]: ع
+      - button "Toggle theme" [ref=f17e9] [cursor=pointer]
+      - link "Documentation" [ref=f17e17] [cursor=pointer]:
+        - /url: /docs
+  - generic [ref=f17e22]:
+    - complementary "Workspace navigation" [ref=f17e23]:
+      - link "EvidenceTwin home" [ref=f17e24] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f17e27]:
+        - generic [ref=f17e28]: Workspace
+        - button "Collapse navigation" [expanded] [ref=f17e29] [cursor=pointer]
+      - link "Research home" [ref=f17e34] [cursor=pointer]:
+        - /url: /app
+      - link "New investigation" [ref=f17e42] [cursor=pointer]:
+        - /url: /app/analyses/new
+      - link "Research cases" [ref=f17e48] [cursor=pointer]:
+        - /url: /app/cases
+      - generic [ref=f17e55]: Review outputs
+      - link "Council reviews" [ref=f17e56] [cursor=pointer]:
+        - /url: /app/analyses
+      - link "Reports" [ref=f17e63] [cursor=pointer]:
+        - /url: /app/reports
+      - generic [ref=f17e68]:
+        - link "Service administration" [ref=f17e69] [cursor=pointer]:
+          - /url: /app/settings/ai
+        - link "Settings" [ref=f17e75] [cursor=pointer]:
+          - /url: /app/settings
+        - link "Documentation" [ref=f17e81] [cursor=pointer]:
+          - /url: /docs
+    - main "New investigation" [ref=f17e87]:
+      - status [ref=f17e88]: New investigation
+      - generic [ref=f17e91]:
+        - generic [ref=f17e92]:
+          - generic [ref=f17e93]: Chart investigation
+          - heading "Inspect a scientific visualization" [level=1] [ref=f17e98]
+          - paragraph [ref=f17e99]: Upload a medical or scientific chart. Examine potentially misleading visual choices and compare with an evidence-grounded reconstruction when supported.
+        - group "Research question and evidence" [ref=f17e101]:
+          - generic [ref=f17e103]:
+            - generic [ref=f17e104]:
+              - button "Upload a scientific chart" [ref=f17e105] [cursor=pointer]
+              - generic [ref=f17e111]: PNG, JPG or WebP · dataset and source optional
+            - generic [ref=f17e112]: Scientific claim or research question
+            - textbox "Scientific claim or research question" [ref=f17e113]:
+              - /placeholder: Add a question or chart context (optional with an image)…
+          - generic [ref=f17e114]:
+            - group "Investigation inputs" [ref=f17e115]:
+              - button "Add evidence or supporting information" [active] [ref=f17e116] [cursor=pointer]:
+                - generic [ref=f17e121]: Add evidence
+              - button "Add source link" [ref=f17e122] [cursor=pointer]:
+                - generic [ref=f17e127]: Add link
+              - button "Visual review" [ref=f17e128] [cursor=pointer]
+            - button "Create investigation" [ref=f17e131] [cursor=pointer]
+          - paragraph [ref=f17e135]: Creates a saved case. AI review is requested separately.
+          - button "Attach evidence files" [ref=f17e136]
+        - paragraph [ref=f17e137]: Your chart and context are saved first. With no written question, the request is to inspect its presentation, evidence and limitations. AI review starts with your consent.
+        - generic "Intended chart investigation workflow" [ref=f17e138]:
+          - generic [ref=f17e139]: Upload
+          - generic [ref=f17e140]:
+            - generic [aria-hidden] [ref=f17e141]: →
+            - text: Analyze
+          - generic [ref=f17e142]:
+            - generic [aria-hidden] [ref=f17e143]: →
+            - text: Detect
+          - generic [ref=f17e144]:
+            - generic [aria-hidden] [ref=f17e145]: →
+            - text: Reconstruct
+          - generic [ref=f17e146]:
+            - generic [aria-hidden] [ref=f17e147]: →
+            - text: Compare
+        - paragraph [ref=f17e148]: Available now · original-chart inspection and AI review. Blind reconstruction awaits an approved method and is currently unavailable.
+        - region [ref=f17e149]:
+          - generic [ref=f17e150]:
+            - heading "Try a chart investigation" [level=2] [ref=f17e151]
+            - generic [ref=f17e152]: Editable educational prompts
+          - generic [ref=f17e153]:
+            - button "Health Do the axes exaggerate the difference in diabetes prevalence between these groups?" [ref=f17e154] [cursor=pointer]:
+              - generic [ref=f17e160]:
+                - strong [ref=f17e161]: Health
+                - generic [ref=f17e162]: Do the axes exaggerate the difference in diabetes prevalence between these groups?
+            - button "Public health Does the time range in this public-health chart hide changes in the trend?" [ref=f17e163] [cursor=pointer]:
+              - generic [ref=f17e169]:
+                - strong [ref=f17e170]: Public health
+                - generic [ref=f17e171]: Does the time range in this public-health chart hide changes in the trend?
+            - button "Medicine Does this treatment-benefit chart distinguish absolute from relative risk?" [ref=f17e172] [cursor=pointer]:
+              - generic [ref=f17e179]:
+                - strong [ref=f17e180]: Medicine
+                - generic [ref=f17e181]: Does this treatment-benefit chart distinguish absolute from relative risk?
+            - button "Data analysis Does this chart faithfully represent the supplied data, units and uncertainty?" [ref=f17e182] [cursor=pointer]:
+              - generic [ref=f17e187]:
+                - strong [ref=f17e188]: Data analysis
+                - generic [ref=f17e189]: Does this chart faithfully represent the supplied data, units and uncertainty?
+          - paragraph [ref=f17e190]: Prompts only, with no saved research or results. Add your own sources or data before requesting a review.

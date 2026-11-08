@@ -1,0 +1,76 @@
+[
+  {
+    "name": "desktop-empty",
+    "width": 1440,
+    "scrollWidth": 1440
+  },
+  {
+    "name": "desktop-review",
+    "width": 1440,
+    "scrollWidth": 1440
+  },
+  {
+    "height": 240,
+    "scrollHeight": 1831,
+    "overflow": "auto"
+  },
+  {
+    "invalidSourceFocused": true
+  },
+  {
+    "claimFocused": true
+  },
+  {
+    "tableLimitShown": true
+  },
+  {
+    "name": "desktop-populated-review",
+    "width": 1440,
+    "scrollWidth": 1440
+  },
+  {
+    "escapeReturnsFocus": true
+  },
+  {
+    "name": "desktop-populated",
+    "width": 1440,
+    "scrollWidth": 1440
+  },
+  {
+    "name": "tablet",
+    "width": 820,
+    "scrollWidth": 820
+  },
+  {
+    "name": "mobile-en",
+    "width": 390,
+    "scrollWidth": 390
+  },
+  {
+    "name": "mobile-en-dark",
+    "width": 390,
+    "scrollWidth": 390
+  },
+  {
+    "name": "mobile-ar-dark",
+    "width": 390,
+    "scrollWidth": 390
+  },
+  {
+    "name": "mobile-ar-review",
+    "width": 390,
+    "scrollWidth": 390
+  },
+  {
+    "name": "mobile-ar-light",
+    "width": 390,
+    "scrollWidth": 390
+  },
+  {
+    "savedAndReopened": true,
+    "claims": 2,
+    "files": 2,
+    "reviewDepth": "council",
+    "context": "UI diagnostic notes only."
+  }
+]

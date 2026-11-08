@@ -1,0 +1,11 @@
+{
+  "frontendBuild": "passed",
+  "frontendLint": "passed without warnings",
+  "frontendTests": 53,
+  "backendFocusedTests": 66,
+  "fixtureExclusion": "passed",
+  "diffCheck": "passed",
+  "originalRecordsUnchanged": 13,
+  "paidProviderCallsPerformed": false,
+  "ownerAcceptance": "pending"
+}

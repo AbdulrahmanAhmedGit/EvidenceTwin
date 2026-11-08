@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test'
 test('homepage framing controls and case navigation',async({page})=>{await page.goto('/');await expect(page.getByRole('heading',{name:'Same data. Different story.'})).toBeVisible();await page.getByRole('button',{name:'Neutral baseline',exact:true}).click();await expect(page.getByText('Neutral display · zero baseline').first()).toBeVisible();await page.goto('/app/library/a1');await expect(page.getByRole('heading',{name:'Truncated axis'})).toBeVisible();await page.getByRole('link',{name:'New Analysis',exact:true}).last().click();await expect(page.getByRole('heading',{name:'Evidence',exact:true})).toBeVisible()})
-test('wizard prevents empty evidence',async({page})=>{await page.goto('/app/analyses/new');await page.getByRole('button',{name:'Continue',exact:true}).click();await expect(page.getByRole('alert')).toContainText('Add evidence')})
+test('wizard prevents empty evidence',async({page})=>{await page.goto('/app/analyses/new?prepare=1');await page.getByRole('button',{name:'Continue',exact:true}).click();await expect(page.getByRole('alert')).toContainText('Add evidence')})
 test('mobile navigation, language and theme',async({page})=>{await page.setViewportSize({width:390,height:844});await page.goto('/');await page.getByRole('button',{name:'Toggle navigation'}).click();await page.getByRole('link',{name:'Methodology',exact:true}).first().click();await expect(page).toHaveURL(/methodology/);await page.getByRole('button',{name:'Change language'}).click();await expect(page.locator('.root')).toHaveAttribute('dir','rtl');await page.getByRole('button',{name:'تبديل السمة'}).click();await expect(page.locator('.root')).toHaveClass(/dark/)})
 test('mobile menu supports focus, Escape, dismissal and route focus',async({page})=>{
  await page.setViewportSize({width:390,height:844});await page.goto('/');
@@ -50,7 +50,7 @@ test('motion has one public scroll owner and releases it for research and reduce
  await expect(page.locator('.root')).toHaveAttribute('data-motion-engine','gsap')
  await expect(page.locator('.root')).toHaveAttribute('data-scroll-engine','lenis')
  await page.goto('/app/library')
- await expect(page.locator('.root')).toHaveAttribute('data-motion-engine','gsap')
+ await expect(page.locator('.root')).not.toHaveAttribute('data-motion-engine','gsap')
  await expect(page.locator('.root')).not.toHaveAttribute('data-scroll-engine','lenis')
  await expect(page.locator('html')).not.toHaveClass(/lenis/)
  await page.goto('/methodology')
@@ -69,8 +69,8 @@ test('split headings retain a single accessible Arabic name and skip motion load
  await page.goto('/')
  const heading=page.getByRole('heading',{name:'نفس البيانات. قصة مختلفة.',exact:true})
  await expect(heading).toBeVisible()
- await expect(heading.locator('.motion-word').first()).toBeVisible()
- await expect(heading.locator('span[aria-hidden=true]').first()).toHaveAttribute('aria-hidden','true')
+ await expect(heading).toHaveCount(1)
+ await expect(heading).toHaveText('نفس البيانات.قصة مختلفة.')
  await expect(page.locator('.root')).not.toHaveAttribute('data-motion-engine','gsap')
  expect(motionRequests).toEqual([])
 })

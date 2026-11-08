@@ -1,0 +1,104 @@
+- generic [ref=f18e3]:
+  - link "Skip to content" [ref=f18e4] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f18e5]:
+    - link "Research Workspace" [ref=f18e6] [cursor=pointer]:
+      - /url: /app
+    - generic [ref=f18e7]:
+      - button "Change language" [ref=f18e8] [cursor=pointer]: ع
+      - button "Toggle theme" [ref=f18e9] [cursor=pointer]
+      - link "Documentation" [ref=f18e12] [cursor=pointer]:
+        - /url: /docs
+  - generic [ref=f18e17]:
+    - complementary "Workspace navigation" [ref=f18e18]:
+      - link "EvidenceTwin home" [ref=f18e19] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f18e22]:
+        - generic [ref=f18e23]: Workspace
+        - button "Collapse navigation" [expanded] [ref=f18e24] [cursor=pointer]
+      - link "Research home" [ref=f18e29] [cursor=pointer]:
+        - /url: /app
+      - link "New investigation" [ref=f18e37] [cursor=pointer]:
+        - /url: /app/analyses/new
+      - link "Research cases" [ref=f18e43] [cursor=pointer]:
+        - /url: /app/cases
+      - generic [ref=f18e50]: Review outputs
+      - link "Council reviews" [ref=f18e51] [cursor=pointer]:
+        - /url: /app/analyses
+      - link "Reports" [ref=f18e58] [cursor=pointer]:
+        - /url: /app/reports
+      - generic [ref=f18e63]:
+        - link "Service administration" [ref=f18e64] [cursor=pointer]:
+          - /url: /app/settings/ai
+        - link "Settings" [ref=f18e70] [cursor=pointer]:
+          - /url: /app/settings
+        - link "Documentation" [ref=f18e76] [cursor=pointer]:
+          - /url: /docs
+    - main "New investigation" [ref=f18e82]:
+      - status [ref=f18e83]: New investigation
+      - generic [ref=f18e86]:
+        - generic [ref=f18e87]:
+          - generic [ref=f18e88]: Chart investigation
+          - heading "Inspect a scientific visualization" [level=1] [ref=f18e93]
+          - paragraph [ref=f18e94]: Upload a medical or scientific chart. Examine potentially misleading visual choices and compare with an evidence-grounded reconstruction when supported.
+        - group "Research question and evidence" [ref=f18e96]:
+          - generic [ref=f18e98]:
+            - list "Evidence attachments" [ref=f18e99]:
+              - listitem [ref=f18e100]:
+                - img "Local preview approved-investigation.png" [ref=f18e101]
+                - generic [ref=f18e102]:
+                  - generic "approved-investigation.png" [ref=f18e103]
+                  - generic [ref=f18e104]: Selected locally · 1,756.4 KB
+                - button "Remove attachment approved-investigation.png" [ref=f18e105] [cursor=pointer]
+            - generic [ref=f18e110]: Scientific claim or research question
+            - textbox "Scientific claim or research question" [ref=f18e111]:
+              - /placeholder: Add a question or chart context (optional with an image)…
+          - status [ref=f18e112]: Files selected locally. They upload when you save.
+          - generic [ref=f18e113]:
+            - group "Investigation inputs" [ref=f18e114]:
+              - button "Add evidence or supporting information" [active] [ref=f18e115] [cursor=pointer]:
+                - generic [ref=f18e120]: Add evidence
+              - button "Add source link" [ref=f18e121] [cursor=pointer]:
+                - generic [ref=f18e126]: Add link
+              - button "Visual review" [ref=f18e127] [cursor=pointer]
+            - button "Create investigation" [ref=f18e130] [cursor=pointer]
+          - paragraph [ref=f18e134]: Creates a saved case. AI review is requested separately.
+          - button "Attach evidence files" [ref=f18e135]
+        - paragraph [ref=f18e136]: Your chart and context are saved first. With no written question, the request is to inspect its presentation, evidence and limitations. AI review starts with your consent.
+        - generic "Intended chart investigation workflow" [ref=f18e137]:
+          - generic [ref=f18e138]: Upload
+          - generic [ref=f18e139]:
+            - generic [aria-hidden] [ref=f18e140]: →
+            - text: Analyze
+          - generic [ref=f18e141]:
+            - generic [aria-hidden] [ref=f18e142]: →
+            - text: Detect
+          - generic [ref=f18e143]:
+            - generic [aria-hidden] [ref=f18e144]: →
+            - text: Reconstruct
+          - generic [ref=f18e145]:
+            - generic [aria-hidden] [ref=f18e146]: →
+            - text: Compare
+        - paragraph [ref=f18e147]: Available now · original-chart inspection and AI review. Blind reconstruction awaits an approved method and is currently unavailable.
+        - region [ref=f18e148]:
+          - generic [ref=f18e149]:
+            - heading "Try a chart investigation" [level=2] [ref=f18e150]
+            - generic [ref=f18e151]: Editable educational prompts
+          - generic [ref=f18e152]:
+            - button "Health Do the axes exaggerate the difference in diabetes prevalence between these groups?" [ref=f18e153] [cursor=pointer]:
+              - generic [ref=f18e159]:
+                - strong [ref=f18e160]: Health
+                - generic [ref=f18e161]: Do the axes exaggerate the difference in diabetes prevalence between these groups?
+            - button "Public health Does the time range in this public-health chart hide changes in the trend?" [ref=f18e162] [cursor=pointer]:
+              - generic [ref=f18e168]:
+                - strong [ref=f18e169]: Public health
+                - generic [ref=f18e170]: Does the time range in this public-health chart hide changes in the trend?
+            - button "Medicine Does this treatment-benefit chart distinguish absolute from relative risk?" [ref=f18e171] [cursor=pointer]:
+              - generic [ref=f18e178]:
+                - strong [ref=f18e179]: Medicine
+                - generic [ref=f18e180]: Does this treatment-benefit chart distinguish absolute from relative risk?
+            - button "Data analysis Does this chart faithfully represent the supplied data, units and uncertainty?" [ref=f18e181] [cursor=pointer]:
+              - generic [ref=f18e186]:
+                - strong [ref=f18e187]: Data analysis
+                - generic [ref=f18e188]: Does this chart faithfully represent the supplied data, units and uncertainty?
+          - paragraph [ref=f18e189]: Prompts only, with no saved research or results. Add your own sources or data before requesting a review.

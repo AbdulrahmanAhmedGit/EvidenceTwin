@@ -1,3 +1,5 @@
+> Current guidance — 2026-11-07: This document preserves the original local-runtime and isolated PostgreSQL implementation evidence. Its pre-case workflow, shared settings and authentication statements are historical. Read [documentation authority](docs/DOCUMENTATION_MAP.md), [current API](docs/API.md), [setup](docs/DEVELOPMENT.md), [workflow](docs/PRODUCT_WORKFLOWS.md) and [deployment/rollback](docs/DEPLOYMENT_ROLLBACK.md) for revisioned cases, invite-only sessions and operator controls. No hosted cutover or scientific enablement is implied. The original body follows unchanged.
+
 # EvidenceTwin backend implementation and operation
 
 ## Current scope

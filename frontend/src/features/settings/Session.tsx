@@ -1,0 +1,18 @@
+import {useEffect,useState} from 'react'
+import type {ReactNode,FormEvent} from 'react'
+import {useQueryClient} from '@tanstack/react-query'
+import {useSession,sessionSchema} from './session-api'
+import {request} from '../../api'
+import {setDraftOwner,useAnalysisDraft} from '../analyses/draft-store'
+
+export function SessionGate({ar,children}:{ar:boolean;children:ReactNode}){
+ const q=useSession();const {ownerId}=useAnalysisDraft();const workspace=q.data?.authenticated?q.data.workspaceId:null;useEffect(()=>{setDraftOwner(workspace??null)},[workspace]);const cache=useQueryClient();const [busy,setBusy]=useState(false);const [error,setError]=useState('')
+ const t=(en:string,arabic:string)=>ar?arabic:en
+ async function login(event:FormEvent<HTMLFormElement>){event.preventDefault();if(busy)return;const fields=new FormData(event.currentTarget);setBusy(true);setError('');try{const session=sessionSchema.parse(await request('/session/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:fields.get('name'),password:fields.get('password')})}));cache.clear();cache.setQueryData(['session'],session)}catch{setError(t('Sign-in was not confirmed. Check your account details, or contact your pilot operator. Too many attempts require a 15-minute wait.','لم يتأكد تسجيل الدخول. تحقق من بيانات حسابك أو تواصل مع مشغل التجربة. تتطلب المحاولات الكثيرة الانتظار ١٥ دقيقة.'))}finally{setBusy(false)}}
+ if(q.isPending)return <section className="page"><p role="status">{t('Opening your workspace…','جارٍ فتح مساحة العمل…')}</p></section>
+ if(q.error)return <section className="page"><h1>{t('Your workspace is unavailable','مساحة العمل غير متاحة')}</h1><p>{t('We could not connect. Your local draft is still here.','تعذر الاتصال. مسودتك المحلية لا تزال هنا.')}</p><button onClick={()=>q.refetch()}>{t('Try again','حاول مجدداً')}</button></section>
+ if(q.data?.authenticated){if(ownerId!==workspace)return <p role="status">{t('Opening your draft…','جارٍ فتح مسودتك…')}</p>;return children}
+ return <section className="page sign-in"><h1>{t('Welcome to your research workspace','مرحباً بك في مساحة البحث')}</h1><p>{t('Sign in with the account provided by your pilot operator.','سجّل الدخول بالحساب الذي وفره مشغل التجربة.')}</p><form onSubmit={login}><label>{t('Account name','اسم الحساب')}<input name="name" autoComplete="username" required maxLength={100}/></label><label>{t('Password','كلمة المرور')}<input name="password" type="password" autoComplete="current-password" required maxLength={256}/></label><p role="alert">{error}</p><button className="primary" disabled={busy}>{busy?t('Signing in…','جارٍ تسجيل الدخول…'):t('Sign in','تسجيل الدخول')}</button></form></section>
+}
+export function OperatorGate({ar,children}:{ar:boolean;children:ReactNode}){const q=useSession();if(!q.data?.operator)return <section className="page"><h1>{ar?'هذه الصفحة للمشغل':'Operator access required'}</h1><p>{ar?'يدير مشغل التجربة خدمات المجلس. لا تحتاج إلى مفاتيح شخصية.':'Your pilot operator manages Council services. You do not need personal API keys.'}</p></section>;return children}
+export function SignOut({ar}:{ar:boolean}){const q=useSession();const cache=useQueryClient();const [error,setError]=useState(false);const [busy,setBusy]=useState(false);if(!q.data?.accountsEnabled||!q.data.authenticated)return null;return <><button disabled={busy} onClick={async()=>{setBusy(true);try{await request('/session/logout',{method:'POST'});cache.clear();window.location.assign('/app')}catch{setError(true);setBusy(false)}}}>{ar?'تسجيل الخروج':'Sign out'}</button>{error&&<p role="alert">{ar?'لم يتأكد تسجيل الخروج. حاول مجدداً.':'Sign-out was not confirmed. Try again.'}</p>}</>}

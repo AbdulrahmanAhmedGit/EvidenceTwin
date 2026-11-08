@@ -1,0 +1,854 @@
+[
+  {
+    "path": ".impeccable/critique/2026-11-06T21-36-36Z__frontend-src-app-tsx.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "f600af8c020e65e8653bc7ef29a9bdff02959cad8a96768091153ec73004b62f"
+  },
+  {
+    "path": ".impeccable/review/reconstruction/finish-review.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "dbea646cf8663700d2941e0279015d8e19a54ba4263c46b201108cbdee14977f"
+  },
+  {
+    "path": ".impeccable/review/reconstruction/finish-verdict.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "4aabb5400bddec08ee8fd0615928e6028d770c7ec1d8a70866c8a99a5ca8d79a"
+  },
+  {
+    "path": ".impeccable/surfaces/frontend-src-app-tsx.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "04425395ac0ed15111561a39d112c9350044dcc36b4bc801255e86677bc3d51d"
+  },
+  {
+    "path": "AGENTS.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "11ef513b0bdaf094c7b612b4419f66ebbd9c8affa218a0550a752ac62a6f36c8"
+  },
+  {
+    "path": "BACKEND_IMPLEMENTATION_GUIDE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "686ed782e3ea466773bb067913bc33aed83c2e0ca2dd6e603cc2bc5b0bb000f3"
+  },
+  {
+    "path": "DESIGN.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "af8ff4271f82312eda2d713160eb3ec08c65e4435c5675d50eafdf8f57bf04ef"
+  },
+  {
+    "path": "PRODUCT.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "2feaac95df25ea9a6518d6f9e8de95bb8977c70f7b9efa1d792db44ad45a8967"
+  },
+  {
+    "path": "README.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "d0d71aa92139a540ae9d451937060edf1babf6cb6401b3c1a145a2009326c918"
+  },
+  {
+    "path": "backend/.pytest_cache/README.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad"
+  },
+  {
+    "path": "backend/README.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "b2a9ad2e7fed0f4f43366d20974300edf5b4484ddf633c0dc9b703d7a0193c5c"
+  },
+  {
+    "path": "backend/build/lib/evidencetwin_backend/prompts/COUNTERFACTUAL ANALYST.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "0fa1ee0620c0c0ea7a5775ccea9c623e2953bf9af25ad1b1964837b2adaf426e"
+  },
+  {
+    "path": "backend/build/lib/evidencetwin_backend/prompts/Cross-Reviewer.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "afa021c366c2d89dc0c27cf9d0776b7d601122b13342c02b091e4f4a375201c4"
+  },
+  {
+    "path": "backend/build/lib/evidencetwin_backend/prompts/EVIDENCE JUDGE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "eaf5bec2f9e9c9453d07c70fca8c23d00781848022435e9476932121e6f74c41"
+  },
+  {
+    "path": "backend/build/lib/evidencetwin_backend/prompts/SCIENTIFIC SKEPTIC.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "e6819dcadfc409c6d6a3290856939c3388a45fbdff6825e3dadee65f9ca134b2"
+  },
+  {
+    "path": "backend/build/lib/evidencetwin_backend/prompts/STATISTICAL AUDITOR.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "272031b6892902dfbba3b38fb72d898baa951b59c650df672809608e64c789c4"
+  },
+  {
+    "path": "backend/build/lib/evidencetwin_backend/prompts/VISUAL ANALYST.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "0c1a9aa25dc555b1c9cf7021561d90878e42595f21536c53bbe5fd84b3ccde6c"
+  },
+  {
+    "path": "backend/build/lib/evidencetwin_backend/prompts/shared.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "7c0e37cc05f51e7048a64a943c5ce95494649a4fdbce31b6ba320208a384da02"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/COUNTERFACTUAL ANALYST.md",
+    "category": "runtime role/instruction source",
+    "review": "relevant content/sections reviewed",
+    "sha256": "0fa1ee0620c0c0ea7a5775ccea9c623e2953bf9af25ad1b1964837b2adaf426e"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/Cross-Reviewer.md",
+    "category": "runtime role/instruction source",
+    "review": "relevant content/sections reviewed",
+    "sha256": "afa021c366c2d89dc0c27cf9d0776b7d601122b13342c02b091e4f4a375201c4"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/EVIDENCE JUDGE.md",
+    "category": "runtime role/instruction source",
+    "review": "relevant content/sections reviewed",
+    "sha256": "eaf5bec2f9e9c9453d07c70fca8c23d00781848022435e9476932121e6f74c41"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/SCIENTIFIC SKEPTIC.md",
+    "category": "runtime role/instruction source",
+    "review": "relevant content/sections reviewed",
+    "sha256": "e6819dcadfc409c6d6a3290856939c3388a45fbdff6825e3dadee65f9ca134b2"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/STATISTICAL AUDITOR.md",
+    "category": "runtime role/instruction source",
+    "review": "relevant content/sections reviewed",
+    "sha256": "272031b6892902dfbba3b38fb72d898baa951b59c650df672809608e64c789c4"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/VISUAL ANALYST.md",
+    "category": "runtime role/instruction source",
+    "review": "relevant content/sections reviewed",
+    "sha256": "0c1a9aa25dc555b1c9cf7021561d90878e42595f21536c53bbe5fd84b3ccde6c"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/evidence-access-v2.md",
+    "category": "runtime role/instruction source",
+    "review": "relevant content/sections reviewed",
+    "sha256": "8427de44459362c934d2d7f2978e42136bc7b69301906373e837e057d7812425"
+  },
+  {
+    "path": "backend/evidencetwin_backend/prompts/shared.md",
+    "category": "runtime role/instruction source",
+    "review": "relevant content/sections reviewed",
+    "sha256": "7c0e37cc05f51e7048a64a943c5ce95494649a4fdbce31b6ba320208a384da02"
+  },
+  {
+    "path": "backend/evidencetwin_backend/services/README.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "1e0a96377d22d4dff23199a7ebc8b9cf81534ca7d4eaf3bb631d1dab41c296a1"
+  },
+  {
+    "path": "concepts_brief.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "41f69d651ad9b61e26fa8db845c16e0d8f3ab83154e1ce5acdc599aea06e92e5"
+  },
+  {
+    "path": "design_draft.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "f925cc93e61e554809e3b0aa15631ec7f55d99c3931c63f776838d3176e1daf9"
+  },
+  {
+    "path": "docs/ACCESSIBILITY_REVIEW.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "8f812b4dea4cb4d8c8cd152dfb45efd8b451633847806c19918040709cf987b8"
+  },
+  {
+    "path": "docs/AI_PROVIDER_CONFIGURATION.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "82bf846813591aeb00ab4694ca4fc80ebcdc776600af681c0676027207959aa3"
+  },
+  {
+    "path": "docs/API.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "2ab347aad35ec7a69adbf5c689adfbcb0df097e34d3b6975154994a3fadaef09"
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "4af4d8f0e1b7263c9ba81d0183da9a17f11739049235235681b9d318f7d7081b"
+  },
+  {
+    "path": "docs/BACKEND_RUNTIME_VERIFICATION.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "cff70a558e52015bd0821ccdf681916fff3c1f02568b0b26001896856ef60f48"
+  },
+  {
+    "path": "docs/BACKEND_SKELETON_REFERENCE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "ef32a5fd85f3f755a056498db38f252355debfc67e2e1541eced566dd753c0a3"
+  },
+  {
+    "path": "docs/BRAND_INTEGRATION.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "7469312aef9bc9673b7085454233453f489b079d705fad2477ef5f55be596a66"
+  },
+  {
+    "path": "docs/DEPLOYMENT_ROLLBACK.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "d5fa44ce34659c9de3d0b088837382753d5209cb06210cdc14e93ae4aa1e4d46"
+  },
+  {
+    "path": "docs/DESIGN_SYSTEM.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "269ba9411687cb172a8926e47c66cd5685c08a7f5b58e9cf1695bd07456f82a2"
+  },
+  {
+    "path": "docs/DEVELOPMENT.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "860f1d3fd42488f462f512c750aa95c85f6a4cc8dcad4fe3499a43f537c1244a"
+  },
+  {
+    "path": "docs/DEVELOPMENT_STAGES.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "e88946b27b1c04ab48d0a43a83d4a59ba2980b7d566faf824572f02aa38dd424"
+  },
+  {
+    "path": "docs/DOCUMENTATION_MAP.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "4ca04f28a3097dccf440a1b56604f9d353ae1dc7c3e602703100af8012c84c4e"
+  },
+  {
+    "path": "docs/EVIDENCE_PROCESSING.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "9c261904da99a069f025bb7d61dd2ed0eb1276eda374c406f24bef465886ce90"
+  },
+  {
+    "path": "docs/FRONTEND_API_CONTRACT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "f28fe4ab2bc05886e80fb9aa39f34d8594fa996930c0b3329450fd784907aa01"
+  },
+  {
+    "path": "docs/FRONTEND_ARCHITECTURE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "4569c98e072007abd239e18f90356ed492bc76cf4ce5ec537dd1aba8cdc5ebaa"
+  },
+  {
+    "path": "docs/FRONTEND_COLOR_TYPOGRAPHY_REVIEW.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "14e6c2086703f310df9ff2814d891f9278d3c54349bf84b8785b76399e536c41"
+  },
+  {
+    "path": "docs/FRONTEND_MOTION_REFINEMENT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "58dc2142247093561eb76562cba2b4c367960317c23d1aaa1037b8342efb3b81"
+  },
+  {
+    "path": "docs/FRONTEND_REDESIGN.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "bbca67393b204898a620358762b618ded4fbf2db2d285c29d2e79bdcd4442438"
+  },
+  {
+    "path": "docs/FRONTEND_STABILIZATION.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "0329f96ea51654a1d39352de242a3447891544faa2c6d5df4964a1687b8e4af6"
+  },
+  {
+    "path": "docs/INTEGRATION_GUIDE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "3f489bab6bc92fb9bc38877221d0cc64de1ad3bc6c8a199029f1b8937d550fc1"
+  },
+  {
+    "path": "docs/LANDING_REDESIGN.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "d28b8b3c883dbf92e07ce7c97d56340090135a94db0e7c500da491eedd4e2b47"
+  },
+  {
+    "path": "docs/PHASE_2_ACCEPTANCE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "6b6a1ecb64f9a7b486837c181e56de55c41140ffe33bf07d25721a2be5b7b807"
+  },
+  {
+    "path": "docs/PHASE_3_ACCEPTANCE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "6c904b565051724a1049aa62f3c97fd390a72f96fa051309659976c228e983a8"
+  },
+  {
+    "path": "docs/PHASE_4_ACCEPTANCE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "e25fcc6eb0b4e50ad22cc930938e31af76de1d0311b3e0be16fcbf9dfc1ae8b6"
+  },
+  {
+    "path": "docs/PHASE_5_ACCEPTANCE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "56dedae0357652b087ad89609f4f9b697cd761fdbc3ec3001fcdc4f6a52ce739"
+  },
+  {
+    "path": "docs/PRODUCT_WORKFLOWS.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "f5937fc9113cb9f8b10144d31f55909ec371b28222017fbd9719de8eb0c0f122"
+  },
+  {
+    "path": "docs/PROMPT_FIRST_REDESIGN.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "df352e9cc968365959831bf666fc25eb851d841c89eb791c13815353ae44cc3c"
+  },
+  {
+    "path": "docs/QUICK_FIVE_PHASE_AUDIT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "1a92a5de256c23d4d11e1bae8c42de9ab095506251ebe8390f9d2df37cb5f212"
+  },
+  {
+    "path": "docs/SAAS_DASHBOARD_REDESIGN.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "30462526a203c12498ba69a208023edde245c660de0240443185989e059b01a1"
+  },
+  {
+    "path": "docs/SCIENTIFIC_SCOPE.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "d561ee7ec851506691e87bf39225c9f9ddc75a2686ec2d8ff848fe0919f11c49"
+  },
+  {
+    "path": "docs/archive/2026-11-07/BACKEND_SKELETON_REFERENCE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "8c50806964fee66c9171e2f01d1c290a09791f0caeaec6b9448823a9a1933e2a"
+  },
+  {
+    "path": "docs/archive/2026-11-07/DESIGN_SYSTEM.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "f4a01e2b949e82e66e353f913659dd692cebe7fd78eb0041e62d8309fb4d59d2"
+  },
+  {
+    "path": "docs/archive/2026-11-07/DEVELOPMENT_STAGES.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "00f77b0bbebb90e5cf35178c5e4c0de021bdc0f20d337fe62c534f3594e68965"
+  },
+  {
+    "path": "docs/archive/2026-11-07/FRONTEND_API_CONTRACT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "b1ed3f97b436a86197b16827fc859bafd9db19fa4478028a72565cf8807b6abd"
+  },
+  {
+    "path": "docs/archive/2026-11-07/FRONTEND_ARCHITECTURE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "3282fbe86f65e2a0db61677a3c67f7bfd964091c28f9e78244862e81abbab5c3"
+  },
+  {
+    "path": "docs/archive/2026-11-07/INTEGRATION_GUIDE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "ec4737c3a46ea0daec160564f920f7b1e93cb8085bfadd220d8daf34cae5ed56"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/codebase_raw.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "3bc4ae836a7e8debf848bc12b1e9e2001d96575885eb18864e954700627486ec"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/comprehension_raw.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "c422a6825cd6732b026e3eb6cf2bd82925d26694216234293d13663afcd703fe"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/concepts_brief.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "7a4315d48e357f63f5ea97b5f63a8ae60bee6de965efe1c72f6dbf486108fe01"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/design_raw.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "4372e2b090e50aa233578edebfbfc00bce73a5a5818adeb22e80e020ce31d001"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/goldfish_review_report.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "735cf907362e814f6b2ec239f9e8bfe951c32fcc3cab6d543fc42071f4a47d52"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/readiness_raw.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "90495482f0975e8c90730ce894e8e30ec1d713543ba8d9f06db54b399fdf5a3a"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/review_input.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "dc3df93d3a74cf99f8c91951145f7d023c3a903409010f7c1a7193a2bc367245"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/structural_raw.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "b278d0cd15fbb9fe8bece36097611c93e10ebb5d74961a0266eac10880eed545"
+  },
+  {
+    "path": "docs/designs/backend-completion/2026-11-05-goldfish/zoomout_raw.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "a701d25f65a2ffbee88e78f493c4a45db5edd24a0e68c52fc6d7755997d8e932"
+  },
+  {
+    "path": "docs/designs/backend-completion/ACCEPTANCE_CORPUS_CONTRACT_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "eccbcc202b6c7bf7ca8e40ae33001461c4ced042392b74da2e54a16bfe88f5ab"
+  },
+  {
+    "path": "docs/designs/backend-completion/CANONICAL_CHECK_CONTRACT_OPTIONS.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "42f22e70e206b5134b92be94d2978b9e189656ac3f25d4bfe9e794d6e4b12475"
+  },
+  {
+    "path": "docs/designs/backend-completion/CANONICAL_SCHEMA_PUBLICATION_PROPOSAL.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "59c4caf785a60078a90b2a26ad769fcb67a3e17fae62a86c0c425342f5eeba35"
+  },
+  {
+    "path": "docs/designs/backend-completion/CHECK_LIFECYCLE_PUBLICATION_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "6c9fda81589fdc28e81acfb41040383359973c68d481d299f3297a70a223d3c4"
+  },
+  {
+    "path": "docs/designs/backend-completion/CODING_READINESS_REPORT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "638f6a5eda6d932747117723ee9f48b6399daf3ee0285db3ab00fee3f1e2bb7e"
+  },
+  {
+    "path": "docs/designs/backend-completion/CONFIRMATION_REVISION_CONTRACTS_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "2bdb33e5a0745c6a65995960a849ed2bc1d5025455965f8bdcdfe2fad41d3e2a"
+  },
+  {
+    "path": "docs/designs/backend-completion/CORE_TRANSACTION_PLAN_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "ed7482b49202525dd8d75d5bfb2a5f1e8a44b77b93027b76eb17f1f2f0d6c20f"
+  },
+  {
+    "path": "docs/designs/backend-completion/COUNCIL_REVIEW_CONTRACTS_DRAFT.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "070d3ffeb05425bdeda582b1eb43c4a544c04403e9cc58cbb4b4180d0c493ba9"
+  },
+  {
+    "path": "docs/designs/backend-completion/CROSS_CONTRACT_REVIEW.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "db2120c00bef6f8b4e31978dff9056c353a4b25e17e3ab40cb7188a4ccffe2f3"
+  },
+  {
+    "path": "docs/designs/backend-completion/DECIMAL_ARITHMETIC_CONTRACT_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "29d17344e3e82623996fcc55771205b64ac7ec99b747ca66508c30a4cb0104f7"
+  },
+  {
+    "path": "docs/designs/backend-completion/DEPENDENCY_COMPATIBILITY_REVIEW.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "03a87082be565f02e065a5e13ab6a604f8c47f0f81e1e3785bd0ca66e2851064"
+  },
+  {
+    "path": "docs/designs/backend-completion/EXECUTION_POSTGRESQL_SCHEMA_REVIEW.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "cbd11cc194c91257a2c51dc48109042893e5700c4d7bbddd45444f529b114b10"
+  },
+  {
+    "path": "docs/designs/backend-completion/EXECUTION_SCHEMA_STATEMENT_MAP.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "6b2512251a103e9d88a6e8ecac07719f382acca6693bff1110517765dbdf4912"
+  },
+  {
+    "path": "docs/designs/backend-completion/EXECUTION_TEST_SPECIFICATION.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "6c56bc0428429c43e1a02c710ffee05848b03cc5a1af61fdb86329aba72c4d92"
+  },
+  {
+    "path": "docs/designs/backend-completion/EXPLICIT_ABSENCE_CONTRACT_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "4062483b96459e694077d2ade9579fb5369ea08138d7857e00e491ada329da9f"
+  },
+  {
+    "path": "docs/designs/backend-completion/FIRST_CODING_SCOPE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "1f7ca5fbff8555038c54bd63ccb54db864aaa15c82d133f6651228a27c48221e"
+  },
+  {
+    "path": "docs/designs/backend-completion/FIRST_IMPLEMENTATION_FILE_MAP.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "81fbaf22451a7dc6fba5bb2e02ec72e8b1315c3938132b51d8c713ac3468cd62"
+  },
+  {
+    "path": "docs/designs/backend-completion/JOB_ATTEMPT_TRANSITIONS_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "0361d364a7a51714b466813e01eb7d0dd53c71957820432f2fbe084be401eef9"
+  },
+  {
+    "path": "docs/designs/backend-completion/LEASE_RETRY_RECONCILIATION_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "d55654f450fc006852bdc1528cde9da231ddfaa6bc591bbe9a66a89447c7452f"
+  },
+  {
+    "path": "docs/designs/backend-completion/NUMERICAL_CONTRACTS_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "6f8fdb64a51d84e8e0b7b81eb7e4cb24ba25fba9667ca041c047a30ae679200c"
+  },
+  {
+    "path": "docs/designs/backend-completion/OPEN_DECISIONS.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "6b30cec2575fcdf8d850fa76648e822cbf37741d5f72487c06bdbdbf780314f2"
+  },
+  {
+    "path": "docs/designs/backend-completion/POSTGRESQL_TOOLING_OPTIONS.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "c4d9554d6072446e89b1193364c78c6fa38b4e20d18bf4d0c4daa1992a8f6900"
+  },
+  {
+    "path": "docs/designs/backend-completion/PUBLICATION_GUARD_SCHEMA_PROPOSAL.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "ac1451a15f7bab90ace5447e46145062d7921aafe7d6ba8f5119c596dcbbad1c"
+  },
+  {
+    "path": "docs/designs/backend-completion/PUBLICATION_IDEMPOTENCY_OPTIONS.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "3b2020efc867dbc9cedd4deb16096e0e72ee4c80e95935aacb253900b949c85e"
+  },
+  {
+    "path": "docs/designs/backend-completion/RECOMMENDED_DECISIONS.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "81f1e79eee5f346ce90b3aae3718fb0f65556844d0a6d7d14fcace9dba2d3318"
+  },
+  {
+    "path": "docs/designs/backend-completion/SCIENTIFIC_CONTRACTS_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "e3d78608e86054c0eeaf517717fd582fa638c9fa49378a8ad2594bb786c41e2d"
+  },
+  {
+    "path": "docs/designs/backend-completion/SCIENTIFIC_SPECIFICATION_DRAFT.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "356b149e67aa7e731a77918c7d56032e7ff9228c44fd9dd64326c4f1b3df1003"
+  },
+  {
+    "path": "docs/designs/backend-completion/SOURCE_PROCEDURES_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "27f595a7bd88c9b8d49a3b9bd3bf6fba43948244c44420b4d0d256d968f78c75"
+  },
+  {
+    "path": "docs/designs/backend-completion/STATISTICAL_CONTRACTS_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "678c4861d7e5bceb466724262a4fd395ad99edafeaae3fe1d5404822e3e7c8dc"
+  },
+  {
+    "path": "docs/designs/backend-completion/TECHNICAL_PLAN_GATES.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "249b70eaecfe0d709622c00395e0e0c53be67210ba5470821210db3362cbc045"
+  },
+  {
+    "path": "docs/designs/backend-completion/TRANSACTION_CONSISTENCY_OPTIONS.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "e2a5f59390f30c7967269658917bee87a217b2f03add09dcd627bc08923dd2fa"
+  },
+  {
+    "path": "docs/designs/backend-completion/TYPED_CHECK_AXES_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "c6bedecb9627e4d313eb4bc8c4d848e0cd22368f976ef8da5198695131ddd10e"
+  },
+  {
+    "path": "docs/designs/backend-completion/VERSION_GUARDED_PUBLICATION_DRAFT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "c6342b4814cb073ae74dfa2e787a5cc82c9f3dfad445ab3c6cc45a734f41aced"
+  },
+  {
+    "path": "docs/designs/backend-completion/ember-2025-acceptance/acceptance_case.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "59659fdc0e8c481a7fbde8e9db5d21f491ee22a208cf870a482491a634b77f34"
+  },
+  {
+    "path": "frontend/README.md",
+    "category": "canonical",
+    "review": "relevant content/sections reviewed",
+    "sha256": "f6e781cab0f0f2490ae294eafc07ae82a220a93c3c6e2e821d1cae9c1cd7e9e7"
+  },
+  {
+    "path": "output/evidence-processing/finish-review.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "8b3287daf0d784e29127402ac03c1081e4619b69c28c3405ec021fe138bdd75e"
+  },
+  {
+    "path": "output/evidence-processing/finish-verdict.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "06f9d4c467e0ca0b236773c529991a0214463d9d58e9e6b31faf6e80809df042"
+  },
+  {
+    "path": "output/impeccable-review/assessment-a.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "0c73bd76c916ace2c594c74dd56c2f2efc996fac9ebe08b75cd3af9861c74663"
+  },
+  {
+    "path": "output/impeccable-review/assessment-b.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "946aabe73db0abe1bd1fa4b00457ce8a11ead167533ed601984d1af98d04c299"
+  },
+  {
+    "path": "output/impeccable-review/direction.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "5980670af63fd652d6420c8ae7613277f7669ce9d64c850fb690be07ee31e08a"
+  },
+  {
+    "path": "output/impeccable-review/finish-review.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "efd42c472c854cc1d96038c1809a21dc336170ad2ae1596aadf0cb4c4ade312f"
+  },
+  {
+    "path": "output/impeccable-review/finish-verdict.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "0476a66e89b48f397140bb243803a38bce8c3c130e18dfa6f3eb2c0c4ea1ce9e"
+  },
+  {
+    "path": "output/playwright/floating-composer/review.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "522f7e5d133e74b1d62976e08215dfcad528478eb9ed0b5e8c01429275f506a5"
+  },
+  {
+    "path": "output/playwright/premium-composer/review.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "81cec4c3481d45621422df431b3ca353be99a0f980123d27d349920df2e59365"
+  },
+  {
+    "path": "output/playwright/premium-composer/verdict.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "e3bc528f772c146baf4a2fb25a2e751825778c88d3e3486d99673d41c0744a8c"
+  },
+  {
+    "path": "output/playwright/unified-composer/review.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "48d3e9e6fcb81492f4becdbe143be50fa5c1d8c2a560598624448aa68fe40caa"
+  },
+  {
+    "path": "output/reconstruction/DIRECTION.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "c5b8ec2b01fe15fbc89b1c5140e73cbb3fe07a100396e2e80fe1d2126e20fa6c"
+  },
+  {
+    "path": "output/reconstruction/IMPLEMENTATION_REPORT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "8bf523000fd85b8ce3036168e425e9bc03df8176986a28cd4548a09dabcdd255"
+  },
+  {
+    "path": "output/reconstruction/VISUAL_REVIEW.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "91c445128b9266cee0ee7c2359c8eda99704211663e01da906e02e00152ce746"
+  },
+  {
+    "path": "output/reconstruction/design-documentation.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "78bea227cb2d7d53c129805968f2e88a90620f646ef3110b050fc0befaf2e00a"
+  },
+  {
+    "path": "output/transformation/IMPLEMENTATION_REPORT.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "e54c856b139b7fb491a99e623519fb6d8188e1156454bc64feee2520a4e5eda7"
+  },
+  {
+    "path": "output/transformation/documentation-audit.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "f9a27e0443b7a3b2f1e5c045fb4061469c15113a0893d1ca18c45657c95226c9"
+  },
+  {
+    "path": "output/transformation/finish-review.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "301dfc7dac94c28b8742296dd1bbd18fe65cb71fb3642645590e53f9fee7179f"
+  },
+  {
+    "path": "output/transformation/finish-verdict.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "027059350a1fed40d7c3cd2ec5f25a1b3e163cdb7a236565b03e4ccdaf84be5c"
+  },
+  {
+    "path": "output/transformation/initial-audit.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "73d32df042e9e3cd61eb2c83446ec42153b76c4ce3521820d52face7dde3ff41"
+  },
+  {
+    "path": "output/transformation/review-packet.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "0ade936308e9dd6263d3ada25a6c6e3bc823cb51e15c269ed3ae56f9b6a34660"
+  },
+  {
+    "path": "snippets/prompts/COUNTERFACTUAL ANALYST.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "0fa1ee0620c0c0ea7a5775ccea9c623e2953bf9af25ad1b1964837b2adaf426e"
+  },
+  {
+    "path": "snippets/prompts/Cross-Reviewer.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "afa021c366c2d89dc0c27cf9d0776b7d601122b13342c02b091e4f4a375201c4"
+  },
+  {
+    "path": "snippets/prompts/EVIDENCE JUDGE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "eaf5bec2f9e9c9453d07c70fca8c23d00781848022435e9476932121e6f74c41"
+  },
+  {
+    "path": "snippets/prompts/SCIENTIFIC SKEPTIC.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "e6819dcadfc409c6d6a3290856939c3388a45fbdff6825e3dadee65f9ca134b2"
+  },
+  {
+    "path": "snippets/prompts/STATISTICAL AUDITOR.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "272031b6892902dfbba3b38fb72d898baa951b59c650df672809608e64c789c4"
+  },
+  {
+    "path": "snippets/prompts/VISUAL ANALYST.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "0c1a9aa25dc555b1c9cf7021561d90878e42595f21536c53bbe5fd84b3ccde6c"
+  },
+  {
+    "path": "snippets/prompts/shared.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "7c0e37cc05f51e7048a64a943c5ce95494649a4fdbce31b6ba320208a384da02"
+  },
+  {
+    "path": "snippets/venv/lib/python3.15/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5"
+  },
+  {
+    "path": "snippets/venv/lib/python3.15/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d"
+  },
+  {
+    "path": "snippets/venv/lib/python3.15/site-packages/idna-3.20.dist-info/licenses/LICENSE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+  },
+  {
+    "path": "snippets/venv/lib/python3.15/site-packages/pip-26.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+  },
+  {
+    "path": "snippets/venv/lib/python3.15/site-packages/pip/_vendor/idna/LICENSE.md",
+    "category": "historical/specification/artifact retained",
+    "review": "inventoried; authority governed by DOCUMENTATION_MAP.md",
+    "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+  }
+]

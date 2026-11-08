@@ -1,0 +1,103 @@
+/* Question-first composition and saved research workspace. */
+.root .research-entry{padding:40px 36px 64px;max-inline-size:920px;margin-inline:auto}
+.root .research-entry-content{max-inline-size:760px;margin-inline:auto}
+.root .research-entry h1{font-size:1.75rem;line-height:1.5;margin:0 0 8px;letter-spacing:-.025em}
+.root .research-entry-intro{color:var(--muted);font-size:1rem;margin:0 0 28px}
+/* Only question content and supplied items participate in the composer's layout. */
+.root .research-form{max-inline-size:780px}
+.root .research-form .research-composer{min-inline-size:0;margin:0;padding:0;border:1px solid var(--color-border-control);border-radius:12px;background:var(--paper)}
+.root .research-composer:focus-within{border-color:var(--accent)}
+.root .composer-writing{padding:14px 18px 0}
+.root .research-form .research-question{display:block;inline-size:100%;min-block-size:56px;max-block-size:65vh;resize:none;border:0;background:none;box-shadow:none;border-radius:4px;font-size:1.0625rem;line-height:1.75;padding:4px 0 8px;letter-spacing:0}
+.root .research-form .research-question:focus-visible{outline:2px solid var(--color-focus-ring);outline-offset:3px}
+.root .research-question::placeholder{font-weight:400;color:var(--muted)}
+.root .composer-action-row{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 12px 12px}
+.root .composer-tools{display:flex;align-items:center;gap:4px;min-inline-size:0}
+.root .composer-tools button{background:none;border-color:transparent;min-block-size:40px;padding:8px 10px;font-size:.8125rem;gap:7px}
+.root .composer-tools button:hover{background:var(--surface)}
+.root .composer-tools button[aria-expanded=true]{background:var(--accent-soft);color:var(--color-accent-text)}
+.root .composer-tools .composer-add{inline-size:40px;padding:8px;border-radius:7px}
+.root .composer-tools svg{flex:none}
+.root .composer-start{flex:none;font-size:.8125rem;min-block-size:40px;padding:9px 12px}
+.root .composer-submit-short{display:none}
+.root .composer-feedback{padding-inline:18px}
+.root .form-feedback:empty{display:none}
+.root .form-feedback{font-size:.875rem;margin:8px 0;color:var(--muted)}
+.root .form-feedback[role=alert]{color:var(--danger)}
+.root .evidence-selection{padding:0 0 8px;list-style:none;display:flex;gap:10px;margin:0 0 14px;max-inline-size:100%;overflow-x:auto;scrollbar-width:thin}
+.root .evidence-selection li{position:relative;display:flex;flex-direction:column;align-items:stretch;gap:5px;inline-size:150px;min-inline-size:150px;padding:0 0 7px;background:var(--surface);border:1px solid var(--line);border-radius:9px;overflow:hidden}
+.root .evidence-selection li>div{min-inline-size:0;font-size:.75rem;padding-inline:8px}
+.root .evidence-selection li>div>bdi,.root .evidence-selection li>div>a{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;max-inline-size:132px}
+.root .evidence-selection small{display:block;color:var(--muted);font-size:.6875rem;margin-block-start:2px}
+.root .evidence-selection button{position:absolute;inset-block-start:4px;inset-inline-end:4px;padding:3px;min-block-size:28px;min-inline-size:28px;border:1px solid var(--line);background:var(--paper);border-radius:5px}
+.root .upload-preview{inline-size:100%;block-size:86px;object-fit:contain;background:var(--paper);flex:none}
+.root .attachment-dataset-preview{display:block;position:relative;block-size:86px;padding:9px 5px 0;background:var(--paper);overflow:hidden}
+.root .attachment-dataset-preview>svg{position:absolute;inset-inline-start:5px;inset-block-end:4px;color:var(--accent);background:var(--paper)}
+.root .preview-table-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));font-size:6px;line-height:11px;direction:ltr}
+.root .preview-table-row>span{overflow:hidden;white-space:nowrap;text-overflow:clip;border-block-end:1px solid var(--line)}
+.root .evidence-selection .attachment-file-icon{block-size:86px;inline-size:100%;display:grid;place-items:center}
+.root .question-expand{display:block;margin-inline-start:auto;border:0;background:none;color:var(--muted);font-size:.75rem;padding:4px 0;margin-block-end:4px;min-block-size:28px}
+.root .research-question{scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+
+.root .attachment-file-icon{display:grid;place-items:center;inline-size:36px;block-size:36px;flex:none;color:var(--muted);background:var(--paper);border-radius:4px}
+.root .composer-item-chips{display:flex;gap:6px;flex-wrap:wrap;padding-block:4px 8px;min-inline-size:0}
+.root .composer-item-chip{display:flex;align-items:center;min-inline-size:0;max-inline-size:100%;background:var(--surface);border:1px solid var(--line);border-radius:5px}
+.root .composer-item-chip button,.root .composer-context-chip{display:inline-flex;align-items:center;gap:6px;border:0;background:none;min-block-size:32px;padding:5px 8px;font-size:.75rem;min-inline-size:0}
+.root .composer-item-chip button:last-child{padding-inline:4px;flex:none}
+.root .composer-item-chip bdi{max-inline-size:27ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.root .composer-item-chip svg{flex:none}
+.root .composer-context-chip{background:var(--surface);border-radius:5px;color:var(--muted)}
+.root .composer-popover{position:fixed;inset:auto;margin:0;padding:6px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink);box-shadow:0 8px 28px #11182726;overflow-y:auto;overscroll-behavior:contain;z-index:1000;text-align:start;font-size:.875rem;box-sizing:border-box}
+.root.dark .composer-popover{box-shadow:0 8px 28px #0005}
+.root .composer-popover::backdrop{background:transparent}
+.root .composer-popover [role^=menuitem]{display:flex;align-items:center;justify-content:flex-start;text-align:start;gap:10px;inline-size:100%;padding:10px;border:0;background:none;font-size:.875rem;min-block-size:42px;font-weight:500}
+.root .composer-popover [role^=menuitem] small{display:block;color:var(--muted);font-size:.75rem;line-height:1.7;font-weight:400;margin-block-start:3px}
+.root .composer-popover [role^=menuitem] strong{font-size:.875rem;font-weight:600}
+.root .composer-popover [aria-checked=true],.root .composer-popover [aria-checked=true]:hover:not(:disabled){background:var(--accent-soft);color:var(--color-accent-text)}
+.root .composer-popover .popover-settings{margin-block-start:6px;border-block-start:1px solid var(--line);border-radius:0;padding-block-start:12px;color:var(--muted)}
+.root .popover-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:4px 6px 8px}
+.root .popover-heading h2{font-size:.9375rem;line-height:1.6;margin:0;font-weight:650}
+.root .popover-heading button{border:0;background:none;padding:5px;min-inline-size:32px;min-block-size:32px}
+.root .popover-fields{display:grid;gap:10px;padding:4px 8px 8px}
+.root .popover-fields label{display:grid;gap:5px;margin:0;font-size:.8125rem}
+.root .popover-fields :is(input,select,textarea){inline-size:100%;min-inline-size:0;font-size:.875rem;padding:8px 10px;line-height:1.65}
+.root .popover-fields details{font-size:.8125rem;color:var(--muted)}
+.root .popover-fields summary{cursor:pointer;padding-block:4px}
+.root .popover-fields details .popover-fields{padding:8px 0 0}
+.root .popover-fields>.form-feedback{margin:0}
+.root .popover-help{font-size:.75rem;line-height:1.7;color:var(--muted);margin:6px 10px}
+.root .popover-fields>.popover-help{margin:0}
+.root .popover-fields .popover-draft{display:flex;align-items:center;gap:8px;font-size:.8125rem}
+.root .popover-draft input{inline-size:16px;min-block-size:16px;flex:none}
+.root .composer-done{justify-self:end;min-block-size:36px;padding:7px 14px;font-size:.8125rem}
+.root .popover-editor-actions{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.root .popover-editor-actions button{font-size:.8125rem;min-block-size:36px;padding:7px 12px}
+.root .research-composer [hidden]{display:none}
+.root .research-cases-page{max-inline-size:1120px}.root .research-principle{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:24px 28px;margin-block:0 32px;display:grid;grid-template-columns:1fr auto;column-gap:24px;align-items:center}.root .research-principle h2{font-size:1.125rem;margin:0 0 8px}.root .research-principle p{font-size:.875rem;color:var(--muted);margin:4px 0;max-inline-size:65ch}.root .research-principle>.button{grid-column:2;grid-row:1/4}
+.root .case-records{display:grid;gap:8px}.root .case-records article{display:flex;align-items:center;gap:24px;justify-content:space-between;border:1px solid transparent;border-radius:8px;background:var(--paper);padding:20px 24px}.root .case-records article:hover{border-color:var(--line)}.root .case-records article>div{min-inline-size:0;max-inline-size:78ch}.root .case-records h3{font-size:1rem;line-height:1.6;margin:0 0 8px}.root .case-records p{margin:0;font-size:.8125rem;color:var(--muted)}.root .case-open{display:flex;align-items:center;gap:8px;font-size:.8125rem;min-block-size:44px;flex:none;color:var(--color-accent-text)}
+.root .case-search{display:grid;max-inline-size:440px;margin-block:0 20px}.root .case-search input{inline-size:100%}.root .case-empty{max-inline-size:64ch;padding:24px 0}.root .case-empty p{color:var(--muted)}.root .research-learn-link{margin-block:32px 0;font-size:.875rem}.root .research-learn-link a{display:block;margin-block-end:4px}
+.root .case-workspace-layout{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:40px;align-items:start}.root .case-workspace-layout>div{min-inline-size:0}.root .saved-question{margin-block:0 28px}.root .saved-question .research-prose{font-size:1.0625rem;line-height:1.85}.root .saved-question .section-heading h2{margin:0}.root .saved-question .section-heading button{font-size:.8125rem;background:transparent}
+.root .saved-evidence{margin-block-start:28px;padding:20px 24px;background:var(--paper);border:1px solid var(--line);border-radius:8px}.root .saved-evidence h3{margin:0 0 12px}.root .saved-evidence ul{list-style:none;padding:0;margin:0}.root .saved-evidence li{display:flex;align-items:baseline;gap:16px;justify-content:space-between;padding:10px 0;min-inline-size:0}.root .saved-evidence a{color:var(--color-accent-text);font-size:.9375rem}.root .saved-evidence li span{flex:none}.root .saved-evidence p{margin:8px 0;font-size:.9375rem;color:var(--muted)}
+.root .case-provenance{padding:20px;background:var(--surface);border:0;border-radius:8px;min-inline-size:0}.root .case-provenance h2{font-size:1rem;margin:0 0 10px}.root .case-provenance p{font-size:.8125rem;line-height:1.8;color:var(--muted)}.root .case-provenance details{font-size:.8125rem;margin-block:16px}.root .case-provenance summary{padding-block:4px}.root .case-provenance>a{font-size:.8125rem}.root .file-hash{display:block;overflow-wrap:anywhere;font-size:.75rem}.root .revision-history ol{padding-inline-start:20px}.root .revision-history button{font-size:.8125rem;padding:4px 0;background:none;border:0}.root .revision-content{padding-block:12px}.root .revision-content dd{margin-inline:0}
+.root .case-council{margin-block:28px 0;padding:24px 0;border-block-start:1px solid var(--line)}.root .case-council h2{margin:0 0 12px}.root .case-council>p{max-inline-size:68ch;font-size:.9375rem;line-height:1.8;color:var(--muted)}.root .case-review-history{margin-block-start:28px}.root .case-review-history article{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:16px 0}.root .case-review-history p{margin:4px 0 0}.root .case-review-history a{color:var(--color-accent-text);font-size:.875rem}.root .case-dataset-disclosure>summary{font-size:.9375rem;padding-block:12px}.root .review-consent{inline-size:620px;padding:28px}.root .review-consent p{font-size:.9375rem;line-height:1.8}
+.root .sign-in{max-inline-size:600px;padding-block:48px}.root .sign-in form{display:grid;gap:20px}.root .sign-in label{display:grid}
+@media(max-width:1100px){.root .case-workspace-layout{grid-template-columns:minmax(0,1fr)}.root .case-provenance{max-inline-size:none}.root .case-provenance>p{max-inline-size:68ch}}
+@media(max-width:760px){.root .research-entry{padding:28px 20px 40px}.root .research-entry h1{font-size:1.5rem}.root .research-entry-intro{font-size:.9375rem}.root .research-form .research-question{font-size:1rem}.root .research-field-pair,.root .evidence-selection{grid-template-columns:minmax(0,1fr)}.root .research-principle{display:block;padding:20px}.root .research-principle>.button{margin-block-start:16px}.root .case-records article{padding:18px 16px;gap:12px;align-items:flex-start}.root .case-open{font-size:.75rem}.root .saved-question .section-heading{flex-wrap:wrap}.root .saved-evidence{padding:16px}.root .case-review-history article{flex-wrap:wrap}.root .saved-evidence li{flex-wrap:wrap;gap:4px}}
+@media(forced-colors:active){.root .research-composer:focus-within{outline:2px solid Highlight}}
+.root .home-reviews{margin-block-start:32px}.root .home-review-records{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.root .home-review-records article{padding:4px 0}.root .home-review-records h3{font-size:.9375rem;margin:0 0 8px;line-height:1.7}.root .home-review-records p{margin:0;color:var(--muted);font-size:.8125rem}.root .home-review-records .status-label{font-size:.8125rem}
+@media(max-width:760px){.root .home-review-records{grid-template-columns:minmax(0,1fr);gap:20px}}
+
+@media(max-width:760px){
+ .root .composer-writing{padding:12px 14px 0}
+ .root .composer-action-row{padding:4px 8px 10px;gap:4px}
+ .root .composer-tools{gap:0}
+ .root .composer-tools button{padding:8px;font-size:.8125rem;min-block-size:44px}
+ .root .composer-tools .composer-add{inline-size:36px;min-inline-size:36px;padding:6px}
+ .root .composer-review-trigger{max-inline-size:170px}
+ .root .composer-review-trigger{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+ .root .composer-start{min-block-size:44px;padding:8px 10px}
+ .root .composer-submit-long{position:absolute;inline-size:1px;block-size:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+ .root .composer-submit-short{display:inline}
+ .root .composer-feedback{padding-inline:14px}
+ .root .composer-popover :is(input,textarea,select){font-size:1rem}
+}
