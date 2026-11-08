@@ -1,0 +1,24 @@
+{
+  "sourcePage": "https://ourworldindata.org/grapher/diabetes-prevalence",
+  "sourceCredit": "International Diabetes Federation via World Bank, processed by Our World in Data",
+  "provenance": "Exact bytes from the previously submitted diabetes-prevalence.csv, retained in the reset backup.",
+  "sourceSha256": "896799a79e97b433101f5ea005bbd5b921c42f1bc6b939af2d712eb354d15c98",
+  "rowCount": 455,
+  "selected": [
+    {
+      "Entity": "Egypt",
+      "Code": "EGY",
+      "Year": "2024",
+      "Diabetes prevalence (% of population ages 20 to 79)": "22.4"
+    },
+    {
+      "Entity": "United States",
+      "Code": "USA",
+      "Year": "2024",
+      "Diabetes prevalence (% of population ages 20 to 79)": "13.7"
+    }
+  ],
+  "referencePageChecked": "2026-11-08",
+  "freshCsvAccess": "HTTP 403. No current-download identity or source authentication is claimed.",
+  "scope": "Explicit educational chart-encoding demonstration using actual supplied observations. It is not an EvidenceTwin reconstruction."
+}

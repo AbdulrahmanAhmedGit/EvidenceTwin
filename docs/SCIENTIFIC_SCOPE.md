@@ -15,3 +15,9 @@ The selected [Ember acceptance investigation](designs/backend-completion/ember-2
 Development examples/fixtures and temporary synthetic-provider tests establish only their stated application behavior. No paid-provider, independent scientific, hosted, physical-device, screen-reader or cross-browser validation is claimed. The owner performs final acceptance; scientific/pilot enablement requires its own approved specifications and evidence.
 
 Public caption access through youtube-transcript-api and HTML extraction through Scrapling are source-processing operations. Captions preserve their original language and generated/manual provenance. Neither access nor parsing authenticates scientific claims. LibreTranslate report derivatives are explicitly machine translated. Numeric/reference protection can retain unsafe-to-translate passages in their original wording, producing a labeled partial translation. Scientific terminology still requires human review. Historical report wording and findings are preserved.
+
+## Visualization focus clarification
+
+The owner prioritizes misleading-plot inspection and evidence-grounded reconstruction. This emphasizes the approved brief’s visualization-based scope while preserving its claim/evidence capabilities. It does not close D07/E04 or any of the 24 open gates. The current runtime offers exploratory AI visual observations. Its output does not establish a confirmed misleading-plot verdict or validated detection accuracy. No new scientific reconstruction or XLSX procedure was enabled.
+
+The Visual Analyst prompt now explicitly rejects automatic adverse judgments based solely on non-zero baselines, logarithmic scales or unusual encodings. It requests evidence and context for potential interpretation effects, including absolute versus relative risk, denominators and supplied uncertainty in medical charts. Future executions preserve the updated prompt snapshot. Earlier runs retain their original prompts and findings.

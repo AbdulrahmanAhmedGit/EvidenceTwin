@@ -108,3 +108,6 @@
 .root .results-evidence .result-original-visuals{margin-block-start:0}
 .root .results-evidence .result-blind-optics{background:var(--paper);border:0;border-radius:10px;padding:18px;margin-block:24px}
 .root .results-evidence .result-blind-optics p{font-size:.8125rem}
+.root .visual-primary-observation{margin-block:20px;font-size:.9375rem;line-height:1.85;max-inline-size:70ch}
+.root .visual-primary-observation h3{font-size:1rem;line-height:1.6;margin:0 0 10px}
+.root .visual-primary-observation p{margin-block:10px}

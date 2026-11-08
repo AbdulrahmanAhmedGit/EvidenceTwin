@@ -1,6 +1,6 @@
 # EvidenceTwin Council
 
-A bilingual React/TypeScript/Vite + Flask research workspace. Save a scientific question and supporting files as a real case, preserve evidence revisions, inspect supported tables, and explicitly authorize an exploratory Council review when an operator has configured a provider. Case saving does not require a provider.
+A bilingual React/TypeScript/Vite + Flask workspace for inspecting potentially misleading scientific visualizations, initially in healthcare, medicine and public health. Upload an original chart, optionally add its data, source and context, save a real case and authorize a visual or Council review. Supporting claims, calculations and reports remain available. Blind Optics reconstruction awaits an approved scientific method and acceptance. Case saving does not require a provider.
 
 The current runtime is local SQLite/private files with a single-process threaded worker. Optional invite-only accounts provide server-side ownership boundaries. This is not the hosted scientific verification pilot: all 24 scientific/operating gates remain OPEN, and no hosted deployment is claimed.
 

@@ -1,6 +1,6 @@
 # EvidenceTwin Council
 
-Build a researcher-first React/TypeScript/Vite + Flask workspace for evidence-led scientific inquiry. Read `concepts_brief.md` first: it is the approved requirements baseline. `docs/DOCUMENTATION_MAP.md` identifies current guidance and historical evidence; `docs/PRODUCT_WORKFLOWS.md` describes the implemented journey.
+Build a researcher-first React/TypeScript/Vite + Flask workspace for evidence-led scientific inquiry. Its primary product purpose is inspecting, explaining and correcting potentially misleading scientific visualizations, initially in healthcare and public health. See the owner’s [product focus clarification](docs/decisions/2026-11-08-visualization-focus.md). Claims and calculations support the visual workflow. Read `concepts_brief.md` first: it is the approved requirements baseline. `docs/DOCUMENTATION_MAP.md` identifies current guidance and historical evidence; `docs/PRODUCT_WORKFLOWS.md` describes the implemented journey.
 
 - Preserve research inputs, uploaded bytes, hashes, revisions, execution history and reports. Back up before migrations; document rollback. Never silently assign legacy data to a new account.
 - No fabricated production cases, citations, findings, progress, confidence or activity. Empty, failed and unavailable states must be honest. Isolate and label educational examples and development fixtures.

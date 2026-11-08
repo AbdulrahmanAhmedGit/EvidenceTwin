@@ -1,0 +1,9 @@
+Inspect this educational bar chart using the attached diabetes-prevalence dataset. Compare Egypt and United States in 2024.
+
+Examine the vertical axis, baseline, labels and bar lengths. Explain whether the visual encoding could exaggerate the apparent difference, considering the chart type and the question being asked. A non-zero baseline alone must not automatically determine the verdict.
+
+Use the exact recorded values and percentage-point difference when the data permit. Keep potential visual concerns separate from confirmed observations, uncertainty and missing evidence. Do not infer causation, statistical significance or clinical treatment advice.
+
+This chart was deliberately prepared for an educational presentation using previously supplied observations. The full dataset is attached. Source reference: https://ourworldindata.org/grapher/diabetes-prevalence
+
+State which checks actually ran. If Blind Optics reconstruction is unavailable, say so explicitly and do not invent a reconstructed plot.

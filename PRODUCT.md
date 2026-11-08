@@ -8,13 +8,17 @@ web
 
 ## Users
 
-Researchers, university and high-school research teams, scientific-program students, educators and supervisors evaluating scientific claims and their supporting evidence. The primary delivery goal is a controlled browser-based research pilot. Researchers should not need local software or personal AI-provider configuration to use the hosted pilot.
+Researchers, healthcare professionals, public-health teams, university and high-school research students, educators and supervisors examining how scientific visualizations can affect interpretation. The primary delivery goal is a controlled browser-based research pilot. Researchers should not need local software or personal AI-provider configuration to use the hosted pilot.
 
 ## Product Purpose
 
-Help users identify what evidence supports, contradicts or leaves unresolved about a scientific claim. Users manage research cases, submit claims and references, attach evidence, start Council analyses, monitor execution, inspect findings and disagreements, and read or export reports.
+Help users detect, explain and correct potentially misleading scientific visualizations, initially in healthcare, medical research and public-health data. The owner clarified this primary focus on 2026-11-08. Scientific claim assessment, source ingestion and calculations support the visual investigation.
 
-Success means traceable findings, reproducible calculations where applicable, explicit verification coverage and actionable missing-evidence requests. AI agreement alone never establishes scientific truth.
+The intended journey is Upload, Analyze, Detect, Reconstruct and Compare. Users submit an original plot and optionally its data, source and context, inspect evidence-linked visual concerns, and compare it with an independently reconstructed plot when approved methods permit. Preserve original values, units, transformations and provenance.
+
+Current visual findings are exploratory AI observations requiring evidence and independent confirmation. Blind Optics reconstruction remains unavailable pending its scientific protocol and acceptance. Never infer misleading presentation solely from a non-zero baseline or logarithmic scale. AI agreement alone never establishes scientific truth.
+
+The approved requirements baseline remains `concepts_brief.md`. This priority clarification emphasizes its visualization-based scope and preserves the broader supported claim/evidence functionality and all open scientific gates.
 
 ## Positioning
 

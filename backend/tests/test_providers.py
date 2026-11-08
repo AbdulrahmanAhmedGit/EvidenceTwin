@@ -10,7 +10,8 @@ from evidencetwin_backend.services.transports import make_provider
 
 REVIEW={'agent_id':'visual_analyst','review_status':'insufficient_input','overall_assessment':'Test only.',
         'claim_assessments':[{'claim_id':'c1','position':'cannot_assess','rationale':'Test only.','evidence_refs':['e1']}],
-        'findings':[],'limitations':['Test only.'],'missing_information':[]}
+        'findings':[],'limitations':['Test only.'],'missing_information':[],
+        'requested_queries':[],'limitation_records':[]}
 PACKET={'case_id':'case1','claims':[{'id':'c1','text':'Test'}],'evidence':[{'id':'e1','description':'Test input'}]}
 
 class Reply:

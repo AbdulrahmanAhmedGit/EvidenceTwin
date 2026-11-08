@@ -66,3 +66,9 @@ FIRST VIEWPORT. Existing sidebar around 224px and a 56px top bar. Centered headi
 FORM. Owner-pinned composition. Approved benchmark .impeccable/mocks/approved-investigation.png. Existing seed:cb5ffdae22f62f0d is inherited product context, not a fresh selection. Preserve genuine scientific/backend limits, authorization, uploaded bytes and draft isolation. Omit unsupported microphone, notification and account-decoration controls from the concept.
 
 FINISH. unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+
+### Owner clarification applied during the investigation build
+
+The 2026-11-08 core-product clarification makes scientific chart inspection primary, initially in healthcare and public health. Keep the approved screenshot's visual composition, with chart-first wording and an upload invitation inside the same composer. A written question is optional when an original image is attached. The visible standard request asks for presentation inspection and preserves optional original context. The intended five-step journey is labeled separately from current reconstruction availability.
+
+Results now lead with the actual visual review and original plot. Potential AI concerns remain unconfirmed until their evidence is independently examined. Descriptive arithmetic and claim assessment support the visual investigation. Blind Optics remains prominent and explicitly unavailable under the open D07/E04 gates. No generated reconstruction or new scientific validation is authorized by the clarification. The original screenshot's general-purpose wording and settings cards yield to the owner's explicit chart-first and compact-popover instructions.

@@ -1,18 +1,14 @@
 /* Approved investigation composition. All values stay scoped to the entry surface. */
 .root:has(.research-entry){
- --investigation-composer-top:#fff;--investigation-composer-bottom:#f5f8ff;
- --investigation-composer-border:#8ea5d3;--investigation-wave:#416bc5;
- --investigation-example:#fff;--investigation-example-hover:#f0f4ff;
+ --investigation-composer-top:var(--paper);--investigation-composer-bottom:var(--accent-soft);
+ --investigation-composer-border:var(--color-border-control);--investigation-wave:var(--color-data-series-a);
+ --investigation-example:var(--paper);--investigation-example-hover:var(--accent-soft);
  --investigation-health:#7554b8;--investigation-environment:#287b64;--investigation-medicine:#95631b;
 }
 .root.dark:has(.research-entry){
- --color-bg-page:#101722;--color-bg-navigation:#0d1420;--color-bg-surface:#1c2535;--color-bg-secondary:#202b3c;
- --color-border-separator:#303d53;--color-border-control:#536883;
- --color-text-primary:#f0f3fa;--color-text-secondary:#bcc7da;
- --color-accent-solid:#96b5ff;--color-accent-solid-hover:#b4caff;--color-accent-subtle:#233456;--color-accent-text:#adc6ff;
- --investigation-composer-top:#232e40;--investigation-composer-bottom:#1a2230;
- --investigation-composer-border:#5c79b6;--investigation-wave:#3e6fdc;
- --investigation-example:#1d2635;--investigation-example-hover:#253249;
+ --investigation-composer-top:var(--paper);--investigation-composer-bottom:var(--surface);
+ --investigation-composer-border:var(--color-border-control);--investigation-wave:var(--color-data-series-a);
+ --investigation-example:var(--paper);--investigation-example-hover:var(--surface);
  --investigation-health:#ba93f1;--investigation-environment:#65c4a5;--investigation-medicine:#e7b65f;
 }
 .root:has(.research-entry) .breadcrumbs{display:none}

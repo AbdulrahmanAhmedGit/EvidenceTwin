@@ -1,0 +1,139 @@
+[
+  {
+    "title": "EvidenceTwin Council",
+    "subtitle": "Product progress and next steps",
+    "kind": "cover",
+    "body": [
+      "Scientific visualization inspection",
+      "Healthcare, medicine and public health",
+      "Team update · 8 November 2026"
+    ],
+    "script": "Today I will show the working product, explain our focus on misleading scientific visualizations, and outline the scientific work still needed before independent reconstruction can become a trusted capability."
+  },
+  {
+    "title": "Core product focus",
+    "kind": "focus",
+    "body": [
+      "The original chart is the starting point.",
+      "We examine presentation choices that could affect scientific interpretation.",
+      "Initial emphasis covers healthcare and public-health research.",
+      "Claims, sources and calculations support the visual investigation."
+    ],
+    "script": "Our main question is whether a chart could mislead its reader. We begin with the original visualization, then use data and scientific context to examine the specific concern."
+  },
+  {
+    "title": "New investigation",
+    "kind": "image",
+    "image": "composer.png",
+    "body": [
+      "Chart upload leads the page.",
+      "A question becomes optional with an image.",
+      "Evidence, source links and preferences stay together.",
+      "Create investigation saves a real case."
+    ],
+    "script": "The new composer puts chart upload first. Researchers can add data, links and context through compact controls. Saving creates a real investigation, while AI review requires a separate consent step."
+  },
+  {
+    "title": "Visual results",
+    "kind": "image",
+    "image": "results.png",
+    "body": [
+      "The original plot stays beside its visual review.",
+      "Recorded AI concerns include their evidence.",
+      "Claims and numerical checks remain accessible."
+    ],
+    "caption": "Saved exploratory review shown in an isolated copy for interface demonstration.",
+    "script": "Results now prioritize the original plot and a specific recorded visual concern. These are AI observations that require supporting evidence. A visual concern does not automatically establish that a chart is misleading."
+  },
+  {
+    "title": "Working evidence and reports",
+    "kind": "columns",
+    "columns": [
+      {
+        "title": "Evidence",
+        "lines": [
+          "Original files, hashes and immutable revisions",
+          "Bounded CSV and structured JSON inspection",
+          "Scrapling extraction and public YouTube captions when accessible"
+        ]
+      },
+      {
+        "title": "Reports",
+        "lines": [
+          "Real execution records and audit history",
+          "Browser printing with complete preserved records",
+          "English and Arabic machine translation with protected numbers and references"
+        ]
+      }
+    ],
+    "script": "The application preserves evidence and connects it to review records. It can inspect supported tables, retrieve accessible sources and produce reports. Translation is clearly labeled and retains original passages when safe translation cannot be confirmed."
+  },
+  {
+    "title": "Live demonstration",
+    "kind": "image",
+    "image": "demo.png",
+    "body": [
+      "Upload the educational chart and its CSV.",
+      "Paste the supplied English prompt.",
+      "Examine the 10% axis baseline and exact values.",
+      "Inspect the reconstruction availability message."
+    ],
+    "caption": "Educational chart using preserved supplied observations. No EvidenceTwin reconstruction or scientific validation is claimed.",
+    "script": "For the live demo, upload the educational bar chart and its actual dataset. Examine the ten-percent baseline, check the recorded values, and confirm that the app explains its reconstruction limitations honestly."
+  },
+  {
+    "title": "Engineering status",
+    "kind": "checks",
+    "body": [
+      "Build and lint passed",
+      "57 frontend checks passed",
+      "62 focused backend checks passed",
+      "An isolated image-only save retained the original bytes and hash",
+      "Final owner acceptance remains pending"
+    ],
+    "script": "We have checked builds, focused application behavior and rendered pages. The image-only workflow saved real evidence in isolated storage. These checks establish engineering behavior. They do not establish scientific accuracy or readiness for a hosted pilot."
+  },
+  {
+    "title": "Current scientific limits",
+    "kind": "limits",
+    "body": [
+      "AI visual findings require evidence and independent confirmation.",
+      "Blind Optics reconstruction remains unavailable.",
+      "Source authenticity and inferential statistics remain unvalidated.",
+      "XLSX needs explicit sheet and formula handling rules.",
+      "A non-zero baseline or logarithmic scale can be appropriate."
+    ],
+    "script": "We must keep these boundaries explicit. A flagged visual feature is a concern to examine. Reconstruction needs an approved method, and source access alone cannot establish authenticity. We will avoid presenting missing evidence as a negative finding."
+  },
+  {
+    "title": "Planned reconstruction workflow",
+    "kind": "roadmap",
+    "body": [
+      "Upload",
+      "Analyze",
+      "Detect",
+      "Reconstruct",
+      "Compare"
+    ],
+    "details": [
+      "Preserve the original chart and numerical data",
+      "Record evidence-linked visual observations",
+      "Explain suspected issues and uncertainty",
+      "Render independently from data under an approved blind protocol",
+      "Inspect differences in axes, units, encoding and interpretation"
+    ],
+    "script": "This is the intended workflow. The next major scientific component is Blind Optics. It should reconstruct from original numerical data under a documented blind protocol, then compare the result with the original chart."
+  },
+  {
+    "title": "Next team decisions",
+    "kind": "next",
+    "body": [
+      "Agree on the Blind Optics protocol and acceptance criteria",
+      "Select a bounded healthcare chart evaluation set",
+      "Define reproducible rendering templates and data prerequisites",
+      "Complete the owner’s manual workflow acceptance",
+      "Confirm controlled-pilot access and deployment requirements"
+    ],
+    "script": "The team can now review the working interface and agree on the scientific scope. Our next decisions concern the blind protocol, a defensible healthcare evaluation set, supported reconstruction templates and the conditions for a controlled pilot."
+  }
+]
